@@ -19,9 +19,21 @@ export const viewport: Viewport = {
   themeColor: '#6d28d9',
 };
 
+const THEME_INIT_SCRIPT = `(function(){try{
+  var raw = localStorage.getItem('nust-prep-v1');
+  var theme = raw ? (JSON.parse(raw).state || {}).settings?.theme : undefined;
+  theme = theme || 'auto';
+  var dark = theme === 'dark' || (theme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+  document.documentElement.setAttribute('data-theme', theme);
+  document.documentElement.classList.toggle('dark', dark);
+}catch(e){}})();`;
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" data-theme="auto" suppressHydrationWarning className={inter.variable}>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }} />
+      </head>
       <body style={{ fontFamily: 'var(--font-inter), system-ui, -apple-system, sans-serif' }}>
         <div className="bg-mesh"><span /><span /><span /></div>
         <ThemeProvider>

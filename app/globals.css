@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+/* Tailwind v4 defaults `dark:` to prefers-color-scheme media query.
+   We control theme manually (light/dark/auto) via a `.dark` class on
+   <html>, so point the variant at that instead — otherwise every
+   `dark:bg-*` / `dark:text-*` utility in the app ignores our toggle
+   and only reacts to the OS setting, producing mismatched/invisible
+   text whenever the in-app theme and OS theme disagree. */
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   --color-math: #6d28d9;
   --color-math-dark: #a78bfa;
