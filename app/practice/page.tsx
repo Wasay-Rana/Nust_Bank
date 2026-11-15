@@ -76,8 +76,8 @@ function PracticeInner() {
               onClick={() => { setSubject(s); setTopic(''); setCurrent(pickQuestion(all, s, undefined, [], {})); }}
               className={`px-3 py-1.5 rounded-full text-sm font-medium border transition-colors ${
                 subject === s
-                  ? 'bg-indigo-600 text-white border-indigo-600'
-                  : 'border-gray-200 dark:border-white/10 hover:border-indigo-400'
+                  ? 'bg-purple-600 text-white border-purple-600'
+                  : 'border-gray-200 dark:border-white/10 hover:border-purple-400'
               }`}
               style={subject !== s ? { color: 'var(--mute)' } : undefined}
             >
@@ -106,7 +106,7 @@ function PracticeInner() {
               key={s}
               onClick={() => setSrc(s)}
               className={`px-3 py-1 rounded-lg text-xs font-semibold border transition-colors ${
-                src === s ? 'bg-indigo-600 text-white border-indigo-600' : 'border-gray-200 dark:border-white/10'
+                src === s ? 'bg-purple-600 text-white border-purple-600' : 'border-gray-200 dark:border-white/10'
               }`}
               style={src !== s ? { color: 'var(--mute)' } : undefined}
             >
@@ -119,9 +119,9 @@ function PracticeInner() {
       {/* Session stats */}
       {sessionStats.n > 0 && (
         <div className="flex items-center gap-4 mb-4 text-sm" style={{ color: 'var(--mute)' }}>
-          <span>✅ {sessionStats.ok}/{sessionStats.n}</span>
-          <span>🔥 Streak: {streak}</span>
-          <span>📊 {Math.round((sessionStats.ok / sessionStats.n) * 100)}%</span>
+          <span>Correct: {sessionStats.ok}/{sessionStats.n}</span>
+          <span>Streak: {streak}</span>
+          <span>{Math.round((sessionStats.ok / sessionStats.n) * 100)}%</span>
         </div>
       )}
 
@@ -136,14 +136,13 @@ function PracticeInner() {
           />
           <button
             onClick={advance}
-            className="mt-4 w-full py-3 rounded-xl font-bold bg-indigo-600 text-white hover:bg-indigo-700 transition-colors"
+            className="mt-4 w-full py-3 rounded-xl font-bold bg-purple-600 text-white hover:bg-purple-700 transition-colors"
           >
-            Next question →
+            Next question
           </button>
         </div>
       ) : (
         <div className="text-center py-16 rounded-2xl border" style={{ background: 'var(--card)', borderColor: 'var(--line)' }}>
-          <div className="text-4xl mb-3">📭</div>
           <div className="font-semibold">No questions match this filter</div>
           <div className="text-sm mt-1" style={{ color: 'var(--mute)' }}>Try a broader subject or topic</div>
         </div>

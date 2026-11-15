@@ -1,4 +1,4 @@
-# NET 180+ HQ
+# Nust Prep Bank
 
 NUST Entry Test prep app — 277 past-paper MCQs, mock exams, formula vault, and an open API to push unlimited questions from any device.
 

@@ -21,11 +21,11 @@ export default function VaultPage() {
   const groups = filtered.map((v) => v.group).filter((g) => { if (seen[g]) return false; seen[g] = true; return true; });
 
   const colorFor: Record<string, string> = {
-    math: 'text-indigo-600 dark:text-indigo-400 border-indigo-200 dark:border-indigo-900/60',
-    phy:  'text-cyan-600 dark:text-cyan-400 border-cyan-200 dark:border-cyan-900/60',
-    eng:  'text-orange-600 dark:text-orange-400 border-orange-200 dark:border-orange-900/60',
-    chem: 'text-green-600 dark:text-green-400 border-green-200 dark:border-green-900/60',
-    intel:'text-purple-600 dark:text-purple-400 border-purple-200 dark:border-purple-900/60',
+    math: 'text-violet-700 dark:text-violet-400 border-violet-200 dark:border-violet-900/60',
+    phy:  'text-purple-700 dark:text-purple-400 border-purple-200 dark:border-purple-900/60',
+    eng:  'text-fuchsia-700 dark:text-fuchsia-400 border-fuchsia-200 dark:border-fuchsia-900/60',
+    chem: 'text-pink-700 dark:text-pink-400 border-pink-200 dark:border-pink-900/60',
+    intel:'text-rose-700 dark:text-rose-400 border-rose-200 dark:border-rose-900/60',
   };
 
   return (
@@ -46,7 +46,7 @@ export default function VaultPage() {
             key={s}
             onClick={() => setSubject(s)}
             className={`px-3 py-1.5 rounded-full text-sm font-medium border transition-colors ${
-              subject === s ? 'bg-indigo-600 text-white border-indigo-600' : 'border-gray-200 dark:border-white/10'
+              subject === s ? 'bg-purple-600 text-white border-purple-600' : 'border-gray-200 dark:border-white/10'
             }`}
             style={subject !== s ? { color: 'var(--mute)' } : undefined}
           >
@@ -73,7 +73,6 @@ export default function VaultPage() {
 
       {filtered.length === 0 && (
         <div className="text-center py-16 rounded-2xl border" style={{ background: 'var(--card)', borderColor: 'var(--line)' }}>
-          <div className="text-4xl mb-3">🔍</div>
           <div className="font-semibold">No results</div>
         </div>
       )}

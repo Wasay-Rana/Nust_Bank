@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * push.js — Push questions to NET 180+ HQ from your local machine
+ * push.js — Push questions to Nust Prep Bank from your local machine
  *
  * Usage:
  *   node push.js                     → push all questions in QUESTIONS array below

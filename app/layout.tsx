@@ -4,16 +4,16 @@ import { Nav } from '@/components/Nav';
 import { ThemeProvider } from '@/components/ThemeProvider';
 
 export const metadata: Metadata = {
-  title: 'NET 180+ HQ',
-  description: 'NUST Entry Test preparation — Hassan\'s 180+ target',
+  title: 'Nust Prep Bank',
+  description: 'NUST Entry Test preparation bank',
   manifest: '/manifest.json',
-  appleWebApp: { capable: true, statusBarStyle: 'default', title: 'NET HQ' },
+  appleWebApp: { capable: true, statusBarStyle: 'default', title: 'NPB' },
 };
 
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
-  themeColor: '#4f46e5',
+  themeColor: '#6d28d9',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

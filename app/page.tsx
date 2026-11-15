@@ -11,7 +11,7 @@ const bankCounts: Record<string, number> = {};
 allQ.forEach((q) => { bankCounts[q.subject] = (bankCounts[q.subject] || 0) + 1; });
 
 const subjectColors: Record<SubjectKey, string> = {
-  math: '#4f46e5', phy: '#0e8a9b', eng: '#c2410c', chem: '#16a34a', intel: '#9333ea',
+  math: '#7c3aed', phy: '#9333ea', eng: '#c026d3', chem: '#db2777', intel: '#e11d48',
 };
 
 export default function Dashboard() {
@@ -24,8 +24,8 @@ export default function Dashboard() {
   return (
     <div className="space-y-5">
       {/* Hero */}
-      <div className="rounded-2xl p-6 text-white" style={{ background: 'linear-gradient(135deg, #4f46e5, #7c3aed)' }}>
-        <div className="text-sm font-medium opacity-80 mb-1">Hassan's projected score</div>
+      <div className="rounded-2xl p-6 text-white" style={{ background: 'linear-gradient(135deg, #581c87, #7c3aed)' }}>
+        <div className="text-sm font-medium opacity-80 mb-1">Projected score</div>
         <div className="text-6xl font-black leading-none mb-1">{projected || '—'}</div>
         <div className="text-sm opacity-70">/ 200 · target {target}+</div>
         {projected > 0 && (
@@ -37,11 +37,11 @@ export default function Dashboard() {
           </div>
         )}
         <div className="mt-4 flex flex-wrap gap-3">
-          <Link href="/practice" className="bg-white text-indigo-700 px-4 py-2 rounded-xl text-sm font-bold hover:bg-indigo-50 transition-colors">
-            Practice now ✏️
+          <Link href="/practice" className="bg-white text-purple-800 px-4 py-2 rounded-lg text-sm font-bold hover:bg-purple-50 transition-colors">
+            Practice now
           </Link>
-          <Link href="/mock" className="border border-white/40 text-white px-4 py-2 rounded-xl text-sm font-semibold hover:bg-white/10 transition-colors">
-            Start mock exam 📝
+          <Link href="/mock" className="border border-white/40 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-white/10 transition-colors">
+            Start mock exam
           </Link>
         </div>
       </div>
@@ -117,9 +117,10 @@ export default function Dashboard() {
                 </span>
                 <Link
                   href={`/practice?subject=${t.subject}&topic=${encodeURIComponent(t.topic)}`}
-                  className="text-xs font-semibold text-indigo-600 hover:underline whitespace-nowrap"
+                  className="text-xs font-semibold hover:underline whitespace-nowrap"
+                  style={{ color: 'var(--pri)' }}
                 >
-                  Drill →
+                  Drill &rarr;
                 </Link>
               </div>
             ))}
@@ -131,7 +132,7 @@ export default function Dashboard() {
         <Link href="/review" className="block rounded-2xl border p-4 hover:border-red-400 transition-colors" style={{ background: 'var(--card)', borderColor: 'var(--line)' }}>
           <div className="flex items-center justify-between">
             <div>
-              <div className="font-bold">🔁 Review mistakes</div>
+              <div className="font-bold">Review mistakes</div>
               <div className="text-sm mt-0.5" style={{ color: 'var(--mute)' }}>{errorCount} questions need re-checking</div>
             </div>
             <span className="text-2xl font-black text-red-500">{errorCount}</span>

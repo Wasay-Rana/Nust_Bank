@@ -5010,5 +5010,2469 @@
     ],
     "answer": 2,
     "explanation": "(U×V)·W is the scalar triple product, equal to the volume of the parallelepiped formed by U,V,W."
+  },
+  {
+    "id": "phy-716",
+    "subject": "phy",
+    "topic": "Vectors",
+    "question": "Three vectors of equal magnitude act on the three sides of an equilateral triangle. The magnitude of their resultant is",
+    "options": [
+      "0",
+      "3",
+      "√3",
+      "1.72"
+    ],
+    "answer": 0,
+    "explanation": "Three equal forces along sides of equilateral triangle cancel by symmetry; resultant = 0."
+  },
+  {
+    "id": "phy-717",
+    "subject": "phy",
+    "topic": "Dynamics",
+    "question": "The physical quantity that produces angular acceleration in a body is",
+    "options": [
+      "Force",
+      "Moment of inertia",
+      "Impulse",
+      "Torque"
+    ],
+    "answer": 3,
+    "explanation": "τ = Iα; torque is the rotational analogue of force."
+  },
+  {
+    "id": "phy-718",
+    "subject": "phy",
+    "topic": "Dynamics",
+    "question": "Bodies falling freely under gravity are an example of",
+    "options": [
+      "Uniform acceleration",
+      "Variable acceleration",
+      "Uniform velocity",
+      "Average velocity"
+    ],
+    "answer": 0,
+    "explanation": "g is constant → free fall is uniformly accelerated motion."
+  },
+  {
+    "id": "phy-719",
+    "subject": "phy",
+    "topic": "Dynamics",
+    "question": "The dot product of force and velocity equals",
+    "options": [
+      "Power",
+      "Impulse",
+      "Couple",
+      "Momentum"
+    ],
+    "answer": 0,
+    "explanation": "P = F · v (scalar product of force and velocity = power)."
+  },
+  {
+    "id": "phy-720",
+    "subject": "phy",
+    "topic": "Gravitation",
+    "question": "The escape velocity from Earth's gravitational field depends upon",
+    "options": [
+      "Rotation of Earth",
+      "Mass of body",
+      "Radius of escaping body",
+      "Mass of Earth"
+    ],
+    "answer": 3,
+    "explanation": "v_e = √(2GM/R); depends on Earth's mass M and radius R, not on the escaping body's mass."
+  },
+  {
+    "id": "phy-721",
+    "subject": "phy",
+    "topic": "Dynamics",
+    "question": "If the velocity of a body becomes half, its kinetic energy becomes",
+    "options": [
+      "One fourth",
+      "Double",
+      "Four times",
+      "Half"
+    ],
+    "answer": 0,
+    "explanation": "KE = ½mv²; (v/2)² = v²/4, so KE becomes one fourth."
+  },
+  {
+    "id": "phy-722",
+    "subject": "phy",
+    "topic": "Dynamics",
+    "question": "A pilot diving in a jet plane with acceleration 9.8 m/s² downward has apparent weight",
+    "options": [
+      "Double",
+      "Half",
+      "Negative",
+      "Zero"
+    ],
+    "answer": 3,
+    "explanation": "Apparent weight = m(g − a). With a = g = 9.8: weight = 0."
+  },
+  {
+    "id": "phy-723",
+    "subject": "phy",
+    "topic": "Mechanics",
+    "question": "Geostationary satellites appear",
+    "options": [
+      "Stationary with respect to Earth",
+      "Rotating with respect to Earth",
+      "Rotating very fast",
+      "Rotating very slow"
+    ],
+    "answer": 0,
+    "explanation": "Geostationary orbit period = 24 h, matching Earth's rotation → appears stationary."
+  },
+  {
+    "id": "phy-724",
+    "subject": "phy",
+    "topic": "Mechanics",
+    "question": "[ML⁻¹T⁻¹] are the dimensions of",
+    "options": [
+      "Angular momentum",
+      "Power",
+      "Impulse",
+      "Viscosity"
+    ],
+    "answer": 3,
+    "explanation": "Dynamic viscosity η = Pa·s = kg/(m·s) = ML⁻¹T⁻¹."
+  },
+  {
+    "id": "phy-725",
+    "subject": "phy",
+    "topic": "Fluid Mechanics",
+    "question": "A 2 m tank full of water has a hole at the middle (1 m from base). Speed of efflux is approximately",
+    "options": [
+      "4.9 m/s",
+      "9.8 m/s",
+      "4.42 m/s",
+      "3.75 m/s"
+    ],
+    "answer": 2,
+    "explanation": "Torricelli: v = √(2gh) = √(2×9.8×1) ≈ 4.42 m/s."
+  },
+  {
+    "id": "phy-726",
+    "subject": "phy",
+    "topic": "Waves",
+    "question": "Which property of light does NOT change when it enters a different medium?",
+    "options": [
+      "Frequency",
+      "Wavelength",
+      "Speed",
+      "All of these"
+    ],
+    "answer": 0,
+    "explanation": "Frequency is determined by the source and remains constant; wavelength and speed change."
+  },
+  {
+    "id": "phy-727",
+    "subject": "phy",
+    "topic": "Waves",
+    "question": "We can hear sound around a corner but cannot see because of",
+    "options": [
+      "Interference",
+      "Diffraction",
+      "Polarization",
+      "Dispersion"
+    ],
+    "answer": 1,
+    "explanation": "Sound wavelengths are comparable to obstacle sizes; diffraction is significant."
+  },
+  {
+    "id": "phy-728",
+    "subject": "phy",
+    "topic": "Optics",
+    "question": "The magnifying power of a telescope with objective power 0.5 D and eyepiece power 10 D is",
+    "options": [
+      "0.5",
+      "10",
+      "20",
+      "0.05"
+    ],
+    "answer": 2,
+    "explanation": "M = f_o/f_e = (1/0.5)/(1/10) = 2/0.1 = 20."
+  },
+  {
+    "id": "phy-729",
+    "subject": "phy",
+    "topic": "Thermodynamics",
+    "question": "At constant temperature, when volume of a gas is doubled its density becomes",
+    "options": [
+      "Double",
+      "One fourth",
+      "Four times",
+      "Half"
+    ],
+    "answer": 3,
+    "explanation": "ρ = m/V; volume doubles → density halves."
+  },
+  {
+    "id": "phy-730",
+    "subject": "phy",
+    "topic": "Thermodynamics",
+    "question": "A process that is performed very quickly is called",
+    "options": [
+      "Isobaric",
+      "Adiabatic",
+      "Isothermal",
+      "Isochoric"
+    ],
+    "answer": 1,
+    "explanation": "Adiabatic processes happen too fast for heat exchange with surroundings."
+  },
+  {
+    "id": "phy-731",
+    "subject": "phy",
+    "topic": "Electricity",
+    "question": "The correct expression for Coulomb's law is",
+    "options": [
+      "F = (1/k)(q₁q₂/r²)",
+      "F = k(q₁q₂/r²)",
+      "F = 4πε(q₁q₂/r²)",
+      "F = k(r²/q₁q₂)"
+    ],
+    "answer": 1,
+    "explanation": "F = kq₁q₂/r² where k = 1/(4πε₀) ≈ 9×10⁹ N·m²/C²."
+  },
+  {
+    "id": "phy-732",
+    "subject": "phy",
+    "topic": "Modern Physics",
+    "question": "The wave nature of an electron is illustrated by its",
+    "options": [
+      "Photoelectric effect",
+      "Compton effect",
+      "Penetrating effect",
+      "Diffraction"
+    ],
+    "answer": 3,
+    "explanation": "Davisson-Germer experiment showed electron diffraction, confirming wave nature."
+  },
+  {
+    "id": "phy-733",
+    "subject": "phy",
+    "topic": "Electricity",
+    "question": "The potential gradient between plates separated 0.5 cm with potential difference 12 V is",
+    "options": [
+      "240 N/C",
+      "24 N/C",
+      "2.4 N/C",
+      "2400 N/C"
+    ],
+    "answer": 3,
+    "explanation": "E = V/d = 12/0.005 = 2400 N/C."
+  },
+  {
+    "id": "phy-734",
+    "subject": "phy",
+    "topic": "Electricity",
+    "question": "The rate of change of electric potential with respect to displacement equals",
+    "options": [
+      "Potential gradient",
+      "Electric potential energy",
+      "Electric intensity",
+      "Electric flux"
+    ],
+    "answer": 0,
+    "explanation": "−dV/dx is the potential gradient (equals electric field intensity in magnitude)."
+  },
+  {
+    "id": "phy-735",
+    "subject": "phy",
+    "topic": "Electricity",
+    "question": "A wire is cut into two equal pieces. The resistivity of each piece is",
+    "options": [
+      "The same",
+      "One fourth",
+      "Double",
+      "One half"
+    ],
+    "answer": 0,
+    "explanation": "Resistivity is an intrinsic material property; cutting doesn't change it."
+  },
+  {
+    "id": "phy-736",
+    "subject": "phy",
+    "topic": "Electricity",
+    "question": "Two parallel wires carrying current in the same direction",
+    "options": [
+      "Attract each other",
+      "Repel each other",
+      "Have no force",
+      "Remain stationary"
+    ],
+    "answer": 0,
+    "explanation": "Parallel currents attract by Ampere's force law."
+  },
+  {
+    "id": "phy-737",
+    "subject": "phy",
+    "topic": "Magnetism",
+    "question": "Volt × second / ampere is equal to",
+    "options": [
+      "Gauss",
+      "Weber",
+      "Henry",
+      "Tesla"
+    ],
+    "answer": 2,
+    "explanation": "H (henry) = V·s/A = unit of inductance."
+  },
+  {
+    "id": "phy-738",
+    "subject": "phy",
+    "topic": "Magnetism",
+    "question": "The counter torque in the moving coil of a generator is called",
+    "options": [
+      "Restoring torque",
+      "Deflection torque",
+      "Back motor torque",
+      "All of these"
+    ],
+    "answer": 2,
+    "explanation": "The opposing torque produced in a generator coil is called back motor torque."
+  },
+  {
+    "id": "phy-739",
+    "subject": "phy",
+    "topic": "Electricity",
+    "question": "The inductive reactance of a 0.5 H coil in 50 Hz AC is",
+    "options": [
+      "94.2 Ω",
+      "1.57 Ω",
+      "157 Ω",
+      "9.4 Ω"
+    ],
+    "answer": 2,
+    "explanation": "X_L = 2πfL = 2π×50×0.5 ≈ 157 Ω."
+  },
+  {
+    "id": "phy-740",
+    "subject": "phy",
+    "topic": "Electricity",
+    "question": "In an RLC series circuit at very low frequency the circuit behaves as",
+    "options": [
+      "Resistive",
+      "Capacitive",
+      "Inductive",
+      "Resonant"
+    ],
+    "answer": 1,
+    "explanation": "At low f, capacitive reactance 1/(2πfC) dominates."
+  },
+  {
+    "id": "phy-741",
+    "subject": "phy",
+    "topic": "Thermodynamics",
+    "question": "A perpetual motion machine is impossible because of",
+    "options": [
+      "First law of thermodynamics",
+      "Second law of thermodynamics",
+      "Third law of thermodynamics",
+      "None"
+    ],
+    "answer": 1,
+    "explanation": "Second law forbids 100% efficiency heat engines."
+  },
+  {
+    "id": "phy-742",
+    "subject": "phy",
+    "topic": "Electronics",
+    "question": "The combination of AND and NOT gate is called",
+    "options": [
+      "NAND gate",
+      "NOR gate",
+      "OR gate",
+      "XOR gate"
+    ],
+    "answer": 0,
+    "explanation": "NOT(AND) = NAND."
+  },
+  {
+    "id": "phy-743",
+    "subject": "phy",
+    "topic": "Modern Physics",
+    "question": "If the temperature of a black body doubles, the intensity of radiation becomes",
+    "options": [
+      "Double",
+      "Four times",
+      "Six times",
+      "Sixteen times"
+    ],
+    "answer": 3,
+    "explanation": "Stefan-Boltzmann law: I ∝ T⁴; (2T)⁴ = 16T⁴ → 16 times."
+  },
+  {
+    "id": "phy-744",
+    "subject": "phy",
+    "topic": "Modern Physics",
+    "question": "The Compton shift equals the Compton wavelength when the scattering angle is",
+    "options": [
+      "90°",
+      "0°",
+      "45°",
+      "180°"
+    ],
+    "answer": 0,
+    "explanation": "Δλ = (h/mc)(1 − cosθ); at θ=90°, Δλ = h/mc = Compton wavelength."
+  },
+  {
+    "id": "phy-745",
+    "subject": "phy",
+    "topic": "Modern Physics",
+    "question": "The threshold frequency for a metal with work function 6.5 eV is approximately",
+    "options": [
+      "6.4×10⁻¹⁹ Hz",
+      "6.4×10⁻³⁴ Hz",
+      "1.5×10¹⁵ Hz",
+      "1.5×10⁻¹⁵ Hz"
+    ],
+    "answer": 2,
+    "explanation": "ν₀ = φ/h = (6.5×1.6×10⁻¹⁹)/(6.626×10⁻³⁴) ≈ 1.57×10¹⁵ Hz."
+  },
+  {
+    "id": "phy-746",
+    "subject": "phy",
+    "topic": "Modern Physics",
+    "question": "The maximum number of spectral transitions from excited state n=5 is",
+    "options": [
+      "6",
+      "4",
+      "10",
+      "3"
+    ],
+    "answer": 2,
+    "explanation": "Transitions = n(n−1)/2 = 5×4/2 = 10."
+  },
+  {
+    "id": "phy-747",
+    "subject": "phy",
+    "topic": "Electricity",
+    "question": "Three resistances R₁ > R₂ > R₃ in series have equivalent resistance that is",
+    "options": [
+      "Less than R₁",
+      "More than R₁",
+      "Less than R₃",
+      "Between R₁ and R₃"
+    ],
+    "answer": 1,
+    "explanation": "Series equivalent = R₁+R₂+R₃ > R₁."
+  },
+  {
+    "id": "phy-748",
+    "subject": "phy",
+    "topic": "Electricity",
+    "question": "If the distance between two charges is halved, Coulomb's force becomes",
+    "options": [
+      "1/4 times",
+      "4 times",
+      "Half",
+      "Twice"
+    ],
+    "answer": 1,
+    "explanation": "F ∝ 1/r²; r → r/2 gives F → 4F."
+  },
+  {
+    "id": "phy-749",
+    "subject": "phy",
+    "topic": "Electricity",
+    "question": "The formula for capacitance is",
+    "options": [
+      "C/V",
+      "CV",
+      "Q/V",
+      "QV"
+    ],
+    "answer": 2,
+    "explanation": "C = Q/V by definition."
+  },
+  {
+    "id": "phy-750",
+    "subject": "phy",
+    "topic": "Electricity",
+    "question": "When a capacitor is fully charged in a DC circuit, current through it",
+    "options": [
+      "Flows continuously",
+      "Does not flow",
+      "Depends on dielectric",
+      "May or may not flow"
+    ],
+    "answer": 1,
+    "explanation": "At steady state DC, no current flows through a capacitor."
+  },
+  {
+    "id": "phy-751",
+    "subject": "phy",
+    "topic": "Electricity",
+    "question": "The electric flux when angle between E and area vector A is π/3 is",
+    "options": [
+      "0.866 EA",
+      "0.5 EA",
+      "0.707 EA",
+      "EA/3"
+    ],
+    "answer": 1,
+    "explanation": "Φ = EA cosθ = EA cos(60°) = 0.5 EA."
+  },
+  {
+    "id": "phy-752",
+    "subject": "phy",
+    "topic": "Electricity",
+    "question": "Q²/C has the units of",
+    "options": [
+      "Charge",
+      "Capacitance",
+      "Voltage",
+      "Energy"
+    ],
+    "answer": 3,
+    "explanation": "Q²/C = Q×(Q/C) = Q×V = Charge × Voltage = Energy (joules)."
+  },
+  {
+    "id": "phy-753",
+    "subject": "phy",
+    "topic": "Electricity",
+    "question": "In a galvanic cell, electrons flow through the external circuit from",
+    "options": [
+      "Anode to cathode",
+      "Cathode to anode",
+      "Anode to cathode through salt bridge",
+      "Cathode to anode through salt bridge"
+    ],
+    "answer": 0,
+    "explanation": "Oxidation at anode releases electrons that flow through external circuit to cathode."
+  },
+  {
+    "id": "phy-754",
+    "subject": "phy",
+    "topic": "Electricity",
+    "question": "Which of the following cannot be used as a dielectric in a capacitor?",
+    "options": [
+      "Air",
+      "Wax",
+      "Iron",
+      "Mica"
+    ],
+    "answer": 2,
+    "explanation": "Iron is a conductor; conductors cannot serve as dielectrics."
+  },
+  {
+    "id": "phy-755",
+    "subject": "phy",
+    "topic": "Electricity",
+    "question": "Ohm's law states that current I is directly proportional to",
+    "options": [
+      "Resistance",
+      "Potential difference",
+      "Power",
+      "Conductance"
+    ],
+    "answer": 1,
+    "explanation": "V = IR; at constant R, I ∝ V."
+  },
+  {
+    "id": "phy-756",
+    "subject": "phy",
+    "topic": "Electricity",
+    "question": "Which bulb offers more resistance when connected to the same battery: 500 W or 40 W?",
+    "options": [
+      "500 W",
+      "40 W",
+      "Both offer same resistance",
+      "Neither"
+    ],
+    "answer": 1,
+    "explanation": "R = V²/P; lower power → higher resistance."
+  },
+  {
+    "id": "phy-757",
+    "subject": "phy",
+    "topic": "Electricity",
+    "question": "Heat generated by a 100 W bulb in 1 hour is",
+    "options": [
+      "60 J",
+      "3600 J",
+      "360000 J",
+      "0 J"
+    ],
+    "answer": 2,
+    "explanation": "E = P×t = 100×3600 = 360 000 J."
+  },
+  {
+    "id": "phy-758",
+    "subject": "phy",
+    "topic": "Mechanics",
+    "question": "If two bodies of different masses initially at rest are acted upon by the same force for the same time, they acquire the same",
+    "options": [
+      "Velocity",
+      "Acceleration",
+      "Momentum",
+      "Kinetic energy"
+    ],
+    "answer": 2,
+    "explanation": "Impulse = Ft is the same for both; impulse = Δp, so momentum gain is equal."
+  },
+  {
+    "id": "phy-759",
+    "subject": "phy",
+    "topic": "Modern Physics",
+    "question": "The scientist who won the Nobel Prize for quantum physics and black-body radiation is",
+    "options": [
+      "Newton",
+      "Planck",
+      "Maxwell",
+      "Einstein"
+    ],
+    "answer": 1,
+    "explanation": "Max Planck (1918 Nobel Prize) for quantum hypothesis explaining black-body radiation."
+  },
+  {
+    "id": "phy-760",
+    "subject": "phy",
+    "topic": "Mechanics",
+    "question": "If rate of change of momentum is 50 N·s, the impulse is",
+    "options": [
+      "100 N·s",
+      "50 N·s",
+      "25 N·s",
+      "200 N·s"
+    ],
+    "answer": 1,
+    "explanation": "Impulse = change in momentum = 50 N·s."
+  },
+  {
+    "id": "phy-761",
+    "subject": "phy",
+    "topic": "Measurements",
+    "question": "Absolute uncertainty in a 10 m length measured by a scale of precision 0.1 m is",
+    "options": [
+      "0.1 m",
+      "10 m",
+      "100 m",
+      "1.5 m"
+    ],
+    "answer": 0,
+    "explanation": "Absolute uncertainty = least count of instrument = 0.1 m."
+  },
+  {
+    "id": "phy-762",
+    "subject": "phy",
+    "topic": "Electricity",
+    "question": "A body A with charge q touches uncharged B; B then touches uncharged C. Charge on C is",
+    "options": [
+      "q",
+      "q/2",
+      "q/3",
+      "q/4"
+    ],
+    "answer": 3,
+    "explanation": "A+B share → each q/2. B(q/2)+C(0) share → each q/4."
+  },
+  {
+    "id": "phy-763",
+    "subject": "phy",
+    "topic": "Magnetism",
+    "question": "EMF is induced in a coil placed near a magnet when",
+    "options": [
+      "Area of coil changes",
+      "Coil is rotated",
+      "Magnet moves closer",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "Any change in magnetic flux induces EMF (Faraday's law)."
+  },
+  {
+    "id": "phy-764",
+    "subject": "phy",
+    "topic": "Mechanics",
+    "question": "Twin paradox is a consequence of",
+    "options": [
+      "Length contraction",
+      "Time dilation",
+      "Mass variation",
+      "Compton effect"
+    ],
+    "answer": 1,
+    "explanation": "The twin paradox arises from special relativistic time dilation."
+  },
+  {
+    "id": "phy-765",
+    "subject": "phy",
+    "topic": "Modern Physics",
+    "question": "Which series is emitted when an electron jumps from a higher orbit to the fifth orbit?",
+    "options": [
+      "Lyman",
+      "Balmer",
+      "Pfund",
+      "Brackett"
+    ],
+    "answer": 2,
+    "explanation": "Pfund series: transitions to n=5."
+  },
+  {
+    "id": "phy-766",
+    "subject": "phy",
+    "topic": "Optics",
+    "question": "The sky appears blue due to",
+    "options": [
+      "Light interference",
+      "Light diffraction",
+      "Light scattering",
+      "Light polarization"
+    ],
+    "answer": 2,
+    "explanation": "Rayleigh scattering: shorter wavelengths (blue) scattered more by atmosphere."
+  },
+  {
+    "id": "phy-767",
+    "subject": "phy",
+    "topic": "Modern Physics",
+    "question": "The kinetic energy of photoelectrons depends on",
+    "options": [
+      "Intensity of light",
+      "Frequency of light",
+      "Both",
+      "Neither"
+    ],
+    "answer": 1,
+    "explanation": "KE_max = hf − φ; depends on frequency not intensity."
+  },
+  {
+    "id": "phy-768",
+    "subject": "phy",
+    "topic": "Electricity",
+    "question": "In a parallel plate capacitor, if separation is doubled and area is halved, capacitance becomes",
+    "options": [
+      "2C",
+      "C/2",
+      "C/4",
+      "4C"
+    ],
+    "answer": 2,
+    "explanation": "C = ε₀A/d; new C = ε₀(A/2)/(2d) = C/4."
+  },
+  {
+    "id": "phy-769",
+    "subject": "phy",
+    "topic": "Optics",
+    "question": "If number of rulings in a diffraction grating is halved, the grating element",
+    "options": [
+      "Halves",
+      "Doubles",
+      "No effect",
+      "Quadruples"
+    ],
+    "answer": 1,
+    "explanation": "Grating element d = 1/N; halving N doubles d."
+  },
+  {
+    "id": "phy-770",
+    "subject": "phy",
+    "topic": "Mechanics",
+    "question": "When length of a pendulum is doubled, its time period becomes approximately",
+    "options": [
+      "Half",
+      "Double",
+      "1.4 times larger",
+      "Four times"
+    ],
+    "answer": 2,
+    "explanation": "T ∝ √l; √2 ≈ 1.414, so T increases by factor of about 1.4."
+  },
+  {
+    "id": "phy-771",
+    "subject": "phy",
+    "topic": "Electricity",
+    "question": "In a pure capacitive circuit, current",
+    "options": [
+      "Leads voltage by 90°",
+      "Lags voltage by 90°",
+      "Is in phase with voltage",
+      "Both a and b"
+    ],
+    "answer": 0,
+    "explanation": "In a capacitor, current leads voltage by 90°."
+  },
+  {
+    "id": "phy-772",
+    "subject": "phy",
+    "topic": "Mechanics",
+    "question": "When an elevator moves downward with acceleration a, the apparent value of g inside is",
+    "options": [
+      "g+a",
+      "g−a",
+      "−2a",
+      "Unchanged"
+    ],
+    "answer": 1,
+    "explanation": "Pseudo-weight decreases; effective g = g − a."
+  },
+  {
+    "id": "phy-773",
+    "subject": "phy",
+    "topic": "Mechanics",
+    "question": "Friction is called a __________ force.",
+    "options": [
+      "Self-adjusting",
+      "Pseudo",
+      "Fake",
+      "Conservative"
+    ],
+    "answer": 0,
+    "explanation": "Static friction adjusts its value up to a maximum to oppose applied force."
+  },
+  {
+    "id": "phy-774",
+    "subject": "phy",
+    "topic": "Mechanics",
+    "question": "If a pendulum's time period is doubled, its length becomes",
+    "options": [
+      "Half",
+      "Double",
+      "1.4 times",
+      "Four times"
+    ],
+    "answer": 3,
+    "explanation": "T ∝ √l → T² ∝ l; doubling T quadruples l."
+  },
+  {
+    "id": "phy-775",
+    "subject": "phy",
+    "topic": "Electricity",
+    "question": "Force between two charges is minimum in which medium?",
+    "options": [
+      "Oil",
+      "Distilled water",
+      "Vacuum",
+      "Air"
+    ],
+    "answer": 1,
+    "explanation": "F = kq²/(εᵣr²); water has εᵣ ≈ 80 (highest listed), giving minimum force."
+  },
+  {
+    "id": "phy-776",
+    "subject": "phy",
+    "topic": "Modern Physics",
+    "question": "The depletion region in a p-n junction contains",
+    "options": [
+      "Electrons",
+      "Holes",
+      "Electrons and holes",
+      "No holes and no electrons"
+    ],
+    "answer": 3,
+    "explanation": "The depletion region is swept of mobile charge carriers."
+  },
+  {
+    "id": "phy-777",
+    "subject": "phy",
+    "topic": "Electronics",
+    "question": "The process of increasing or decreasing the potential barrier of the depletion region is",
+    "options": [
+      "Amplification",
+      "Biasing",
+      "Modulation",
+      "Doping"
+    ],
+    "answer": 1,
+    "explanation": "Forward or reverse biasing changes the depletion region width."
+  },
+  {
+    "id": "phy-778",
+    "subject": "phy",
+    "topic": "Electronics",
+    "question": "The colour of light emitted by an LED depends on",
+    "options": [
+      "Forward voltage",
+      "Reverse current",
+      "Forward current",
+      "Type of semiconductor"
+    ],
+    "answer": 3,
+    "explanation": "Band gap of the semiconductor determines photon energy and hence colour."
+  },
+  {
+    "id": "phy-779",
+    "subject": "phy",
+    "topic": "Thermodynamics",
+    "question": "The process of combining a low-frequency signal with a high-frequency carrier wave is",
+    "options": [
+      "Rectification",
+      "Amplification",
+      "Modulation",
+      "Magnification"
+    ],
+    "answer": 2,
+    "explanation": "Modulation superimposes the signal onto the carrier wave."
+  },
+  {
+    "id": "phy-780",
+    "subject": "phy",
+    "topic": "Mechanics",
+    "question": "The substance that undergoes plastic deformation until it breaks is called",
+    "options": [
+      "Ductile",
+      "Brittle",
+      "Plastic",
+      "Elastic"
+    ],
+    "answer": 0,
+    "explanation": "Ductile materials deform plastically before fracturing."
+  },
+  {
+    "id": "phy-781",
+    "subject": "phy",
+    "topic": "Modern Physics",
+    "question": "To determine the structure of crystalline solids, which region of the spectrum is used?",
+    "options": [
+      "Visible",
+      "Infrared",
+      "X-rays",
+      "Ultraviolet"
+    ],
+    "answer": 2,
+    "explanation": "X-ray diffraction (Bragg's law) reveals crystal structure."
+  },
+  {
+    "id": "chem-782",
+    "subject": "chem",
+    "topic": "Stoichiometry",
+    "question": "The percentage of calcium in calcium carbonate (CaCO₃) is",
+    "options": [
+      "80%",
+      "30%",
+      "40%",
+      "20%"
+    ],
+    "answer": 2,
+    "explanation": "Ca=40, C=12, O₃=48; total=100. %Ca = 40/100 × 100 = 40%."
+  },
+  {
+    "id": "chem-783",
+    "subject": "chem",
+    "topic": "Stoichiometry",
+    "question": "The empirical formula of a compound with 50% S and 50% O by mass is",
+    "options": [
+      "SO",
+      "S₂O₃",
+      "SO₃",
+      "SO₂"
+    ],
+    "answer": 3,
+    "explanation": "Moles S = 50/32 ≈ 1.56; moles O = 50/16 = 3.13; ratio S:O ≈ 1:2 → SO₂."
+  },
+  {
+    "id": "chem-784",
+    "subject": "chem",
+    "topic": "Stoichiometry",
+    "question": "The equilibrium constant Kc has units when",
+    "options": [
+      "Moles of reactants and products are equal",
+      "Moles of reactants and products are unequal",
+      "Both",
+      "Neither"
+    ],
+    "answer": 1,
+    "explanation": "Kc is dimensionless only when Δn=0; otherwise it has units."
+  },
+  {
+    "id": "chem-785",
+    "subject": "chem",
+    "topic": "Stoichiometry",
+    "question": "1 mole of CH₄ contains",
+    "options": [
+      "6.02×10²³ atoms of H",
+      "4 g-atoms of hydrogen",
+      "1.81×10²³ molecules",
+      "3.0 g of carbon"
+    ],
+    "answer": 1,
+    "explanation": "CH₄ has 4 H atoms per molecule; 1 mol → 4 g-atoms of H."
+  },
+  {
+    "id": "chem-786",
+    "subject": "chem",
+    "topic": "Stoichiometry",
+    "question": "How many moles of He gas occupy 22.4 L at 0°C and 1 atm?",
+    "options": [
+      "0.11",
+      "0.90",
+      "1.0",
+      "1.11"
+    ],
+    "answer": 2,
+    "explanation": "22.4 L at STP = 1 mole of any ideal gas."
+  },
+  {
+    "id": "chem-787",
+    "subject": "chem",
+    "topic": "Stoichiometry",
+    "question": "The number of oxygen atoms in 4.4 g of CO₂ is approximately",
+    "options": [
+      "1.2×10²³",
+      "6×10²²",
+      "6×10²³",
+      "12×10²³"
+    ],
+    "answer": 0,
+    "explanation": "4.4g CO₂ = 0.1 mol; 2 O atoms per molecule → 0.2 mol O = 1.2×10²³ atoms."
+  },
+  {
+    "id": "chem-788",
+    "subject": "chem",
+    "topic": "Stoichiometry",
+    "question": "The largest number of molecules is present in",
+    "options": [
+      "3.6 g of water",
+      "4.4 g of C₂H₅OH",
+      "2.8 g of CO",
+      "5.4 g of N₂O₂"
+    ],
+    "answer": 0,
+    "explanation": "3.6g H₂O = 0.2 mol; others: ~0.096, 0.1, 0.09 mol → water has most."
+  },
+  {
+    "id": "chem-789",
+    "subject": "chem",
+    "topic": "Equilibrium",
+    "question": "The presence of common ions ______ the solubility of a slightly soluble ionic compound.",
+    "options": [
+      "Decreases",
+      "Increases",
+      "Neither decreases nor increases",
+      "None"
+    ],
+    "answer": 0,
+    "explanation": "Common ion effect: added common ion shifts equilibrium left → less dissolves."
+  },
+  {
+    "id": "chem-790",
+    "subject": "chem",
+    "topic": "Stoichiometry",
+    "question": "X g of CaCO₃ is completely burnt. The solid residue weighs 28 g. X equals",
+    "options": [
+      "44 g",
+      "200 g",
+      "150 g",
+      "50 g"
+    ],
+    "answer": 3,
+    "explanation": "CaCO₃→CaO+CO₂; 28g CaO = 0.5 mol; 0.5 mol CaCO₃ = 50g."
+  },
+  {
+    "id": "chem-791",
+    "subject": "chem",
+    "topic": "Equilibrium",
+    "question": "When NO₃⁻ concentration is measured after mixing equal volumes of 0.1 M AgNO₃ and 0.1 M NaCl, it is",
+    "options": [
+      "0.1 M",
+      "0.2 M",
+      "0.05 M",
+      "0.25 M"
+    ],
+    "answer": 2,
+    "explanation": "AgNO₃ + NaCl → AgCl↓ + NaNO₃; NO₃⁻ remains, volume doubles → 0.05 M."
+  },
+  {
+    "id": "chem-792",
+    "subject": "chem",
+    "topic": "Equilibrium",
+    "question": "Buffer solutions resist change in",
+    "options": [
+      "Both pH and pOH",
+      "Only pH",
+      "Only pOH",
+      "Neither"
+    ],
+    "answer": 0,
+    "explanation": "Buffer solutions resist changes in both pH and pOH on small acid/base addition."
+  },
+  {
+    "id": "chem-793",
+    "subject": "chem",
+    "topic": "Stoichiometry",
+    "question": "The volume of CO₂ at STP from 10 g of 90% pure limestone heated completely is",
+    "options": [
+      "22.4 L",
+      "2.24 L",
+      "20.16 L",
+      "2.016 L"
+    ],
+    "answer": 3,
+    "explanation": "Pure CaCO₃ = 9 g = 0.09 mol → 0.09×22.4 = 2.016 L."
+  },
+  {
+    "id": "chem-794",
+    "subject": "chem",
+    "topic": "Stoichiometry",
+    "question": "The molecular formula of an organic compound with 49.3% C, 6.84% H and vapour density 73 is",
+    "options": [
+      "C₃H₅O₂",
+      "C₆H₁₀O₄",
+      "C₃H₁₀O₂",
+      "C₄H₁₀O₂"
+    ],
+    "answer": 1,
+    "explanation": "MW=146; empirical C₃H₅O₂ (MW=73) → molecular = C₆H₁₀O₄."
+  },
+  {
+    "id": "chem-795",
+    "subject": "chem",
+    "topic": "Stoichiometry",
+    "question": "The number of atoms in 0.004 g of magnesium is close to",
+    "options": [
+      "24",
+      "2×10²⁰",
+      "10²⁰",
+      "6.02×10²³"
+    ],
+    "answer": 2,
+    "explanation": "Moles = 0.004/24 ≈ 1.67×10⁻⁴; atoms = 1.67×10⁻⁴ × 6.02×10²³ ≈ 10²⁰."
+  },
+  {
+    "id": "chem-796",
+    "subject": "chem",
+    "topic": "Stoichiometry",
+    "question": "The weight of 11.2 L of CO₂ at STP is",
+    "options": [
+      "88 g",
+      "44 g",
+      "32 g",
+      "22 g"
+    ],
+    "answer": 3,
+    "explanation": "11.2 L = 0.5 mol CO₂; mass = 0.5×44 = 22 g."
+  },
+  {
+    "id": "chem-797",
+    "subject": "chem",
+    "topic": "Stoichiometry",
+    "question": "Law of mass action determines",
+    "options": [
+      "Only products",
+      "Composition of reactants and products",
+      "Only reactants",
+      "None"
+    ],
+    "answer": 1,
+    "explanation": "Law of mass action gives the equilibrium expression relating all species."
+  },
+  {
+    "id": "chem-798",
+    "subject": "chem",
+    "topic": "Stoichiometry",
+    "question": "CO₂ liberated when 100 g CaCO₃ reacts with 1 L of 1 M HCl is",
+    "options": [
+      "5.5 g",
+      "11 g",
+      "22 g",
+      "33 g"
+    ],
+    "answer": 2,
+    "explanation": "HCl = 1 mol (limiting); CaCO₃+2HCl→CO₂+H₂O+CaCl₂; 0.5 mol CO₂ = 22 g."
+  },
+  {
+    "id": "chem-799",
+    "subject": "chem",
+    "topic": "Thermochemistry",
+    "question": "Kinetic energy of one mole of an ideal gas at 300 K in kJ is",
+    "options": [
+      "34.8",
+      "3.48",
+      "3.74",
+      "348"
+    ],
+    "answer": 2,
+    "explanation": "KE = (3/2)RT = 1.5×8.314×300 = 3741 J ≈ 3.74 kJ."
+  },
+  {
+    "id": "chem-800",
+    "subject": "chem",
+    "topic": "Equilibrium",
+    "question": "Le Chatelier's principle discusses the effects of which factors on equilibrium?",
+    "options": [
+      "Concentration, work, heat",
+      "Volume, heat, pressure",
+      "Concentration, pressure, temperature",
+      "None"
+    ],
+    "answer": 2,
+    "explanation": "Le Chatelier's principle considers changes in concentration, pressure, and temperature."
+  },
+  {
+    "id": "chem-801",
+    "subject": "chem",
+    "topic": "Stoichiometry",
+    "question": "After 30 mL H₂ reacts with 20 mL O₂ (2H₂+O₂→2H₂O), what is left?",
+    "options": [
+      "10 mL H₂",
+      "5 mL H₂",
+      "10 mL O₂",
+      "5 mL O₂"
+    ],
+    "answer": 3,
+    "explanation": "H₂ limiting: 30 mL H₂ needs 15 mL O₂; 20−15 = 5 mL O₂ remains."
+  },
+  {
+    "id": "chem-802",
+    "subject": "chem",
+    "topic": "Equilibrium",
+    "question": "To yield maximum ammonia from Haber's process, use",
+    "options": [
+      "High pressure, low temperature, continual removal of NH₃",
+      "Low pressure, high temperature",
+      "High temperature and high pressure",
+      "All of above"
+    ],
+    "answer": 0,
+    "explanation": "High P, low T, and removing product drives equilibrium toward NH₃."
+  },
+  {
+    "id": "chem-803",
+    "subject": "chem",
+    "topic": "Gases",
+    "question": "An ideal gas can be liquefied only if",
+    "options": [
+      "T > critical temperature",
+      "P > critical pressure",
+      "P > Pc AND T < Tc",
+      "It cannot be liquefied"
+    ],
+    "answer": 2,
+    "explanation": "Liquefaction requires both above-critical pressure and below-critical temperature."
+  },
+  {
+    "id": "chem-804",
+    "subject": "chem",
+    "topic": "Atomic Structure",
+    "question": "Mass spectrometer is used for",
+    "options": [
+      "Measuring atomic masses",
+      "Measuring atomic number",
+      "Both",
+      "Neither"
+    ],
+    "answer": 0,
+    "explanation": "Mass spectrometry measures mass-to-charge ratios, hence atomic masses."
+  },
+  {
+    "id": "chem-805",
+    "subject": "chem",
+    "topic": "Atomic Structure",
+    "question": "1 amu is equal to",
+    "options": [
+      "1.66×10⁻²⁷ kg",
+      "1.602×10⁻²⁷ kg",
+      "1.66×10⁻³¹ kg",
+      "None"
+    ],
+    "answer": 0,
+    "explanation": "1 amu = 1.66054×10⁻²⁷ kg (1/12 mass of C-12)."
+  },
+  {
+    "id": "chem-806",
+    "subject": "chem",
+    "topic": "Atomic Structure",
+    "question": "Chemical properties of an atom depend upon number of",
+    "options": [
+      "Electrons",
+      "Neutrons",
+      "Protons",
+      "Nucleons"
+    ],
+    "answer": 0,
+    "explanation": "Electron configuration determines chemical reactivity."
+  },
+  {
+    "id": "chem-807",
+    "subject": "chem",
+    "topic": "Atomic Structure",
+    "question": "Velocity of electron in outermost shell is",
+    "options": [
+      "Maximum",
+      "Minimum",
+      "Intermediate",
+      "None"
+    ],
+    "answer": 1,
+    "explanation": "In Bohr model, v_n ∝ 1/n; highest n (outermost) → minimum velocity."
+  },
+  {
+    "id": "chem-808",
+    "subject": "chem",
+    "topic": "Atomic Structure",
+    "question": "Which noble gas has the highest boiling point?",
+    "options": [
+      "He",
+      "Ne",
+      "Kr",
+      "Ar"
+    ],
+    "answer": 2,
+    "explanation": "Heavier noble gases have stronger London dispersion → higher boiling points; Kr > Ar > Ne > He."
+  },
+  {
+    "id": "chem-809",
+    "subject": "chem",
+    "topic": "Bonding",
+    "question": "Each carbon atom in benzene is hybridized as",
+    "options": [
+      "sp³",
+      "sp²",
+      "sp",
+      "None"
+    ],
+    "answer": 1,
+    "explanation": "Benzene carbon: 3 σ-bonds + 1 π-bond → sp² hybridization."
+  },
+  {
+    "id": "chem-810",
+    "subject": "chem",
+    "topic": "Organic",
+    "question": "The aromatic compound with functional group –OH attached to the ring is",
+    "options": [
+      "Carbolic acid",
+      "Phenol",
+      "Alcohol",
+      "None"
+    ],
+    "answer": 1,
+    "explanation": "Phenol = C₆H₅OH; carbolic acid is an older name for phenol, so B is correct."
+  },
+  {
+    "id": "chem-811",
+    "subject": "chem",
+    "topic": "Organic",
+    "question": "Which of the following are gases at room temperature?",
+    "options": [
+      "Methane",
+      "Ethane",
+      "Propane",
+      "All of these"
+    ],
+    "answer": 3,
+    "explanation": "Methane, ethane, and propane are all gases at standard conditions."
+  },
+  {
+    "id": "chem-812",
+    "subject": "chem",
+    "topic": "Electrochemistry",
+    "question": "Which group of elements shows greatest electrical conductivity?",
+    "options": [
+      "Alkali metals",
+      "Alkaline earth metals",
+      "Halogens",
+      "Coinage metals"
+    ],
+    "answer": 3,
+    "explanation": "Cu, Ag, Au (coinage metals) are the best electrical conductors."
+  },
+  {
+    "id": "chem-813",
+    "subject": "chem",
+    "topic": "Organic",
+    "question": "Halogen used for bleaching is",
+    "options": [
+      "Chlorine",
+      "Bromine",
+      "Iodine",
+      "Fluorine"
+    ],
+    "answer": 0,
+    "explanation": "Chlorine (as hypochlorite) is the active agent in bleaching powder."
+  },
+  {
+    "id": "chem-814",
+    "subject": "chem",
+    "topic": "Organic",
+    "question": "Which is NOT a type of boric acid?",
+    "options": [
+      "Ortho boric acid",
+      "Nano boric acid",
+      "Meta boric acid",
+      "Pyro boric acid"
+    ],
+    "answer": 1,
+    "explanation": "\"Nano boric acid\" is not a recognized form; ortho, meta, and pyro boric acids exist."
+  },
+  {
+    "id": "chem-815",
+    "subject": "chem",
+    "topic": "Organic",
+    "question": "The minimum number of carbon atoms in an amino acid is",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 1,
+    "explanation": "Glycine (H₂N-CH₂-COOH) has 2 carbon atoms, the minimum."
+  },
+  {
+    "id": "chem-816",
+    "subject": "chem",
+    "topic": "Organic",
+    "question": "The double bond in oleic acid is between carbon atoms",
+    "options": [
+      "7 and 8",
+      "8 and 9",
+      "10 and 11",
+      "9 and 10"
+    ],
+    "answer": 3,
+    "explanation": "Oleic acid is cis-Δ9-octadecenoic acid; double bond between C9 and C10."
+  },
+  {
+    "id": "chem-817",
+    "subject": "chem",
+    "topic": "Organic",
+    "question": "In combustion analysis, CO₂ is absorbed by",
+    "options": [
+      "Mg(OH)₂",
+      "KOH",
+      "Mg(ClO₄)₂",
+      "None"
+    ],
+    "answer": 1,
+    "explanation": "KOH (or NaOH) absorbs CO₂: CO₂ + 2KOH → K₂CO₃ + H₂O."
+  },
+  {
+    "id": "chem-818",
+    "subject": "chem",
+    "topic": "Atomic Structure",
+    "question": "Ionization energy depends upon",
+    "options": [
+      "Nuclear charge",
+      "Shielding effect",
+      "Atomic radius",
+      "All of these"
+    ],
+    "answer": 3,
+    "explanation": "IE is determined by all three: nuclear charge, shielding, and atomic radius."
+  },
+  {
+    "id": "chem-819",
+    "subject": "chem",
+    "topic": "Equilibrium",
+    "question": "The relationship between Kw, Ka, and Kb is",
+    "options": [
+      "Kw = Ka/Kb",
+      "Kw = Ka − Kb",
+      "Kw = Kb − Ka",
+      "Kw = Ka × Kb"
+    ],
+    "answer": 3,
+    "explanation": "For a conjugate acid-base pair: Ka × Kb = Kw."
+  },
+  {
+    "id": "intel-820",
+    "subject": "intel",
+    "topic": "Series",
+    "question": "Pick the odd one out: March, July, September, October",
+    "options": [
+      "March",
+      "July",
+      "September",
+      "October"
+    ],
+    "answer": 2,
+    "explanation": "March, July, October have 31 days; September has only 30."
+  },
+  {
+    "id": "intel-821",
+    "subject": "intel",
+    "topic": "Odd One Out",
+    "question": "Pick the odd one: Trunk, Tree, Leaf, Flower",
+    "options": [
+      "Trunk",
+      "Tree",
+      "Leaf",
+      "Flower"
+    ],
+    "answer": 1,
+    "explanation": "Trunk, Leaf, and Flower are parts of a tree; Tree is the whole organism."
+  },
+  {
+    "id": "intel-822",
+    "subject": "intel",
+    "topic": "Odd One Out",
+    "question": "Pick the odd one: Learn, Read, Knowledge, Write",
+    "options": [
+      "Learn",
+      "Read",
+      "Knowledge",
+      "Write"
+    ],
+    "answer": 2,
+    "explanation": "Learn, Read, Write are verbs (activities); Knowledge is a noun (state)."
+  },
+  {
+    "id": "intel-823",
+    "subject": "intel",
+    "topic": "Series",
+    "question": "4, 8, 16, 32, 64, … next term is",
+    "options": [
+      "89",
+      "92",
+      "128",
+      "120"
+    ],
+    "answer": 2,
+    "explanation": "Geometric series × 2 each step; 64 × 2 = 128."
+  },
+  {
+    "id": "intel-824",
+    "subject": "intel",
+    "topic": "Series",
+    "question": "6, 9, 18, 21, 63, 66, … next term is",
+    "options": [
+      "132",
+      "264",
+      "112",
+      "198"
+    ],
+    "answer": 3,
+    "explanation": "Pattern: ×3, +3 alternating; 66 × 3 = 198."
+  },
+  {
+    "id": "intel-825",
+    "subject": "intel",
+    "topic": "Matrix",
+    "question": "In the matrix: 15 14 13 / 16 16 12 / 17 18 ?, the missing value is",
+    "options": [
+      "11",
+      "17",
+      "19",
+      "23"
+    ],
+    "answer": 0,
+    "explanation": "Column 3: 13, 12, ? decreases by 1 each row → 11."
+  },
+  {
+    "id": "intel-826",
+    "subject": "intel",
+    "topic": "Odd One Out",
+    "question": "Pick the odd fuel: Natural gas, Gasoline, Coal, Biogas",
+    "options": [
+      "Natural gas",
+      "Gasoline",
+      "Coal",
+      "Biogas"
+    ],
+    "answer": 2,
+    "explanation": "Coal is a solid fossil fuel; natural gas, gasoline, and biogas are fluid/gaseous."
+  },
+  {
+    "id": "intel-827",
+    "subject": "intel",
+    "topic": "Odd One Out",
+    "question": "Pick the odd vegetable: Brinjal, Potato, Tomato, Cucumber",
+    "options": [
+      "Brinjal",
+      "Potato",
+      "Tomato",
+      "Cucumber"
+    ],
+    "answer": 1,
+    "explanation": "Potato is a root/tuber (underground); others grow above ground."
+  },
+  {
+    "id": "eng-828",
+    "subject": "eng",
+    "topic": "Grammar & Usage",
+    "question": "Choose the correct option: \"The psychiatrist advised that ___ on diet.\"",
+    "options": [
+      "I am going",
+      "I am to go",
+      "I should go",
+      "I go"
+    ],
+    "answer": 3,
+    "explanation": "Subjunctive after \"advised that\" requires the base form: I go."
+  },
+  {
+    "id": "eng-829",
+    "subject": "eng",
+    "topic": "Grammar & Usage",
+    "question": "Choose the correct form: \"The hotel manager suggested that ___ on time for their reservation.\"",
+    "options": [
+      "We arrive",
+      "We should arrive",
+      "We arrived",
+      "Were arrive"
+    ],
+    "answer": 0,
+    "explanation": "Subjunctive after \"suggested that\": base form → we arrive."
+  },
+  {
+    "id": "eng-830",
+    "subject": "eng",
+    "topic": "Grammar & Usage",
+    "question": "Choose the correct form: \"The discipline committee requires that students ___ college 165 days a year.\"",
+    "options": [
+      "Are in",
+      "Be in",
+      "Were in",
+      "Should in"
+    ],
+    "answer": 1,
+    "explanation": "Subjunctive after \"requires that\": be in."
+  },
+  {
+    "id": "eng-831",
+    "subject": "eng",
+    "topic": "Grammar & Usage",
+    "question": "Choose the correct form: \"It was important that money ___ for the cause.\"",
+    "options": [
+      "Has been collected",
+      "Is collected",
+      "Be collected",
+      "Was collected"
+    ],
+    "answer": 2,
+    "explanation": "Past subjunctive in reported speech: be collected (passive subjunctive)."
+  },
+  {
+    "id": "eng-832",
+    "subject": "eng",
+    "topic": "Grammar & Usage",
+    "question": "Choose the correct form: \"I wish that ___ in Multan.\"",
+    "options": [
+      "I was living",
+      "I has been living",
+      "I were living",
+      "I am living"
+    ],
+    "answer": 2,
+    "explanation": "Subjunctive of wish (unrealized): I were living."
+  },
+  {
+    "id": "eng-833",
+    "subject": "eng",
+    "topic": "Analogies",
+    "question": "RIB CAGE : LUNGS :: _____ : _____",
+    "options": [
+      "Skull : brain",
+      "Appendix : organ",
+      "Sock : foot",
+      "Skeleton : body"
+    ],
+    "answer": 0,
+    "explanation": "Ribs protect the lungs; skull protects the brain."
+  },
+  {
+    "id": "eng-834",
+    "subject": "eng",
+    "topic": "Analogies",
+    "question": "SCIENTIST : LABORATORY :: _____ : _____",
+    "options": [
+      "Teacher : classroom",
+      "Dentist : drill",
+      "Lawyer : client",
+      "Actor : playwright"
+    ],
+    "answer": 0,
+    "explanation": "A scientist works in a laboratory; a teacher works in a classroom."
+  },
+  {
+    "id": "eng-835",
+    "subject": "eng",
+    "topic": "Analogies",
+    "question": "BRITTLE : FRACTURE :: _____ : _____",
+    "options": [
+      "Rain : umbrella",
+      "Flammable : burn",
+      "Perpetual : stop",
+      "Ice : cold"
+    ],
+    "answer": 1,
+    "explanation": "Brittle things fracture; flammable things burn."
+  },
+  {
+    "id": "eng-836",
+    "subject": "eng",
+    "topic": "Analogies",
+    "question": "GYMNASIUM : EXERCISE :: _____ : _____",
+    "options": [
+      "Diseases : diagnose",
+      "Birthday : celebrate",
+      "Store : shop",
+      "Army : discharge"
+    ],
+    "answer": 2,
+    "explanation": "A gymnasium is where you exercise; a store is where you shop."
+  },
+  {
+    "id": "eng-837",
+    "subject": "eng",
+    "topic": "Analogies",
+    "question": "COMPASS : NAVIGATION :: _____ : _____",
+    "options": [
+      "Clock : dial",
+      "Physician : disease",
+      "Camera : photography",
+      "Pilot : flight"
+    ],
+    "answer": 2,
+    "explanation": "A compass aids navigation; a camera aids photography."
+  },
+  {
+    "id": "eng-838",
+    "subject": "eng",
+    "topic": "Analogies",
+    "question": "TELLER : BANK :: _____ : _____",
+    "options": [
+      "Artist : museum",
+      "Cashier : check",
+      "Waiter : restaurant",
+      "Mourner : funeral"
+    ],
+    "answer": 2,
+    "explanation": "A teller works at a bank; a waiter works at a restaurant."
+  },
+  {
+    "id": "eng-839",
+    "subject": "eng",
+    "topic": "Analogies",
+    "question": "DEGREE : TEMPERATURE :: _____ : _____",
+    "options": [
+      "Ounce : weight",
+      "Fathom : volume",
+      "Mass : energy",
+      "Time : length"
+    ],
+    "answer": 0,
+    "explanation": "Degree measures temperature; ounce measures weight."
+  },
+  {
+    "id": "eng-840",
+    "subject": "eng",
+    "topic": "Vocabulary",
+    "question": "The word INDUSTRIOUS most nearly means",
+    "options": [
+      "Successful",
+      "Sensible",
+      "Punctual",
+      "Diligent"
+    ],
+    "answer": 3,
+    "explanation": "Industrious = hard-working; diligent is the closest synonym."
+  },
+  {
+    "id": "eng-841",
+    "subject": "eng",
+    "topic": "Vocabulary",
+    "question": "The word NERVE as used in \"He had the nerve to suggest I was cheating\" means",
+    "options": [
+      "Strength",
+      "Capacity",
+      "Audacity",
+      "Courage"
+    ],
+    "answer": 2,
+    "explanation": "In this context, nerve = impudence/audacity."
+  },
+  {
+    "id": "eng-842",
+    "subject": "eng",
+    "topic": "Vocabulary",
+    "question": "The antonym of APATHY is",
+    "options": [
+      "Enemy",
+      "Love",
+      "Noble",
+      "Temptation"
+    ],
+    "answer": 1,
+    "explanation": "Apathy = lack of interest; antonym is love/passion/enthusiasm."
+  },
+  {
+    "id": "eng-843",
+    "subject": "eng",
+    "topic": "Vocabulary",
+    "question": "The antonym of OUTBREAK is",
+    "options": [
+      "Confined",
+      "Smash",
+      "Reliability",
+      "Tumult"
+    ],
+    "answer": 0,
+    "explanation": "Outbreak = spread/eruption; antonym is confined/contained."
+  },
+  {
+    "id": "eng-844",
+    "subject": "eng",
+    "topic": "Vocabulary",
+    "question": "The antonym of INDULGENT is",
+    "options": [
+      "Active",
+      "Agile",
+      "Squander",
+      "Oppressive"
+    ],
+    "answer": 3,
+    "explanation": "Indulgent = lenient/permissive; antonym is oppressive/strict."
+  },
+  {
+    "id": "eng-845",
+    "subject": "eng",
+    "topic": "Vocabulary",
+    "question": "FLEECE most nearly means",
+    "options": [
+      "Excess",
+      "Leveled",
+      "Steal",
+      "Bought"
+    ],
+    "answer": 2,
+    "explanation": "To fleece = to swindle or rob someone."
+  },
+  {
+    "id": "eng-846",
+    "subject": "eng",
+    "topic": "Grammar & Usage",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "Send the letter at my new address",
+      "Send the letter to my new address",
+      "Send the letter from my new address",
+      "Send the letter of my new address"
+    ],
+    "answer": 1,
+    "explanation": "\"Send to\" is the correct preposition for directing correspondence."
+  },
+  {
+    "id": "eng-847",
+    "subject": "eng",
+    "topic": "Vocabulary",
+    "question": "TREPIDATION means",
+    "options": [
+      "Doubts",
+      "Quark",
+      "Worries",
+      "Apprehension"
+    ],
+    "answer": 3,
+    "explanation": "Trepidation = trembling fear, apprehension."
+  },
+  {
+    "id": "eng-848",
+    "subject": "eng",
+    "topic": "Vocabulary",
+    "question": "The word closest in meaning to AMASS is",
+    "options": [
+      "Allot",
+      "Gather",
+      "Dispense",
+      "Deliver"
+    ],
+    "answer": 1,
+    "explanation": "Amass = to accumulate/gather a large amount."
+  },
+  {
+    "id": "eng-849",
+    "subject": "eng",
+    "topic": "Vocabulary",
+    "question": "INSCRUTABLE most nearly means",
+    "options": [
+      "Immoral",
+      "Unethical",
+      "Enigmatic",
+      "Unaccountable"
+    ],
+    "answer": 2,
+    "explanation": "Inscrutable = impossible to understand; enigmatic."
+  },
+  {
+    "id": "eng-850",
+    "subject": "eng",
+    "topic": "Vocabulary",
+    "question": "Synonym of ACTUATE is",
+    "options": [
+      "Triple",
+      "Motivate",
+      "Discourage",
+      "Move"
+    ],
+    "answer": 1,
+    "explanation": "Actuate = to motivate or cause to act."
+  },
+  {
+    "id": "eng-851",
+    "subject": "eng",
+    "topic": "Vocabulary",
+    "question": "The correct spelling is",
+    "options": [
+      "Presamble",
+      "Misible",
+      "Presible",
+      "Permissible"
+    ],
+    "answer": 3,
+    "explanation": "Permissible is the correct spelling (from \"permit\" + \"-ible\")."
+  },
+  {
+    "id": "eng-852",
+    "subject": "eng",
+    "topic": "Analogies",
+    "question": "INNING : BASEBALL :: _____ : _____",
+    "options": [
+      "Puck : hockey",
+      "Serve : tennis",
+      "Outing : hiking",
+      "Round : boxing"
+    ],
+    "answer": 3,
+    "explanation": "An inning is a division of baseball; a round is a division of boxing."
+  },
+  {
+    "id": "math-853",
+    "subject": "math",
+    "topic": "Sets",
+    "question": "A subset of B that is different from B itself is called a",
+    "options": [
+      "Proper subset",
+      "Improper subset",
+      "Subset",
+      "Equal set"
+    ],
+    "answer": 0,
+    "explanation": "A proper subset A ⊂ B excludes B itself; A ≠ B."
+  },
+  {
+    "id": "math-854",
+    "subject": "math",
+    "topic": "Number System",
+    "question": "0.123456789123456789… is",
+    "options": [
+      "An irrational number",
+      "A rational number",
+      "A whole number",
+      "A negative number"
+    ],
+    "answer": 1,
+    "explanation": "The decimal repeats; any repeating decimal is rational."
+  },
+  {
+    "id": "math-855",
+    "subject": "math",
+    "topic": "Number System",
+    "question": "Every integer is also a",
+    "options": [
+      "Irrational number",
+      "Whole number",
+      "Natural number",
+      "Rational number"
+    ],
+    "answer": 3,
+    "explanation": "Integers can be written as p/q (denominator = 1), so they are rational."
+  },
+  {
+    "id": "math-856",
+    "subject": "math",
+    "topic": "Number System",
+    "question": "√n where n is a prime number is",
+    "options": [
+      "Rational",
+      "Irrational",
+      "Natural",
+      "Integer"
+    ],
+    "answer": 1,
+    "explanation": "Primes have no perfect-square factors; their square roots are irrational."
+  },
+  {
+    "id": "math-857",
+    "subject": "math",
+    "topic": "Complex Numbers",
+    "question": "The multiplicative inverse of 2 is",
+    "options": [
+      "0",
+      "1",
+      "−2",
+      "½"
+    ],
+    "answer": 3,
+    "explanation": "2 × ½ = 1; multiplicative inverse of 2 is ½."
+  },
+  {
+    "id": "math-858",
+    "subject": "math",
+    "topic": "Complex Numbers",
+    "question": "The conjugate of (−3, 4) is",
+    "options": [
+      "(3, 4)",
+      "(3, −4)",
+      "(−3, −4)",
+      "(−3, 4)"
+    ],
+    "answer": 2,
+    "explanation": "Conjugate of (a,b) = (a,−b); conjugate of (−3,4) = (−3,−4)."
+  },
+  {
+    "id": "math-859",
+    "subject": "math",
+    "topic": "Complex Numbers",
+    "question": "Geometrically, the modulus of a complex number represents its distance from",
+    "options": [
+      "Point (1, 0)",
+      "Point (0, 1)",
+      "Point (1, 1)",
+      "Point (0, 0)"
+    ],
+    "answer": 3,
+    "explanation": "|z| = distance from origin (0, 0) in the Argand plane."
+  },
+  {
+    "id": "math-860",
+    "subject": "math",
+    "topic": "Complex Numbers",
+    "question": "Associative law of multiplication states",
+    "options": [
+      "ab = ba",
+      "a(bc) = (ab)c",
+      "a(a+b) = ab+bc",
+      "(a+b)c = ac+bc"
+    ],
+    "answer": 1,
+    "explanation": "Associativity: (ab)c = a(bc)."
+  },
+  {
+    "id": "math-861",
+    "subject": "math",
+    "topic": "Complex Numbers",
+    "question": "a·a⁻¹ = a⁻¹·a = 1 is the",
+    "options": [
+      "Commutative law",
+      "Multiplicative identity",
+      "Associative law",
+      "Multiplicative inverse"
+    ],
+    "answer": 3,
+    "explanation": "This defines the multiplicative inverse property."
+  },
+  {
+    "id": "math-862",
+    "subject": "math",
+    "topic": "Complex Numbers",
+    "question": "(a+bi) − (c+di) =",
+    "options": [
+      "(a+b) − (c+d)",
+      "(a+c) + i(b+d)",
+      "(a−c) + i(c−d)",
+      "(a−c) + i(b−d)"
+    ],
+    "answer": 3,
+    "explanation": "Subtract real and imaginary parts separately."
+  },
+  {
+    "id": "math-863",
+    "subject": "math",
+    "topic": "Complex Numbers",
+    "question": "(7, 9) + (3, −5) =",
+    "options": [
+      "(4, 4)",
+      "(10, 4)",
+      "(9, −5)",
+      "(7, 3)"
+    ],
+    "answer": 1,
+    "explanation": "Add component-wise: (7+3, 9+(−5)) = (10, 4)."
+  },
+  {
+    "id": "math-864",
+    "subject": "math",
+    "topic": "Complex Numbers",
+    "question": "Product of z₁ = 2+6i and z₂ = 3+7i is",
+    "options": [
+      "36+(−32)i",
+      "−36+32i",
+      "6+(−11)i",
+      "0+(−12)i"
+    ],
+    "answer": 1,
+    "explanation": "(2+6i)(3+7i) = 6+14i+18i+42i² = 6+32i−42 = −36+32i."
+  },
+  {
+    "id": "math-865",
+    "subject": "math",
+    "topic": "Complex Numbers",
+    "question": "The additive inverse of (a, b) in complex numbers is",
+    "options": [
+      "(a, 0)",
+      "(0, b)",
+      "(a, b)",
+      "(−a, −b)"
+    ],
+    "answer": 3,
+    "explanation": "Additive inverse of (a,b) is (−a,−b) so their sum = (0,0)."
+  },
+  {
+    "id": "math-866",
+    "subject": "math",
+    "topic": "Complex Numbers",
+    "question": "Which expression has the same value as i¹¹³?",
+    "options": [
+      "i",
+      "−1",
+      "−i",
+      "1"
+    ],
+    "answer": 0,
+    "explanation": "113 = 4×28 + 1; i¹¹³ = i¹ = i."
+  },
+  {
+    "id": "math-867",
+    "subject": "math",
+    "topic": "Logic",
+    "question": "A disjunction p∨q is true if",
+    "options": [
+      "p is false",
+      "Both p and q are false",
+      "At least one of p, q is true",
+      "q is false"
+    ],
+    "answer": 2,
+    "explanation": "Disjunction is false only when both operands are false."
+  },
+  {
+    "id": "math-868",
+    "subject": "math",
+    "topic": "Sets",
+    "question": "The set of real numbers R is a subset of",
+    "options": [
+      "Natural numbers N",
+      "Integers Z",
+      "Complex numbers C",
+      "Even integers E"
+    ],
+    "answer": 2,
+    "explanation": "Every real number is also a complex number (imaginary part = 0)."
+  },
+  {
+    "id": "math-869",
+    "subject": "math",
+    "topic": "Sets",
+    "question": "A set containing exactly one element is called a",
+    "options": [
+      "Empty set",
+      "Singleton set",
+      "Null set",
+      "Solution set"
+    ],
+    "answer": 1,
+    "explanation": "A singleton set has exactly one element."
+  },
+  {
+    "id": "math-870",
+    "subject": "math",
+    "topic": "Sets",
+    "question": "Each element of a group has exactly _____ inverse element(s).",
+    "options": [
+      "Only one",
+      "At least one",
+      "More than one",
+      "Two"
+    ],
+    "answer": 0,
+    "explanation": "Group axiom: each element has exactly one (unique) inverse."
+  },
+  {
+    "id": "math-871",
+    "subject": "math",
+    "topic": "Sets",
+    "question": "A set of students in a class is a",
+    "options": [
+      "Infinite set",
+      "Finite set",
+      "Empty set",
+      "Null set"
+    ],
+    "answer": 1,
+    "explanation": "A class has a countable, finite number of students."
+  },
+  {
+    "id": "math-872",
+    "subject": "math",
+    "topic": "Logic",
+    "question": "Drawing general conclusions from accepted facts is called",
+    "options": [
+      "Induction",
+      "Proposition",
+      "Deduction",
+      "Aristotelian logic"
+    ],
+    "answer": 2,
+    "explanation": "Deduction: from general premises to specific conclusions."
+  },
+  {
+    "id": "math-873",
+    "subject": "math",
+    "topic": "Sets",
+    "question": "A subset of B×A is called a",
+    "options": [
+      "Relation from A to B",
+      "Relation from B to A",
+      "Relation in A",
+      "Relation in B"
+    ],
+    "answer": 0,
+    "explanation": "A relation from A to B is a subset of A×B; from B to A is a subset of B×A."
+  },
+  {
+    "id": "math-874",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "The area of a sector with central angle 0.5 rad in a circle of radius 2 m is",
+    "options": [
+      "π/2 m²",
+      "π/3 m²",
+      "π/6 m²",
+      "1 m²"
+    ],
+    "answer": 3,
+    "explanation": "A = ½r²θ = ½×4×0.5 = 1 m²."
+  },
+  {
+    "id": "math-875",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "The multiplicative inverse of −1 in the set {−1, 1} is",
+    "options": [
+      "1",
+      "−1",
+      "±1",
+      "0"
+    ],
+    "answer": 1,
+    "explanation": "(−1)×(−1) = 1 → multiplicative inverse of −1 is itself, −1."
+  },
+  {
+    "id": "math-876",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "The maximum value of sin x + cos x is",
+    "options": [
+      "1",
+      "2",
+      "√2",
+      "1/√2"
+    ],
+    "answer": 2,
+    "explanation": "Max of a sinx + b cosx = √(a²+b²) = √(1+1) = √2."
+  },
+  {
+    "id": "math-877",
+    "subject": "math",
+    "topic": "Sets",
+    "question": "If 80 students enrolled for math, 50 for English (English-only), 60 for physics, out of 150 students total, how many took both physics and math?",
+    "options": [
+      "40",
+      "30",
+      "50",
+      "20"
+    ],
+    "answer": 0,
+    "explanation": "English-only=50; math+physics students=100. Math∪Physics = 80+60−x = 100 → x = 40."
+  },
+  {
+    "id": "math-878",
+    "subject": "math",
+    "topic": "Sets",
+    "question": "{{a, b}} is a",
+    "options": [
+      "Infinite set",
+      "Singleton set",
+      "Two-point set",
+      "None"
+    ],
+    "answer": 1,
+    "explanation": "{{a,b}} contains one element (the set {a,b}); it is a singleton."
+  },
+  {
+    "id": "math-879",
+    "subject": "math",
+    "topic": "Sets",
+    "question": "If f: A→B with range f = B, then f is a/an",
+    "options": [
+      "Into function",
+      "Onto function",
+      "Bijective function",
+      "One-one function"
+    ],
+    "answer": 1,
+    "explanation": "Onto (surjective): every element in B is mapped to."
+  },
+  {
+    "id": "math-880",
+    "subject": "math",
+    "topic": "Functions",
+    "question": "The set of first elements of ordered pairs forming a relation is called its",
+    "options": [
+      "Relation in B",
+      "Range",
+      "Domain",
+      "Relation in A"
+    ],
+    "answer": 2,
+    "explanation": "The domain is the set of all first (input) elements."
+  },
+  {
+    "id": "math-881",
+    "subject": "math",
+    "topic": "Functions",
+    "question": "A function in which all second elements of ordered pairs are distinct is called",
+    "options": [
+      "Onto function",
+      "One-one function",
+      "Identity function",
+      "Inverse function"
+    ],
+    "answer": 1,
+    "explanation": "One-one (injective): distinct inputs map to distinct outputs."
+  },
+  {
+    "id": "math-882",
+    "subject": "math",
+    "topic": "Functions",
+    "question": "A function whose range contains exactly one element is a",
+    "options": [
+      "One-one function",
+      "Constant function",
+      "Onto function",
+      "Identity function"
+    ],
+    "answer": 1,
+    "explanation": "A constant function maps all inputs to a single output."
+  },
+  {
+    "id": "math-883",
+    "subject": "math",
+    "topic": "Matrices",
+    "question": "The transpose of a row matrix is a",
+    "options": [
+      "Column matrix",
+      "Diagonal matrix",
+      "Zero matrix",
+      "Scalar matrix"
+    ],
+    "answer": 0,
+    "explanation": "Transposing swaps rows and columns; a 1×n row becomes an n×1 column."
+  },
+  {
+    "id": "math-884",
+    "subject": "math",
+    "topic": "Sets",
+    "question": "A unary operation operates on",
+    "options": [
+      "Two elements",
+      "One element",
+      "Three elements",
+      "All elements"
+    ],
+    "answer": 1,
+    "explanation": "Unary operations take one operand; e.g. negation, square root."
+  },
+  {
+    "id": "math-885",
+    "subject": "math",
+    "topic": "Significant Figures",
+    "question": "7.635 × 4.81 expressed in correct significant figures is",
+    "options": [
+      "36.72435",
+      "36.724",
+      "36.72",
+      "36.7"
+    ],
+    "answer": 3,
+    "explanation": "Min sig figs = 3 (from 4.81); 7.635×4.81 = 36.72435 → 36.7."
+  },
+  {
+    "id": "math-886",
+    "subject": "math",
+    "topic": "Vectors",
+    "question": "i · (k × j) equals",
+    "options": [
+      "−1",
+      "0",
+      "1",
+      "2"
+    ],
+    "answer": 0,
+    "explanation": "k × j = −i; i · (−i) = −1."
+  },
+  {
+    "id": "math-887",
+    "subject": "math",
+    "topic": "Functions",
+    "question": "Any point where f'(x) = 0 and f is neither a maximum nor a minimum is called a",
+    "options": [
+      "Minimum",
+      "Maximum",
+      "Stationary point",
+      "Constant point"
+    ],
+    "answer": 2,
+    "explanation": "A stationary point has zero derivative but is not a local extremum (inflection)."
+  },
+  {
+    "id": "math-888",
+    "subject": "math",
+    "topic": "Matrices",
+    "question": "If A = {1,2,3,4,5,6} and the relation is {(1,1),(2,2),…,(6,6)}, it is called a/an",
+    "options": [
+      "Binary relation",
+      "Inverse relation",
+      "Range of a relation",
+      "Identity relation"
+    ],
+    "answer": 3,
+    "explanation": "Each element maps to itself → identity relation."
+  },
+  {
+    "id": "math-889",
+    "subject": "math",
+    "topic": "Number System",
+    "question": "The decimal part of an irrational number is",
+    "options": [
+      "Terminating",
+      "Repeating only",
+      "Neither repeating nor terminating",
+      "Both repeating and terminating"
+    ],
+    "answer": 2,
+    "explanation": "Irrationals have infinite non-repeating decimal expansions."
+  },
+  {
+    "id": "math-890",
+    "subject": "math",
+    "topic": "Calculus",
+    "question": "7.635 × 4.81 in significant figures (3 sig figs) gives",
+    "options": [
+      "36.72435",
+      "36.724",
+      "36.72",
+      "36.7"
+    ],
+    "answer": 3,
+    "explanation": "3 significant figures: 36.7."
+  },
+  {
+    "id": "math-891",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "The additive inverse of real numbers (identity for addition) is",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "answer": 0,
+    "explanation": "The additive identity is 0; every real number a + 0 = a."
   }
 ]

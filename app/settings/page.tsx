@@ -15,18 +15,18 @@ export default function SettingsPage() {
     try {
       const parsed = JSON.parse(importText);
       const qs: Question[] = Array.isArray(parsed) ? parsed : parsed.questions;
-      if (!qs?.length) { setImportStatus('❌ No questions found'); return; }
+      if (!qs?.length) { setImportStatus('No questions found'); return; }
       addCustomQuestions(qs);
-      setImportStatus(`✅ Added ${qs.length} question(s). Total custom: ${customQuestions.length + qs.length}`);
+      setImportStatus(`Added ${qs.length} question(s). Total custom: ${customQuestions.length + qs.length}`);
       setImportText('');
     } catch {
-      setImportStatus('❌ Invalid JSON');
+      setImportStatus('Invalid JSON');
     }
   };
 
   const handlePushToApi = async () => {
-    if (!apiUrl || !apiKey) { setPushStatus('❌ Fill in URL and key'); return; }
-    if (!customQuestions.length) { setPushStatus('❌ No custom questions to push'); return; }
+    if (!apiUrl || !apiKey) { setPushStatus('Fill in URL and key'); return; }
+    if (!customQuestions.length) { setPushStatus('No custom questions to push'); return; }
     setPushStatus('Pushing…');
     try {
       const res = await fetch(`${apiUrl}/api/questions`, {
@@ -35,10 +35,10 @@ export default function SettingsPage() {
         body: JSON.stringify({ questions: customQuestions }),
       });
       const data = await res.json();
-      if (!res.ok) setPushStatus(`❌ ${data.error}`);
-      else setPushStatus(`✅ ${data.message}`);
+      if (!res.ok) setPushStatus(`Error: ${data.error}`);
+      else setPushStatus(data.message);
     } catch {
-      setPushStatus('❌ Network error');
+      setPushStatus('Network error');
     }
   };
 
@@ -60,7 +60,7 @@ export default function SettingsPage() {
         <div className="flex gap-2">
           {(['light', 'dark', 'auto'] as const).map((t) => (
             <button key={t} onClick={() => setTheme(t)}
-              className={`flex-1 py-2 rounded-xl text-sm font-semibold capitalize border transition-colors ${settings.theme === t ? 'bg-indigo-600 text-white border-indigo-600' : 'border-gray-200 dark:border-white/10'}`}
+              className={`flex-1 py-2 rounded-xl text-sm font-semibold capitalize border transition-colors ${settings.theme === t ? 'bg-purple-600 text-white border-purple-600' : 'border-gray-200 dark:border-white/10'}`}
               style={settings.theme !== t ? { color: 'var(--mute)' } : undefined}>
               {t}
             </button>
@@ -70,10 +70,10 @@ export default function SettingsPage() {
 
       {/* Target */}
       <section className="rounded-2xl border p-5" style={{ background: 'var(--card)', borderColor: 'var(--line)' }}>
-        <h2 className="font-bold mb-3">Target score: <span className="text-indigo-600">{settings.targetScore}</span></h2>
+        <h2 className="font-bold mb-3">Target score: <span className="text-purple-600">{settings.targetScore}</span></h2>
         <input type="range" min={100} max={200} value={settings.targetScore}
           onChange={(e) => setTargetScore(Number(e.target.value))}
-          className="w-full accent-indigo-600" />
+          className="w-full accent-purple-600" />
         <div className="flex justify-between text-xs mt-1" style={{ color: 'var(--mute)' }}>
           <span>100</span><span>150</span><span>180</span><span>200</span>
         </div>
@@ -94,7 +94,7 @@ export default function SettingsPage() {
           style={{ background: 'var(--bg)', borderColor: 'var(--line)', color: 'var(--ink)', resize: 'vertical' }}
         />
         <div className="flex gap-2 mt-2">
-          <button onClick={handleImport} className="flex-1 py-2 rounded-xl bg-indigo-600 text-white text-sm font-bold">
+          <button onClick={handleImport} className="flex-1 py-2 rounded-xl bg-purple-600 text-white text-sm font-bold">
             Import
           </button>
           {customQuestions.length > 0 && (

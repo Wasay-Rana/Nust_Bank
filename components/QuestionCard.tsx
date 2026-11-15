@@ -43,7 +43,7 @@ export function QuestionCard({ question: q, onAnswer, instant = true, showResult
     const base = 'flex items-start gap-3 p-3.5 rounded-xl border text-sm cursor-pointer select-none transition-all';
     if (!revealed) {
       return `${base} ${selected === i
-        ? 'border-indigo-500 bg-indigo-50 dark:bg-indigo-950/30'
+        ? 'border-purple-500 bg-purple-50 dark:bg-purple-950/30'
         : 'border-transparent hover:border-gray-300 dark:hover:border-white/20'
       }`;
     }
@@ -84,7 +84,7 @@ export function QuestionCard({ question: q, onAnswer, instant = true, showResult
         <button
           onClick={submit}
           disabled={selected === -1}
-          className="mt-4 w-full py-2.5 rounded-xl font-semibold text-sm bg-indigo-600 text-white disabled:opacity-40 hover:bg-indigo-700 transition-colors"
+          className="mt-4 w-full py-2.5 rounded-xl font-semibold text-sm bg-purple-600 text-white disabled:opacity-40 hover:bg-purple-700 transition-colors"
         >
           Confirm answer
         </button>
