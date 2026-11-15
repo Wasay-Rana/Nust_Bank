@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 
 function IconDashboard() {
@@ -79,14 +80,9 @@ export function Nav() {
           boxShadow: 'inset 0 1px 0 var(--glass-highlight), 0 12px 36px -16px var(--glass-shadow)',
         }}
       >
-        <div className="flex items-center gap-2 px-2.5 pb-6">
-          <span
-            className="rounded-lg px-2 py-1 text-sm font-bold tracking-tight"
-            style={{ background: 'linear-gradient(135deg, #7c3aed, #a21caf)', color: '#fff' }}
-          >
-            NPB
-          </span>
-          <span className="font-bold text-[15px]" style={{ color: 'var(--ink)' }}>Nust Prep Bank</span>
+        <div className="flex items-center gap-2.5 px-2.5 pb-6">
+          <Image src="/icon-192.png" alt="" width={30} height={30} className="rounded-[9px]" />
+          <span className="font-bold text-[15px] leading-tight" style={{ color: 'var(--ink)' }}>Nust Prep Bank</span>
         </div>
         {links.map((l) => (
           <Link
