@@ -7474,5 +7474,2007 @@
     ],
     "answer": 0,
     "explanation": "The additive identity is 0; every real number a + 0 = a."
+  },
+  {
+    "id": "math-kips-534",
+    "subject": "math",
+    "topic": "Number System",
+    "question": "If a and b are real numbers then a + b is also a real number. This property is called",
+    "options": [
+      "Closure law",
+      "Commutative law",
+      "Associative law",
+      "Distributive law"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "math-kips-535",
+    "subject": "math",
+    "topic": "Number System",
+    "question": "If a ∈ ℝ, then the multiplicative inverse of a is",
+    "options": [
+      "0",
+      "a",
+      "1/a",
+      "-a"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-536",
+    "subject": "math",
+    "topic": "Number System",
+    "question": "Which of the following is a field?",
+    "options": [
+      "ℚ (Rational numbers)",
+      "ℕ (Natural numbers)",
+      "ℤ (Integers)",
+      "None of these"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "math-kips-537",
+    "subject": "math",
+    "topic": "Number System",
+    "question": "The property -3 > -5 illustrates",
+    "options": [
+      "Additive property",
+      "Transitive property",
+      "Multiplicative property",
+      "Closure property"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-538",
+    "subject": "math",
+    "topic": "Number System",
+    "question": "If a = b and c = d where a,b,c,d ∈ ℝ, then",
+    "options": [
+      "a + b = c + d",
+      "a - b = c + d",
+      "a + c = b + d",
+      "a - c = b + d"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-539",
+    "subject": "math",
+    "topic": "Number System",
+    "question": "The additive identity element in ℝ is",
+    "options": [
+      "1",
+      "0",
+      "-1",
+      "None of these"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-540",
+    "subject": "math",
+    "topic": "Number System",
+    "question": "The multiplicative identity element in ℝ is",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "1/a"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-541",
+    "subject": "math",
+    "topic": "Number System",
+    "question": "Which of the following sets is NOT closed under multiplication?",
+    "options": [
+      "ℤ (Integers)",
+      "ℕ (Natural numbers)",
+      "ℚ (Rational numbers)",
+      "Irrational numbers"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "math-kips-542",
+    "subject": "math",
+    "topic": "Number System",
+    "question": "For a, b ∈ ℝ, a·b = b·a is called the",
+    "options": [
+      "Associative law of multiplication",
+      "Commutative law of multiplication",
+      "Distributive law",
+      "Closure law"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-543",
+    "subject": "math",
+    "topic": "Number System",
+    "question": "For a, b, c ∈ ℝ, (a + b) + c = a + (b + c) is called the",
+    "options": [
+      "Commutative law of addition",
+      "Associative law of addition",
+      "Distributive law",
+      "Closure law"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-544",
+    "subject": "math",
+    "topic": "Number System",
+    "question": "For a, b, c ∈ ℝ, a(b + c) = ab + ac is called the",
+    "options": [
+      "Associative law",
+      "Commutative law",
+      "Distributive law",
+      "Closure law"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-545",
+    "subject": "math",
+    "topic": "Complex Numbers",
+    "question": "The value of i² is",
+    "options": [
+      "1",
+      "-1",
+      "i",
+      "-i"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-546",
+    "subject": "math",
+    "topic": "Complex Numbers",
+    "question": "The value of i³ is",
+    "options": [
+      "1",
+      "-1",
+      "i",
+      "-i"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "math-kips-547",
+    "subject": "math",
+    "topic": "Complex Numbers",
+    "question": "The value of i⁴ is",
+    "options": [
+      "1",
+      "-1",
+      "i",
+      "-i"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "math-kips-548",
+    "subject": "math",
+    "topic": "Complex Numbers",
+    "question": "If Z₁ = (x₁, y₁) and Z₂ = (x₂, y₂) where Z₁, Z₂ ∈ ℂ, then Z₁ + Z₂ equals",
+    "options": [
+      "(x₁ + x₂, y₁ + y₂)",
+      "(x₁ + y₂, x₂ + y₁)",
+      "(x₁ + y₁, x₂ + y₂)",
+      "(x₂, y₁ - y₂)"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "math-kips-549",
+    "subject": "math",
+    "topic": "Complex Numbers",
+    "question": "If Z₁ = 3 - 6i and Z₂ = 4 + 5i, then Z₁Z₂ equals",
+    "options": [
+      "42 - 9i",
+      "9 - 42i",
+      "42 + 9i",
+      "-42 + 9i"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "math-kips-550",
+    "subject": "math",
+    "topic": "Complex Numbers",
+    "question": "If Z₁ = (1, 0) and Z₂ = (2, 3), then Z₁Z₂ equals",
+    "options": [
+      "-2 + 3i",
+      "2 - 3i",
+      "2 + 3i",
+      "-2 - 3i"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-551",
+    "subject": "math",
+    "topic": "Complex Numbers",
+    "question": "The additive inverse of (3, 3) in ℂ is",
+    "options": [
+      "(1, 0)",
+      "(0, 3)",
+      "(-3, 3)",
+      "(-3, -3)"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "math-kips-552",
+    "subject": "math",
+    "topic": "Complex Numbers",
+    "question": "If Z = a + bi, then the modulus |Z| equals",
+    "options": [
+      "a + b",
+      "√(a² + b²)",
+      "a + b²",
+      "a² + b²"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-553",
+    "subject": "math",
+    "topic": "Complex Numbers",
+    "question": "If Z = a + bi, the conjugate Z̄ equals",
+    "options": [
+      "a - bi",
+      "a + bi",
+      "-a + bi",
+      "-a - bi"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "math-kips-554",
+    "subject": "math",
+    "topic": "Complex Numbers",
+    "question": "The modulus of |4 + 6i| is",
+    "options": [
+      "10",
+      "2√13",
+      "4 + 6",
+      "√12"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-555",
+    "subject": "math",
+    "topic": "Complex Numbers",
+    "question": "The product of all cube roots of unity is",
+    "options": [
+      "-1",
+      "0",
+      "1",
+      "i"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-556",
+    "subject": "math",
+    "topic": "Complex Numbers",
+    "question": "If ω is a cube root of unity, then 1 + ω + ω² equals",
+    "options": [
+      "1",
+      "-1",
+      "ω",
+      "0"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "math-kips-557",
+    "subject": "math",
+    "topic": "Complex Numbers",
+    "question": "If ω is a primitive cube root of unity, then ω³ equals",
+    "options": [
+      "ω",
+      "ω²",
+      "0",
+      "1"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "math-kips-558",
+    "subject": "math",
+    "topic": "Complex Numbers",
+    "question": "The real part of the complex number 3 - 4i is",
+    "options": [
+      "-4",
+      "4",
+      "3",
+      "-3"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-559",
+    "subject": "math",
+    "topic": "Complex Numbers",
+    "question": "The imaginary part of the complex number 3 - 4i is",
+    "options": [
+      "3",
+      "-3",
+      "4",
+      "-4"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "math-kips-560",
+    "subject": "math",
+    "topic": "Complex Numbers",
+    "question": "The modulus of |1 + i·tan α| equals",
+    "options": [
+      "tan α",
+      "cos α",
+      "sec α",
+      "sin α"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-561",
+    "subject": "math",
+    "topic": "Complex Numbers",
+    "question": "If Z₁ and Z₂ are complex numbers, then |Z₁Z₂| equals",
+    "options": [
+      "|Z₁| + |Z₂|",
+      "|Z₁||Z₂|",
+      "|Z₁| - |Z₂|",
+      "|Z₁|/|Z₂|"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-562",
+    "subject": "math",
+    "topic": "Complex Numbers",
+    "question": "arg(Z₁Z₂) equals",
+    "options": [
+      "arg Z₁ · arg Z₂",
+      "arg Z₁ + arg Z₂",
+      "arg Z₁ - arg Z₂",
+      "arg Z₁ / arg Z₂"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-563",
+    "subject": "math",
+    "topic": "Sets",
+    "question": "The union of all even integers and all odd integers is",
+    "options": [
+      "ℤ, the set of all integers",
+      "ℕ, the set of natural numbers",
+      "ℤ⁺, positive whole numbers",
+      "ℤ⁻, negative whole numbers"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "math-kips-564",
+    "subject": "math",
+    "topic": "Sets",
+    "question": "A ∪ A' (A union complement of A) equals",
+    "options": [
+      "A",
+      "∅ (empty set)",
+      "U (universal set)",
+      "A ∩ A'"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-565",
+    "subject": "math",
+    "topic": "Sets",
+    "question": "A ∩ A' (A intersection complement of A) equals",
+    "options": [
+      "A",
+      "U (universal set)",
+      "∅ (empty set)",
+      "A ∪ A'"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-566",
+    "subject": "math",
+    "topic": "Sets",
+    "question": "If A = {1, 2} and B = {3, 4}, then A × B has how many elements?",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-567",
+    "subject": "math",
+    "topic": "Sets",
+    "question": "A - B = B - A if and only if",
+    "options": [
+      "A ⊂ B",
+      "B ⊂ A",
+      "A = B",
+      "A ∩ B = ∅"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-568",
+    "subject": "math",
+    "topic": "Sets",
+    "question": "A × B = B × A if and only if",
+    "options": [
+      "A ⊂ B",
+      "B ⊂ A",
+      "A = B",
+      "A ∩ B = ∅"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-569",
+    "subject": "math",
+    "topic": "Sets",
+    "question": "If n(A) = 3, then the number of subsets of A is",
+    "options": [
+      "3",
+      "6",
+      "8",
+      "9"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-570",
+    "subject": "math",
+    "topic": "Sets",
+    "question": "The number of subsets of a set with n elements is",
+    "options": [
+      "2n",
+      "n²",
+      "2ⁿ",
+      "n!"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-571",
+    "subject": "math",
+    "topic": "Sets",
+    "question": "By De Morgan's law, (A ∪ B)' equals",
+    "options": [
+      "A' ∪ B'",
+      "A' ∩ B'",
+      "A ∩ B",
+      "A ∪ B"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-572",
+    "subject": "math",
+    "topic": "Sets",
+    "question": "By De Morgan's law, (A ∩ B)' equals",
+    "options": [
+      "A' ∩ B'",
+      "A' ∪ B'",
+      "A ∪ B",
+      "A ∩ B"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-573",
+    "subject": "math",
+    "topic": "Sets",
+    "question": "If n(A) = 20, n(B) = 30, and n(A ∩ B) = 10, then n(A ∪ B) equals",
+    "options": [
+      "40",
+      "50",
+      "60",
+      "30"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "math-kips-574",
+    "subject": "math",
+    "topic": "Sets",
+    "question": "If a set A has 3 elements and B has 6 elements such that A ⊂ B, the number of elements in B is",
+    "options": [
+      "3",
+      "6",
+      "9",
+      "18"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-575",
+    "subject": "math",
+    "topic": "Groups",
+    "question": "The identity element in ℤ with respect to addition is",
+    "options": [
+      "1",
+      "0",
+      "-1",
+      "None"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-576",
+    "subject": "math",
+    "topic": "Groups",
+    "question": "The identity element in ℝ with respect to multiplication is",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "None"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-577",
+    "subject": "math",
+    "topic": "Groups",
+    "question": "A non-empty set G with a binary operation * is a group if it satisfies",
+    "options": [
+      "Closure and associativity",
+      "Closure, associativity, identity and inverse",
+      "Closure and commutativity",
+      "Only closure"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-578",
+    "subject": "math",
+    "topic": "Groups",
+    "question": "A semi-group that also has an identity element is called a",
+    "options": [
+      "Group",
+      "Monoid",
+      "Abelian group",
+      "Groupoid"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-579",
+    "subject": "math",
+    "topic": "Groups",
+    "question": "A group G is called Abelian if it satisfies the",
+    "options": [
+      "Associative law",
+      "Commutative law",
+      "Distributive law",
+      "Closure law"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-580",
+    "subject": "math",
+    "topic": "Groups",
+    "question": "Every element of a group has",
+    "options": [
+      "No inverse",
+      "Exactly one inverse",
+      "At least two inverses",
+      "Infinitely many inverses"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-581",
+    "subject": "math",
+    "topic": "Groups",
+    "question": "The set {1, -1, i, -i} forms a group under",
+    "options": [
+      "Addition",
+      "Multiplication",
+      "Division",
+      "Subtraction"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-582",
+    "subject": "math",
+    "topic": "Groups",
+    "question": "If x * y = 3xy, the identity element with respect to * is",
+    "options": [
+      "3",
+      "1",
+      "1/3",
+      "0"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-583",
+    "subject": "math",
+    "topic": "Groups",
+    "question": "The order of the group (ℤ, +) of integers under addition is",
+    "options": [
+      "Finite",
+      "Infinite",
+      "2",
+      "4"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-584",
+    "subject": "math",
+    "topic": "Groups",
+    "question": "Which of the following is NOT a group under multiplication?",
+    "options": [
+      "ℚ \\ {0}",
+      "ℝ \\ {0}",
+      "ℤ \\ {0}",
+      "ℂ \\ {0}"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-585",
+    "subject": "math",
+    "topic": "Matrices",
+    "question": "A matrix of order 1 × m (1 row, m columns) is called a",
+    "options": [
+      "Column matrix",
+      "Row matrix",
+      "Square matrix",
+      "Null matrix"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-586",
+    "subject": "math",
+    "topic": "Matrices",
+    "question": "A matrix of order n × 1 (n rows, 1 column) is called a",
+    "options": [
+      "Row matrix",
+      "Square matrix",
+      "Column matrix",
+      "Diagonal matrix"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-587",
+    "subject": "math",
+    "topic": "Matrices",
+    "question": "If A is a square matrix and I is the identity matrix, then AI = IA = ____",
+    "options": [
+      "I",
+      "0",
+      "A",
+      "None of these"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-588",
+    "subject": "math",
+    "topic": "Matrices",
+    "question": "A square matrix A is called symmetric if",
+    "options": [
+      "A = -Aᵀ",
+      "Aᵀ = -A",
+      "A = Aᵀ",
+      "A = A⁻¹"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-589",
+    "subject": "math",
+    "topic": "Matrices",
+    "question": "A square matrix A is called skew-symmetric if",
+    "options": [
+      "A = Aᵀ",
+      "Aᵀ = -A",
+      "A = A⁻¹",
+      "A = 0"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-590",
+    "subject": "math",
+    "topic": "Matrices",
+    "question": "If each element in any row of a square matrix is 0, then the value of its determinant is",
+    "options": [
+      "1",
+      "-1",
+      "0",
+      "Undefined"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-591",
+    "subject": "math",
+    "topic": "Matrices",
+    "question": "If any two rows (or columns) of a square matrix A are interchanged, then |A| becomes",
+    "options": [
+      "0",
+      "2|A|",
+      "Additive inverse of |A|",
+      "Multiplicative inverse of |A|"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-592",
+    "subject": "math",
+    "topic": "Matrices",
+    "question": "A square matrix A is singular if",
+    "options": [
+      "|A| = 1",
+      "|A| = -1",
+      "|A| = 0",
+      "A = I"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-593",
+    "subject": "math",
+    "topic": "Matrices",
+    "question": "The trace of a matrix is defined as the",
+    "options": [
+      "Sum of all elements",
+      "Product of diagonal elements",
+      "Sum of diagonal elements",
+      "Determinant of the matrix"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-594",
+    "subject": "math",
+    "topic": "Matrices",
+    "question": "A square matrix in which all diagonal elements are equal and all off-diagonal elements are zero is called a",
+    "options": [
+      "Null matrix",
+      "Diagonal matrix",
+      "Scalar matrix",
+      "Unit matrix"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-595",
+    "subject": "math",
+    "topic": "Matrices",
+    "question": "The cofactor Cᵢⱼ of element aᵢⱼ is",
+    "options": [
+      "(-1)ⁱ⁺ʲ Mᵢⱼ",
+      "(-1)ⁱ Mᵢⱼ",
+      "Mᵢⱼ",
+      "(-1)ʲ Mᵢⱼ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "math-kips-596",
+    "subject": "math",
+    "topic": "Matrices",
+    "question": "The adjoint of a matrix A is the transpose of the",
+    "options": [
+      "Matrix A itself",
+      "Cofactor matrix of A",
+      "Inverse of A",
+      "Minor matrix of A"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-597",
+    "subject": "math",
+    "topic": "Matrices",
+    "question": "If A is a square matrix of order n, then |kA| equals",
+    "options": [
+      "k|A|",
+      "k²|A|",
+      "kⁿ|A|",
+      "n|A|"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-598",
+    "subject": "math",
+    "topic": "Quadratic Equations",
+    "question": "If the discriminant b² - 4ac > 0, the roots of ax² + bx + c = 0 are",
+    "options": [
+      "Equal real roots",
+      "Two distinct real roots",
+      "Complex (imaginary) roots",
+      "Rational and equal"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-599",
+    "subject": "math",
+    "topic": "Quadratic Equations",
+    "question": "If the discriminant b² - 4ac = 0, the roots of ax² + bx + c = 0 are",
+    "options": [
+      "Two distinct real roots",
+      "Complex roots",
+      "Equal (repeated) real roots",
+      "Irrational roots"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-600",
+    "subject": "math",
+    "topic": "Quadratic Equations",
+    "question": "If the discriminant b² - 4ac < 0, the roots of ax² + bx + c = 0 are",
+    "options": [
+      "Two distinct real roots",
+      "Equal real roots",
+      "Complex (imaginary) roots",
+      "Rational roots"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-601",
+    "subject": "math",
+    "topic": "Quadratic Equations",
+    "question": "By the Remainder Theorem, when f(x) is divided by (x - a), the remainder is",
+    "options": [
+      "f(0)",
+      "f(1)",
+      "f(a)",
+      "f(-a)"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-602",
+    "subject": "math",
+    "topic": "Quadratic Equations",
+    "question": "For the quadratic equation ax² + bx + c = 0, the sum of roots α + β equals",
+    "options": [
+      "b/a",
+      "-b/a",
+      "c/a",
+      "-c/a"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-603",
+    "subject": "math",
+    "topic": "Quadratic Equations",
+    "question": "For the quadratic equation ax² + bx + c = 0, the product of roots αβ equals",
+    "options": [
+      "b/a",
+      "-b/a",
+      "c/a",
+      "-c/a"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-604",
+    "subject": "math",
+    "topic": "Quadratic Equations",
+    "question": "The quadratic formula gives: x = [-b ± √(b² - 4ac)] / ____",
+    "options": [
+      "a",
+      "2a",
+      "4a",
+      "-2a"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-605",
+    "subject": "math",
+    "topic": "Quadratic Equations",
+    "question": "If α and β are roots of x² - 5x + 6 = 0, then α + β equals",
+    "options": [
+      "6",
+      "5",
+      "-5",
+      "-6"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-606",
+    "subject": "math",
+    "topic": "Quadratic Equations",
+    "question": "If α and β are roots of x² - 5x + 6 = 0, then αβ equals",
+    "options": [
+      "5",
+      "6",
+      "-5",
+      "-6"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-607",
+    "subject": "math",
+    "topic": "Sequences & Series",
+    "question": "The general term (nth term) of an arithmetic sequence is",
+    "options": [
+      "a + nd",
+      "a + (n-1)d",
+      "a - (n-1)d",
+      "na + d"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-608",
+    "subject": "math",
+    "topic": "Sequences & Series",
+    "question": "The sum of n terms of an arithmetic series is",
+    "options": [
+      "n(a + l)/2",
+      "n/2 · [2a + (n-1)d]",
+      "Both A and B",
+      "n·a·d"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-609",
+    "subject": "math",
+    "topic": "Sequences & Series",
+    "question": "The geometric mean between a and b is",
+    "options": [
+      "(a + b)/2",
+      "√(ab)",
+      "ab",
+      "2ab/(a+b)"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-610",
+    "subject": "math",
+    "topic": "Sequences & Series",
+    "question": "The arithmetic mean between a and b is",
+    "options": [
+      "√(ab)",
+      "(a + b)/2",
+      "2ab/(a+b)",
+      "ab"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-611",
+    "subject": "math",
+    "topic": "Sequences & Series",
+    "question": "The sum to infinity of a geometric series with first term a and |r| < 1 is",
+    "options": [
+      "a/(1+r)",
+      "a/(1-r)",
+      "ar/(1-r)",
+      "a(1-r)"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-612",
+    "subject": "math",
+    "topic": "Sequences & Series",
+    "question": "Three numbers a, b, c are in Arithmetic Progression (AP) if",
+    "options": [
+      "b - a = c - b",
+      "a - b = b - c",
+      "a + c = 2b",
+      "Both A and C"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "math-kips-613",
+    "subject": "math",
+    "topic": "Sequences & Series",
+    "question": "The nth term of a geometric sequence is",
+    "options": [
+      "arⁿ",
+      "ar^(n-1)",
+      "a + (n-1)r",
+      "a·n·r"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-614",
+    "subject": "math",
+    "topic": "Sequences & Series",
+    "question": "The sum of n terms of a geometric series (r ≠ 1) is",
+    "options": [
+      "a(rⁿ - 1)/(r - 1)",
+      "a(1 - rⁿ)/(1 - r)",
+      "Both A and B",
+      "a·rⁿ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-615",
+    "subject": "math",
+    "topic": "Sequences & Series",
+    "question": "Three numbers a, b, c are in Geometric Progression (GP) if",
+    "options": [
+      "b/a = c/b",
+      "a/b = b/c",
+      "b² = ac",
+      "Both A and C"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "math-kips-616",
+    "subject": "math",
+    "topic": "Sequences & Series",
+    "question": "If Sₙ is the sum of n terms of an AP, then the nth term aₙ equals",
+    "options": [
+      "Sₙ - Sₙ₊₁",
+      "Sₙ₊₁ - Sₙ",
+      "Sₙ - Sₙ₋₁",
+      "Sₙ₋₁ - Sₙ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-617",
+    "subject": "math",
+    "topic": "Permutation & Combination",
+    "question": "The value of 0! (zero factorial) is",
+    "options": [
+      "0",
+      "Undefined",
+      "1",
+      "∞"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-618",
+    "subject": "math",
+    "topic": "Permutation & Combination",
+    "question": "nPr = n! / ____",
+    "options": [
+      "r!",
+      "(n-r)!",
+      "n! / r!",
+      "r!(n-r)!"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-619",
+    "subject": "math",
+    "topic": "Permutation & Combination",
+    "question": "nCr = n! / ____",
+    "options": [
+      "r!",
+      "(n-r)!",
+      "r!(n-r)!",
+      "(n+r)!"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-620",
+    "subject": "math",
+    "topic": "Permutation & Combination",
+    "question": "nPr is related to nCr by: nPr = ____",
+    "options": [
+      "nCr + r!",
+      "nCr · r!",
+      "nCr / r!",
+      "r · nCr"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-621",
+    "subject": "math",
+    "topic": "Permutation & Combination",
+    "question": "nCr = nC(n-r). This means nC₀ equals",
+    "options": [
+      "0",
+      "n",
+      "1",
+      "n!"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-622",
+    "subject": "math",
+    "topic": "Permutation & Combination",
+    "question": "The number of ways to arrange n distinct objects in a row is",
+    "options": [
+      "n",
+      "n²",
+      "n!",
+      "2ⁿ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-623",
+    "subject": "math",
+    "topic": "Permutation & Combination",
+    "question": "nCr + nC(r-1) = ____",
+    "options": [
+      "(n-1)Cr",
+      "(n+1)Cr",
+      "nC(r+1)",
+      "(n+1)C(r+1)"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-624",
+    "subject": "math",
+    "topic": "Permutation & Combination",
+    "question": "The number of diagonals of a polygon with n sides is",
+    "options": [
+      "nC₂ - n",
+      "n(n-3)/2",
+      "Both A and B",
+      "nP₂ / 2"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-625",
+    "subject": "math",
+    "topic": "Permutation & Combination",
+    "question": "5! equals",
+    "options": [
+      "25",
+      "60",
+      "120",
+      "720"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-626",
+    "subject": "math",
+    "topic": "Permutation & Combination",
+    "question": "⁵C₂ equals",
+    "options": [
+      "5",
+      "10",
+      "20",
+      "25"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-627",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "The value of sin²θ + cos²θ equals",
+    "options": [
+      "0",
+      "2",
+      "−1",
+      "1"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "math-kips-628",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "The value of sin(-θ) equals",
+    "options": [
+      "sin θ",
+      "cos θ",
+      "-sin θ",
+      "-cos θ"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-629",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "The value of cos(-θ) equals",
+    "options": [
+      "cos θ",
+      "sin θ",
+      "-cos θ",
+      "-sin θ"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "math-kips-630",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "The period of sin x is",
+    "options": [
+      "π",
+      "2π",
+      "π/2",
+      "4π"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-631",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "The period of tan x is",
+    "options": [
+      "2π",
+      "π/2",
+      "π",
+      "4π"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-632",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "1 radian equals approximately",
+    "options": [
+      "90°",
+      "57.3°",
+      "45°",
+      "30°"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-633",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "sin 2x equals",
+    "options": [
+      "2 sin x",
+      "cos²x - sin²x",
+      "2 sin x cos x",
+      "sin x cos x"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-634",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "cos 2x equals",
+    "options": [
+      "2 cos x",
+      "1 - 2 sin²x",
+      "2 cos²x - 1",
+      "Both B and C"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "math-kips-635",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "1 + tan²θ equals",
+    "options": [
+      "sec θ",
+      "sec²θ",
+      "cosec²θ",
+      "cot²θ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-636",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "The value of sin 90° is",
+    "options": [
+      "0",
+      "1/2",
+      "1",
+      "√3/2"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-637",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "The value of cos 90° is",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "1/2"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "math-kips-638",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "The value of sin 30° is",
+    "options": [
+      "√3/2",
+      "1/2",
+      "1",
+      "√2/2"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-639",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "The value of cos 60° is",
+    "options": [
+      "√3/2",
+      "0",
+      "1/2",
+      "1"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-640",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "The value of tan 45° is",
+    "options": [
+      "0",
+      "√3",
+      "1/√3",
+      "1"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "math-kips-641",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "Law of Cosines states: a² = ____",
+    "options": [
+      "b² + c² + 2bc cos A",
+      "b² - c² + 2bc cos A",
+      "b² + c² - 2bc cos A",
+      "b² + c² - 2bc sin A"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-642",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "In any triangle ABC, by the Law of Sines: a/sin A = ____",
+    "options": [
+      "b/sin B",
+      "c/sin C",
+      "Both A and B",
+      "2R (circumradius × 2)"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-643",
+    "subject": "math",
+    "topic": "Probability",
+    "question": "The probability of a certain (sure) event is",
+    "options": [
+      "0",
+      "1/2",
+      "1",
+      "Cannot be determined"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-644",
+    "subject": "math",
+    "topic": "Probability",
+    "question": "The probability of an impossible event is",
+    "options": [
+      "1",
+      "1/2",
+      "0",
+      "−1"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-645",
+    "subject": "math",
+    "topic": "Probability",
+    "question": "If two dice are rolled, the probability that the sum is 7 is",
+    "options": [
+      "1/12",
+      "5/36",
+      "1/6",
+      "7/36"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-646",
+    "subject": "math",
+    "topic": "Probability",
+    "question": "A card is drawn from a deck of 52. The probability of drawing a king is",
+    "options": [
+      "1/52",
+      "4/52 = 1/13",
+      "1/4",
+      "13/52"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-647",
+    "subject": "math",
+    "topic": "Probability",
+    "question": "For two mutually exclusive events A and B, P(A ∪ B) equals",
+    "options": [
+      "P(A) · P(B)",
+      "P(A) + P(B)",
+      "P(A) - P(B)",
+      "P(A) + P(B) - P(A ∩ B)"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-648",
+    "subject": "math",
+    "topic": "Probability",
+    "question": "For any event A, P(A') (probability of complement) equals",
+    "options": [
+      "P(A)",
+      "1 + P(A)",
+      "1 - P(A)",
+      "0"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-649",
+    "subject": "math",
+    "topic": "Probability",
+    "question": "The probability of any event A satisfies",
+    "options": [
+      "0 < P(A) < 1",
+      "0 < P(A) ≤ 1",
+      "0 ≤ P(A) ≤ 1",
+      "-1 ≤ P(A) ≤ 1"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-650",
+    "subject": "math",
+    "topic": "Probability",
+    "question": "If a coin is tossed twice, the probability of getting at least one head is",
+    "options": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-651",
+    "subject": "math",
+    "topic": "Probability",
+    "question": "Two events A and B are independent if P(A ∩ B) equals",
+    "options": [
+      "P(A) + P(B)",
+      "P(A) - P(B)",
+      "P(A) · P(B)",
+      "P(A) / P(B)"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-652",
+    "subject": "math",
+    "topic": "Mathematical Logic",
+    "question": "A statement that is always true is called a",
+    "options": [
+      "Contradiction",
+      "Contingency",
+      "Tautology",
+      "Proposition"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-653",
+    "subject": "math",
+    "topic": "Mathematical Logic",
+    "question": "A statement that is always false is called a",
+    "options": [
+      "Tautology",
+      "Contingency",
+      "Proposition",
+      "Contradiction"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "math-kips-654",
+    "subject": "math",
+    "topic": "Mathematical Logic",
+    "question": "The contrapositive of p → q is",
+    "options": [
+      "q → p",
+      "~p → ~q",
+      "~q → ~p",
+      "p → ~q"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-655",
+    "subject": "math",
+    "topic": "Mathematical Logic",
+    "question": "The converse of p → q is",
+    "options": [
+      "~p → ~q",
+      "q → p",
+      "~q → ~p",
+      "p → ~q"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-656",
+    "subject": "math",
+    "topic": "Mathematical Logic",
+    "question": "The inverse of p → q is",
+    "options": [
+      "q → p",
+      "~q → ~p",
+      "~p → ~q",
+      "p → ~q"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-657",
+    "subject": "math",
+    "topic": "Mathematical Logic",
+    "question": "p ∧ q (conjunction) is true when",
+    "options": [
+      "p is true",
+      "q is true",
+      "Both p and q are true",
+      "At least one of p, q is true"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-658",
+    "subject": "math",
+    "topic": "Mathematical Logic",
+    "question": "p ∨ q (disjunction) is false when",
+    "options": [
+      "p is false",
+      "q is false",
+      "Both p and q are false",
+      "p is true"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-659",
+    "subject": "math",
+    "topic": "Limits",
+    "question": "lim(x→0) [sin x / x] equals",
+    "options": [
+      "0",
+      "∞",
+      "sin 0",
+      "1"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "math-kips-660",
+    "subject": "math",
+    "topic": "Limits",
+    "question": "lim(x→0) [(1 - cos x) / x] equals",
+    "options": [
+      "1",
+      "0",
+      "∞",
+      "-1"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-661",
+    "subject": "math",
+    "topic": "Differentiation",
+    "question": "d/dx (sin x) equals",
+    "options": [
+      "-cos x",
+      "cos x",
+      "-sin x",
+      "tan x"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-662",
+    "subject": "math",
+    "topic": "Differentiation",
+    "question": "d/dx (cos x) equals",
+    "options": [
+      "sin x",
+      "cos x",
+      "-sin x",
+      "-cos x"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-663",
+    "subject": "math",
+    "topic": "Differentiation",
+    "question": "d/dx (tan x) equals",
+    "options": [
+      "sec x",
+      "cot x",
+      "sec²x",
+      "cosec²x"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-664",
+    "subject": "math",
+    "topic": "Differentiation",
+    "question": "d/dx (eˣ) equals",
+    "options": [
+      "eˣ⁻¹",
+      "xeˣ⁻¹",
+      "eˣ",
+      "e"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-665",
+    "subject": "math",
+    "topic": "Differentiation",
+    "question": "d/dx (ln x) equals",
+    "options": [
+      "ln x",
+      "1",
+      "1/x",
+      "x"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-666",
+    "subject": "math",
+    "topic": "Differentiation",
+    "question": "d/dx (xⁿ) equals",
+    "options": [
+      "xⁿ⁻¹",
+      "nxⁿ⁻¹",
+      "nxⁿ",
+      "(n-1)xⁿ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-667",
+    "subject": "math",
+    "topic": "Differentiation",
+    "question": "d/dx (constant) equals",
+    "options": [
+      "1",
+      "The constant itself",
+      "Undefined",
+      "0"
+    ],
+    "answer": 3
+  },
+  {
+    "id": "math-kips-668",
+    "subject": "math",
+    "topic": "Integration",
+    "question": "∫ xⁿ dx equals (n ≠ -1)",
+    "options": [
+      "xⁿ⁺¹/(n+1) + C",
+      "xⁿ⁻¹/(n-1) + C",
+      "nxⁿ⁻¹ + C",
+      "xⁿ + C"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "math-kips-669",
+    "subject": "math",
+    "topic": "Integration",
+    "question": "∫ eˣ dx equals",
+    "options": [
+      "eˣ⁻¹ + C",
+      "xeˣ + C",
+      "eˣ + C",
+      "e + C"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-670",
+    "subject": "math",
+    "topic": "Integration",
+    "question": "∫ (1/x) dx equals",
+    "options": [
+      "x + C",
+      "ln|x| + C",
+      "1/x² + C",
+      "x⁻² + C"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-671",
+    "subject": "math",
+    "topic": "Integration",
+    "question": "∫ sin x dx equals",
+    "options": [
+      "cos x + C",
+      "-cos x + C",
+      "sin x + C",
+      "-sin x + C"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-672",
+    "subject": "math",
+    "topic": "Integration",
+    "question": "∫ cos x dx equals",
+    "options": [
+      "sin x + C",
+      "-sin x + C",
+      "cos x + C",
+      "-cos x + C"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "math-kips-673",
+    "subject": "math",
+    "topic": "Vectors",
+    "question": "The dot product a⃗ · b⃗ equals",
+    "options": [
+      "|a⃗||b⃗| sin θ",
+      "|a⃗||b⃗| cos θ",
+      "|a⃗| + |b⃗|",
+      "0"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-674",
+    "subject": "math",
+    "topic": "Vectors",
+    "question": "If a⃗ · b⃗ = 0 and a⃗, b⃗ ≠ 0⃗, then a⃗ and b⃗ are",
+    "options": [
+      "Parallel",
+      "Equal",
+      "Perpendicular",
+      "Anti-parallel"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-675",
+    "subject": "math",
+    "topic": "Vectors",
+    "question": "The cross product a⃗ × b⃗ gives a vector that is",
+    "options": [
+      "Parallel to both a⃗ and b⃗",
+      "Perpendicular to both a⃗ and b⃗",
+      "Parallel to a⃗ only",
+      "A scalar quantity"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-676",
+    "subject": "math",
+    "topic": "Vectors",
+    "question": "If a⃗ × b⃗ = 0⃗ and a⃗, b⃗ ≠ 0⃗, then a⃗ and b⃗ are",
+    "options": [
+      "Perpendicular",
+      "Equal",
+      "Parallel",
+      "None of these"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-677",
+    "subject": "math",
+    "topic": "Vectors",
+    "question": "|a⃗ × b⃗| equals",
+    "options": [
+      "|a⃗||b⃗| cos θ",
+      "|a⃗||b⃗| sin θ",
+      "|a⃗| + |b⃗|",
+      "0"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-678",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "question": "The slope of a line through (x₁,y₁) and (x₂,y₂) is",
+    "options": [
+      "(x₂-x₁)/(y₂-y₁)",
+      "(y₂-y₁)/(x₂-x₁)",
+      "(y₁-y₂)/(x₂-x₁)",
+      "(x₁+x₂)/(y₁+y₂)"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-679",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "question": "The slope-intercept form of a line is",
+    "options": [
+      "y = mx + c",
+      "y - y₁ = m(x - x₁)",
+      "ax + by + c = 0",
+      "x/a + y/b = 1"
+    ],
+    "answer": 0
+  },
+  {
+    "id": "math-kips-680",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "question": "Two parallel lines have",
+    "options": [
+      "Equal y-intercepts",
+      "Slopes that are negative reciprocals",
+      "Equal slopes",
+      "Perpendicular slopes"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-681",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "question": "Two perpendicular lines with slopes m₁ and m₂ satisfy",
+    "options": [
+      "m₁ = m₂",
+      "m₁ + m₂ = 1",
+      "m₁ · m₂ = -1",
+      "m₁ · m₂ = 1"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-682",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "question": "The distance between points (x₁,y₁) and (x₂,y₂) is",
+    "options": [
+      "(x₂-x₁) + (y₂-y₁)",
+      "|(x₂-x₁) + (y₂-y₁)|",
+      "√[(x₂-x₁)² + (y₂-y₁)²]",
+      "(x₂-x₁)² + (y₂-y₁)²"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-683",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "question": "The midpoint of segment joining (x₁,y₁) and (x₂,y₂) is",
+    "options": [
+      "(x₁+x₂, y₁+y₂)",
+      "((x₁+x₂)/2, (y₁+y₂)/2)",
+      "(x₂-x₁, y₂-y₁)",
+      "((x₂-x₁)/2, (y₂-y₁)/2)"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-684",
+    "subject": "math",
+    "topic": "Conic Sections",
+    "question": "The standard equation of a circle with centre (h,k) and radius r is",
+    "options": [
+      "(x-h)² - (y-k)² = r²",
+      "(x+h)² + (y+k)² = r²",
+      "(x-h)² + (y-k)² = r²",
+      "x² + y² = r"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-685",
+    "subject": "math",
+    "topic": "Conic Sections",
+    "question": "The standard equation of a parabola opening upward with vertex at origin is",
+    "options": [
+      "x² = -4ay",
+      "y² = 4ax",
+      "x² = 4ay",
+      "y² = -4ax"
+    ],
+    "answer": 2
+  },
+  {
+    "id": "math-kips-686",
+    "subject": "math",
+    "topic": "Conic Sections",
+    "question": "The eccentricity of a circle is",
+    "options": [
+      "1",
+      "0",
+      "Greater than 1",
+      "Less than 1 but greater than 0"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "math-kips-687",
+    "subject": "math",
+    "topic": "Conic Sections",
+    "question": "For an ellipse x²/a² + y²/b² = 1 (a > b), the eccentricity e satisfies",
+    "options": [
+      "e > 1",
+      "e = 1",
+      "e = 0",
+      "0 < e < 1"
+    ],
+    "answer": 3
   }
 ]
