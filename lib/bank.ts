@@ -1,7 +1,10 @@
 import type { Question, SubjectKey } from './types';
 import staticQuestions from '../data/questions.json';
 
-const base: Question[] = (staticQuestions as Question[]).map((q) => ({ ...q, source: 'static' as const }));
+const base: Question[] = (staticQuestions as Question[]).map((q) => ({
+  ...q,
+  source: q.source === 'generated' ? 'generated' : ('static' as const),
+}));
 
 let _customCache: Question[] | null = null;
 

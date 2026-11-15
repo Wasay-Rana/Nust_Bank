@@ -7486,7 +7486,8 @@
       "Associative law",
       "Distributive law"
     ],
-    "answer": 0
+    "answer": 0,
+    "source": "generated"
   },
   {
     "id": "math-kips-535",
@@ -7499,7 +7500,8 @@
       "1/a",
       "-a"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-536",
@@ -7512,7 +7514,8 @@
       "ℤ (Integers)",
       "None of these"
     ],
-    "answer": 0
+    "answer": 0,
+    "source": "generated"
   },
   {
     "id": "math-kips-537",
@@ -7525,7 +7528,8 @@
       "Multiplicative property",
       "Closure property"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-538",
@@ -7538,7 +7542,8 @@
       "a + c = b + d",
       "a - c = b + d"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-539",
@@ -7551,7 +7556,8 @@
       "-1",
       "None of these"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-540",
@@ -7564,7 +7570,8 @@
       "-1",
       "1/a"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-541",
@@ -7577,7 +7584,8 @@
       "ℚ (Rational numbers)",
       "Irrational numbers"
     ],
-    "answer": 3
+    "answer": 3,
+    "source": "generated"
   },
   {
     "id": "math-kips-542",
@@ -7590,7 +7598,8 @@
       "Distributive law",
       "Closure law"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-543",
@@ -7603,7 +7612,8 @@
       "Distributive law",
       "Closure law"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-544",
@@ -7616,7 +7626,8 @@
       "Distributive law",
       "Closure law"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-545",
@@ -7629,7 +7640,8 @@
       "i",
       "-i"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-546",
@@ -7642,7 +7654,8 @@
       "i",
       "-i"
     ],
-    "answer": 3
+    "answer": 3,
+    "source": "generated"
   },
   {
     "id": "math-kips-547",
@@ -7655,7 +7668,8 @@
       "i",
       "-i"
     ],
-    "answer": 0
+    "answer": 0,
+    "source": "generated"
   },
   {
     "id": "math-kips-548",
@@ -7668,7 +7682,8 @@
       "(x₁ + y₁, x₂ + y₂)",
       "(x₂, y₁ - y₂)"
     ],
-    "answer": 0
+    "answer": 0,
+    "source": "generated"
   },
   {
     "id": "math-kips-549",
@@ -7681,7 +7696,8 @@
       "42 + 9i",
       "-42 + 9i"
     ],
-    "answer": 0
+    "answer": 0,
+    "source": "generated"
   },
   {
     "id": "math-kips-550",
@@ -7694,7 +7710,8 @@
       "2 + 3i",
       "-2 - 3i"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-551",
@@ -7707,7 +7724,8 @@
       "(-3, 3)",
       "(-3, -3)"
     ],
-    "answer": 3
+    "answer": 3,
+    "source": "generated"
   },
   {
     "id": "math-kips-552",
@@ -7720,7 +7738,8 @@
       "a + b²",
       "a² + b²"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-553",
@@ -7733,7 +7752,8 @@
       "-a + bi",
       "-a - bi"
     ],
-    "answer": 0
+    "answer": 0,
+    "source": "generated"
   },
   {
     "id": "math-kips-554",
@@ -7746,7 +7766,8 @@
       "4 + 6",
       "√12"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-555",
@@ -7759,7 +7780,8 @@
       "1",
       "i"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-556",
@@ -7772,7 +7794,8 @@
       "ω",
       "0"
     ],
-    "answer": 3
+    "answer": 3,
+    "source": "generated"
   },
   {
     "id": "math-kips-557",
@@ -7785,7 +7808,8 @@
       "0",
       "1"
     ],
-    "answer": 3
+    "answer": 3,
+    "source": "generated"
   },
   {
     "id": "math-kips-558",
@@ -7798,7 +7822,8 @@
       "3",
       "-3"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-559",
@@ -7811,7 +7836,8 @@
       "4",
       "-4"
     ],
-    "answer": 3
+    "answer": 3,
+    "source": "generated"
   },
   {
     "id": "math-kips-560",
@@ -7824,7 +7850,8 @@
       "sec α",
       "sin α"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-561",
@@ -7837,7 +7864,8 @@
       "|Z₁| - |Z₂|",
       "|Z₁|/|Z₂|"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-562",
@@ -7850,7 +7878,8 @@
       "arg Z₁ - arg Z₂",
       "arg Z₁ / arg Z₂"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-563",
@@ -7863,7 +7892,8 @@
       "ℤ⁺, positive whole numbers",
       "ℤ⁻, negative whole numbers"
     ],
-    "answer": 0
+    "answer": 0,
+    "source": "generated"
   },
   {
     "id": "math-kips-564",
@@ -7876,7 +7906,8 @@
       "U (universal set)",
       "A ∩ A'"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-565",
@@ -7889,7 +7920,8 @@
       "∅ (empty set)",
       "A ∪ A'"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-566",
@@ -7902,7 +7934,8 @@
       "6",
       "8"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-567",
@@ -7915,7 +7948,8 @@
       "A = B",
       "A ∩ B = ∅"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-568",
@@ -7928,7 +7962,8 @@
       "A = B",
       "A ∩ B = ∅"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-569",
@@ -7941,7 +7976,8 @@
       "8",
       "9"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-570",
@@ -7954,7 +7990,8 @@
       "2ⁿ",
       "n!"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-571",
@@ -7967,7 +8004,8 @@
       "A ∩ B",
       "A ∪ B"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-572",
@@ -7980,7 +8018,8 @@
       "A ∪ B",
       "A ∩ B"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-573",
@@ -7993,7 +8032,8 @@
       "60",
       "30"
     ],
-    "answer": 0
+    "answer": 0,
+    "source": "generated"
   },
   {
     "id": "math-kips-574",
@@ -8006,7 +8046,8 @@
       "9",
       "18"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-575",
@@ -8019,7 +8060,8 @@
       "-1",
       "None"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-576",
@@ -8032,7 +8074,8 @@
       "-1",
       "None"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-577",
@@ -8045,7 +8088,8 @@
       "Closure and commutativity",
       "Only closure"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-578",
@@ -8058,7 +8102,8 @@
       "Abelian group",
       "Groupoid"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-579",
@@ -8071,7 +8116,8 @@
       "Distributive law",
       "Closure law"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-580",
@@ -8084,7 +8130,8 @@
       "At least two inverses",
       "Infinitely many inverses"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-581",
@@ -8097,7 +8144,8 @@
       "Division",
       "Subtraction"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-582",
@@ -8110,7 +8158,8 @@
       "1/3",
       "0"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-583",
@@ -8123,7 +8172,8 @@
       "2",
       "4"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-584",
@@ -8136,7 +8186,8 @@
       "ℤ \\ {0}",
       "ℂ \\ {0}"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-585",
@@ -8149,7 +8200,8 @@
       "Square matrix",
       "Null matrix"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-586",
@@ -8162,7 +8214,8 @@
       "Column matrix",
       "Diagonal matrix"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-587",
@@ -8175,7 +8228,8 @@
       "A",
       "None of these"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-588",
@@ -8188,7 +8242,8 @@
       "A = Aᵀ",
       "A = A⁻¹"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-589",
@@ -8201,7 +8256,8 @@
       "A = A⁻¹",
       "A = 0"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-590",
@@ -8214,7 +8270,8 @@
       "0",
       "Undefined"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-591",
@@ -8227,7 +8284,8 @@
       "Additive inverse of |A|",
       "Multiplicative inverse of |A|"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-592",
@@ -8240,7 +8298,8 @@
       "|A| = 0",
       "A = I"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-593",
@@ -8253,7 +8312,8 @@
       "Sum of diagonal elements",
       "Determinant of the matrix"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-594",
@@ -8266,7 +8326,8 @@
       "Scalar matrix",
       "Unit matrix"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-595",
@@ -8279,7 +8340,8 @@
       "Mᵢⱼ",
       "(-1)ʲ Mᵢⱼ"
     ],
-    "answer": 0
+    "answer": 0,
+    "source": "generated"
   },
   {
     "id": "math-kips-596",
@@ -8292,7 +8354,8 @@
       "Inverse of A",
       "Minor matrix of A"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-597",
@@ -8305,7 +8368,8 @@
       "kⁿ|A|",
       "n|A|"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-598",
@@ -8318,7 +8382,8 @@
       "Complex (imaginary) roots",
       "Rational and equal"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-599",
@@ -8331,7 +8396,8 @@
       "Equal (repeated) real roots",
       "Irrational roots"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-600",
@@ -8344,7 +8410,8 @@
       "Complex (imaginary) roots",
       "Rational roots"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-601",
@@ -8357,7 +8424,8 @@
       "f(a)",
       "f(-a)"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-602",
@@ -8370,7 +8438,8 @@
       "c/a",
       "-c/a"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-603",
@@ -8383,7 +8452,8 @@
       "c/a",
       "-c/a"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-604",
@@ -8396,7 +8466,8 @@
       "4a",
       "-2a"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-605",
@@ -8409,7 +8480,8 @@
       "-5",
       "-6"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-606",
@@ -8422,7 +8494,8 @@
       "-5",
       "-6"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-607",
@@ -8435,7 +8508,8 @@
       "a - (n-1)d",
       "na + d"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-608",
@@ -8448,7 +8522,8 @@
       "Both A and B",
       "n·a·d"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-609",
@@ -8461,7 +8536,8 @@
       "ab",
       "2ab/(a+b)"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-610",
@@ -8474,7 +8550,8 @@
       "2ab/(a+b)",
       "ab"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-611",
@@ -8487,7 +8564,8 @@
       "ar/(1-r)",
       "a(1-r)"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-612",
@@ -8500,7 +8578,8 @@
       "a + c = 2b",
       "Both A and C"
     ],
-    "answer": 3
+    "answer": 3,
+    "source": "generated"
   },
   {
     "id": "math-kips-613",
@@ -8513,7 +8592,8 @@
       "a + (n-1)r",
       "a·n·r"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-614",
@@ -8526,7 +8606,8 @@
       "Both A and B",
       "a·rⁿ"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-615",
@@ -8539,7 +8620,8 @@
       "b² = ac",
       "Both A and C"
     ],
-    "answer": 3
+    "answer": 3,
+    "source": "generated"
   },
   {
     "id": "math-kips-616",
@@ -8552,7 +8634,8 @@
       "Sₙ - Sₙ₋₁",
       "Sₙ₋₁ - Sₙ"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-617",
@@ -8565,7 +8648,8 @@
       "1",
       "∞"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-618",
@@ -8578,7 +8662,8 @@
       "n! / r!",
       "r!(n-r)!"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-619",
@@ -8591,7 +8676,8 @@
       "r!(n-r)!",
       "(n+r)!"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-620",
@@ -8604,7 +8690,8 @@
       "nCr / r!",
       "r · nCr"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-621",
@@ -8617,7 +8704,8 @@
       "1",
       "n!"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-622",
@@ -8630,7 +8718,8 @@
       "n!",
       "2ⁿ"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-623",
@@ -8643,7 +8732,8 @@
       "nC(r+1)",
       "(n+1)C(r+1)"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-624",
@@ -8656,7 +8746,8 @@
       "Both A and B",
       "nP₂ / 2"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-625",
@@ -8669,7 +8760,8 @@
       "120",
       "720"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-626",
@@ -8682,7 +8774,8 @@
       "20",
       "25"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-627",
@@ -8695,7 +8788,8 @@
       "−1",
       "1"
     ],
-    "answer": 3
+    "answer": 3,
+    "source": "generated"
   },
   {
     "id": "math-kips-628",
@@ -8708,7 +8802,8 @@
       "-sin θ",
       "-cos θ"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-629",
@@ -8721,7 +8816,8 @@
       "-cos θ",
       "-sin θ"
     ],
-    "answer": 0
+    "answer": 0,
+    "source": "generated"
   },
   {
     "id": "math-kips-630",
@@ -8734,7 +8830,8 @@
       "π/2",
       "4π"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-631",
@@ -8747,7 +8844,8 @@
       "π",
       "4π"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-632",
@@ -8760,7 +8858,8 @@
       "45°",
       "30°"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-633",
@@ -8773,7 +8872,8 @@
       "2 sin x cos x",
       "sin x cos x"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-634",
@@ -8786,7 +8886,8 @@
       "2 cos²x - 1",
       "Both B and C"
     ],
-    "answer": 3
+    "answer": 3,
+    "source": "generated"
   },
   {
     "id": "math-kips-635",
@@ -8799,7 +8900,8 @@
       "cosec²θ",
       "cot²θ"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-636",
@@ -8812,7 +8914,8 @@
       "1",
       "√3/2"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-637",
@@ -8825,7 +8928,8 @@
       "-1",
       "1/2"
     ],
-    "answer": 0
+    "answer": 0,
+    "source": "generated"
   },
   {
     "id": "math-kips-638",
@@ -8838,7 +8942,8 @@
       "1",
       "√2/2"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-639",
@@ -8851,7 +8956,8 @@
       "1/2",
       "1"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-640",
@@ -8864,7 +8970,8 @@
       "1/√3",
       "1"
     ],
-    "answer": 3
+    "answer": 3,
+    "source": "generated"
   },
   {
     "id": "math-kips-641",
@@ -8877,7 +8984,8 @@
       "b² + c² - 2bc cos A",
       "b² + c² - 2bc sin A"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-642",
@@ -8890,7 +8998,8 @@
       "Both A and B",
       "2R (circumradius × 2)"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-643",
@@ -8903,7 +9012,8 @@
       "1",
       "Cannot be determined"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-644",
@@ -8916,7 +9026,8 @@
       "0",
       "−1"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-645",
@@ -8929,7 +9040,8 @@
       "1/6",
       "7/36"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-646",
@@ -8942,7 +9054,8 @@
       "1/4",
       "13/52"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-647",
@@ -8955,7 +9068,8 @@
       "P(A) - P(B)",
       "P(A) + P(B) - P(A ∩ B)"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-648",
@@ -8968,7 +9082,8 @@
       "1 - P(A)",
       "0"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-649",
@@ -8981,7 +9096,8 @@
       "0 ≤ P(A) ≤ 1",
       "-1 ≤ P(A) ≤ 1"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-650",
@@ -8994,7 +9110,8 @@
       "3/4",
       "1"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-651",
@@ -9007,7 +9124,8 @@
       "P(A) · P(B)",
       "P(A) / P(B)"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-652",
@@ -9020,7 +9138,8 @@
       "Tautology",
       "Proposition"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-653",
@@ -9033,7 +9152,8 @@
       "Proposition",
       "Contradiction"
     ],
-    "answer": 3
+    "answer": 3,
+    "source": "generated"
   },
   {
     "id": "math-kips-654",
@@ -9046,7 +9166,8 @@
       "~q → ~p",
       "p → ~q"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-655",
@@ -9059,7 +9180,8 @@
       "~q → ~p",
       "p → ~q"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-656",
@@ -9072,7 +9194,8 @@
       "~p → ~q",
       "p → ~q"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-657",
@@ -9085,7 +9208,8 @@
       "Both p and q are true",
       "At least one of p, q is true"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-658",
@@ -9098,7 +9222,8 @@
       "Both p and q are false",
       "p is true"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-659",
@@ -9111,7 +9236,8 @@
       "sin 0",
       "1"
     ],
-    "answer": 3
+    "answer": 3,
+    "source": "generated"
   },
   {
     "id": "math-kips-660",
@@ -9124,7 +9250,8 @@
       "∞",
       "-1"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-661",
@@ -9137,7 +9264,8 @@
       "-sin x",
       "tan x"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-662",
@@ -9150,7 +9278,8 @@
       "-sin x",
       "-cos x"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-663",
@@ -9163,7 +9292,8 @@
       "sec²x",
       "cosec²x"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-664",
@@ -9176,7 +9306,8 @@
       "eˣ",
       "e"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-665",
@@ -9189,7 +9320,8 @@
       "1/x",
       "x"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-666",
@@ -9202,7 +9334,8 @@
       "nxⁿ",
       "(n-1)xⁿ"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-667",
@@ -9215,7 +9348,8 @@
       "Undefined",
       "0"
     ],
-    "answer": 3
+    "answer": 3,
+    "source": "generated"
   },
   {
     "id": "math-kips-668",
@@ -9228,7 +9362,8 @@
       "nxⁿ⁻¹ + C",
       "xⁿ + C"
     ],
-    "answer": 0
+    "answer": 0,
+    "source": "generated"
   },
   {
     "id": "math-kips-669",
@@ -9241,7 +9376,8 @@
       "eˣ + C",
       "e + C"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-670",
@@ -9254,7 +9390,8 @@
       "1/x² + C",
       "x⁻² + C"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-671",
@@ -9267,7 +9404,8 @@
       "sin x + C",
       "-sin x + C"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-672",
@@ -9280,7 +9418,8 @@
       "cos x + C",
       "-cos x + C"
     ],
-    "answer": 0
+    "answer": 0,
+    "source": "generated"
   },
   {
     "id": "math-kips-673",
@@ -9293,7 +9432,8 @@
       "|a⃗| + |b⃗|",
       "0"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-674",
@@ -9306,7 +9446,8 @@
       "Perpendicular",
       "Anti-parallel"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-675",
@@ -9319,7 +9460,8 @@
       "Parallel to a⃗ only",
       "A scalar quantity"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-676",
@@ -9332,7 +9474,8 @@
       "Parallel",
       "None of these"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-677",
@@ -9345,7 +9488,8 @@
       "|a⃗| + |b⃗|",
       "0"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-678",
@@ -9358,7 +9502,8 @@
       "(y₁-y₂)/(x₂-x₁)",
       "(x₁+x₂)/(y₁+y₂)"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-679",
@@ -9371,7 +9516,8 @@
       "ax + by + c = 0",
       "x/a + y/b = 1"
     ],
-    "answer": 0
+    "answer": 0,
+    "source": "generated"
   },
   {
     "id": "math-kips-680",
@@ -9384,7 +9530,8 @@
       "Equal slopes",
       "Perpendicular slopes"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-681",
@@ -9397,7 +9544,8 @@
       "m₁ · m₂ = -1",
       "m₁ · m₂ = 1"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-682",
@@ -9410,7 +9558,8 @@
       "√[(x₂-x₁)² + (y₂-y₁)²]",
       "(x₂-x₁)² + (y₂-y₁)²"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-683",
@@ -9423,7 +9572,8 @@
       "(x₂-x₁, y₂-y₁)",
       "((x₂-x₁)/2, (y₂-y₁)/2)"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-684",
@@ -9436,7 +9586,8 @@
       "(x-h)² + (y-k)² = r²",
       "x² + y² = r"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-685",
@@ -9449,7 +9600,8 @@
       "x² = 4ay",
       "y² = -4ax"
     ],
-    "answer": 2
+    "answer": 2,
+    "source": "generated"
   },
   {
     "id": "math-kips-686",
@@ -9462,7 +9614,8 @@
       "Greater than 1",
       "Less than 1 but greater than 0"
     ],
-    "answer": 1
+    "answer": 1,
+    "source": "generated"
   },
   {
     "id": "math-kips-687",
@@ -9475,6 +9628,7 @@
       "e = 0",
       "0 < e < 1"
     ],
-    "answer": 3
+    "answer": 3,
+    "source": "generated"
   }
 ]

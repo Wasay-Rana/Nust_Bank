@@ -8,7 +8,9 @@ export interface Question {
   options: string[];
   answer: number; // 0-indexed
   explanation?: string;
-  source?: 'static' | 'kv' | 'custom';
+  // 'generated' = written from syllabus topics, not extracted from a real past
+  // paper/book — kept distinct so it's never silently presented as sourced.
+  source?: 'static' | 'kv' | 'custom' | 'generated';
 }
 
 export interface VaultCard {

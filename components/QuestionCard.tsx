@@ -57,6 +57,14 @@ export function QuestionCard({ question: q, onAnswer, instant = true, showResult
       <div className="flex flex-wrap items-center gap-2 mb-3">
         <SubjectBadge subject={q.subject} />
         <span className="text-xs" style={{ color: 'var(--mute)' }}>{q.topic}</span>
+        {q.source === 'generated' && (
+          <span
+            className="px-2 py-0.5 rounded text-[10px] font-semibold uppercase tracking-wide bg-amber-100 text-amber-800 dark:bg-amber-950/40 dark:text-amber-300"
+            title="Written from syllabus topics, not extracted from a real past paper"
+          >
+            Generated
+          </span>
+        )}
       </div>
 
       <p className="text-base font-medium leading-snug mb-4" style={{ color: 'var(--ink)' }}>
