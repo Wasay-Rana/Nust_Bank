@@ -135,15 +135,17 @@ fetch(`${API}/api/questions`, {
 
 ## Subject codes
 
+Current NET Engineering & Computing pattern (post-reform — Chemistry/CS dropped from this stream):
+
 | Code | Subject | Questions in full paper | Weight |
 |------|---------|------------------------|--------|
-| `math` | Mathematics | 80 | 40% |
+| `math` | Mathematics | 100 | 50% |
 | `phy` | Physics | 60 | 30% |
-| `chem` | Chemistry / CS | 30 | 15% |
-| `eng` | English | 20 | 10% |
-| `intel` | Intelligence | 10 | 5% |
+| `eng` | English | 40 | 20% |
 
 **Total: 200 questions · 180 minutes · No negative marking**
+
+`chem` and `intel` are still valid subject codes for pushing/storing questions (kept as optional bonus practice — not part of the scored mock exam or projected score).
 
 ---
 

@@ -1,5 +1,5 @@
 import type { SubjectKey } from '@/lib/types';
-import { SUBJECTS } from '@/lib/types';
+import { ALL_SUBJECT_INFO } from '@/lib/types';
 
 const colorMap: Record<SubjectKey, string> = {
   math:  'bg-violet-100 text-violet-800 dark:bg-violet-950/50 dark:text-violet-300',
@@ -12,7 +12,7 @@ const colorMap: Record<SubjectKey, string> = {
 export function SubjectBadge({ subject, extra }: { subject: SubjectKey; extra?: string }) {
   return (
     <span className={`inline-flex items-center px-2.5 py-0.5 rounded text-xs font-semibold ${colorMap[subject]}`}>
-      {SUBJECTS[subject].name}{extra ? ` · ${extra}` : ''}
+      {ALL_SUBJECT_INFO[subject].name}{extra ? ` · ${extra}` : ''}
     </span>
   );
 }

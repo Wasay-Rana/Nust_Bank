@@ -4,7 +4,7 @@ import { useSearchParams } from 'next/navigation';
 import { Suspense } from 'react';
 import { useStore } from '@/lib/store';
 import { getBaseQuestions, pickQuestion, topicsOf } from '@/lib/bank';
-import { SUBJECTS } from '@/lib/types';
+import { SUBJECTS, BONUS_SUBJECTS, ALL_SUBJECT_INFO } from '@/lib/types';
 import type { SubjectKey, Question } from '@/lib/types';
 import { QuestionCard } from '@/components/QuestionCard';
 import { SubjectBadge } from '@/components/SubjectBadge';
@@ -36,7 +36,7 @@ function PracticeInner() {
     let subj = subject;
     if (subj === 'all') {
       const r = Math.random() * 100;
-      subj = r < 40 ? 'math' : r < 70 ? 'phy' : r < 80 ? 'eng' : r < 95 ? 'chem' : 'intel';
+      subj = r < 50 ? 'math' : r < 80 ? 'phy' : 'eng'; // matches real paper weighting 50/30/20
     }
     return pickQuestion(all, subj, topic || undefined, recentIds.current, seenCounts.current);
   }, [subject, topic, src, all, errors]);
@@ -68,7 +68,7 @@ function PracticeInner() {
 
       {/* Controls */}
       <div className="rounded-2xl border p-4 mb-5 space-y-3" style={{ background: 'var(--card)', borderColor: 'var(--line)' }}>
-        {/* Subject chips */}
+        {/* Subject chips — real paper subjects */}
         <div className="flex flex-wrap gap-2">
           {(['all', ...Object.keys(SUBJECTS)] as Array<'all' | SubjectKey>).map((s) => (
             <button
@@ -81,9 +81,32 @@ function PracticeInner() {
               }`}
               style={subject !== s ? { color: 'var(--mute)' } : undefined}
             >
-              {s === 'all' ? 'All subjects' : SUBJECTS[s as SubjectKey].name}
+              {s === 'all' ? 'All subjects' : ALL_SUBJECT_INFO[s as SubjectKey].name}
             </button>
           ))}
+        </div>
+
+        {/* Bonus subjects — not on the real paper, kept for extra practice */}
+        <div>
+          <div className="text-[11px] font-semibold uppercase tracking-wide mb-1.5" style={{ color: 'var(--mute)' }}>
+            Bonus (not on your paper)
+          </div>
+          <div className="flex flex-wrap gap-2">
+            {(Object.keys(BONUS_SUBJECTS) as SubjectKey[]).map((s) => (
+              <button
+                key={s}
+                onClick={() => { setSubject(s); setTopic(''); setCurrent(pickQuestion(all, s, undefined, [], {})); }}
+                className={`px-3 py-1.5 rounded-full text-sm font-medium border transition-colors ${
+                  subject === s
+                    ? 'bg-rose-600 text-white border-rose-600'
+                    : 'border-gray-200 dark:border-white/10 hover:border-rose-400'
+                }`}
+                style={subject !== s ? { color: 'var(--mute)' } : undefined}
+              >
+                {ALL_SUBJECT_INFO[s].name}
+              </button>
+            ))}
+          </div>
         </div>
 
         {/* Topic select */}

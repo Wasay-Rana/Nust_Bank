@@ -43,7 +43,7 @@ export default function MockPage() {
         <h1 className="text-2xl font-black mb-5">Mock Exam</h1>
         <div className="rounded-2xl border p-6 space-y-4" style={{ background: 'var(--card)', borderColor: 'var(--line)' }}>
           <p className="text-sm" style={{ color: 'var(--mute)' }}>
-            Simulates the real NET paper: Math 40% · Physics 30% · Chemistry/CS 15% · English 10% · Intelligence 5%.
+            Simulates the current NET Engineering &amp; Computing paper: Math 50% · Physics 30% · English 20%.
             One mark per MCQ. No negative marking.
           </p>
           <div>

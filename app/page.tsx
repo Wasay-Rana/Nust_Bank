@@ -52,7 +52,7 @@ export default function Dashboard() {
           Subject Performance
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-          {(Object.entries(SUBJECTS) as [SubjectKey, typeof SUBJECTS[SubjectKey]][]).map(([s, cfg]) => {
+          {(Object.entries(SUBJECTS) as [SubjectKey, (typeof SUBJECTS)[keyof typeof SUBJECTS]][]).map(([s, cfg]) => {
             const st = subjStats(log, s);
             const acc = st.acc;
             return (
@@ -139,6 +139,11 @@ export default function Dashboard() {
           </div>
         </Link>
       )}
+
+      <div className="rounded-2xl border p-4 text-sm" style={{ background: 'var(--card)', borderColor: 'var(--line)', color: 'var(--mute)' }}>
+        Chemistry and Intelligence questions are kept in the bank as optional bonus practice — they&apos;re not part of the current NET Engineering &amp; Computing paper (Math 50% · Physics 30% · English 20%), so they don&apos;t count toward your projected score.{' '}
+        <Link href="/practice?subject=chem" className="font-semibold hover:underline" style={{ color: 'var(--pri)' }}>Practice anyway &rarr;</Link>
+      </div>
     </div>
   );
 }

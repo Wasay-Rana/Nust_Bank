@@ -2,10 +2,10 @@
 import { useMemo, useState } from 'react';
 import vaultData from '@/data/vault.json';
 import type { VaultCard } from '@/lib/types';
-import { SUBJECTS } from '@/lib/types';
+import { ALL_SUBJECT_INFO } from '@/lib/types';
 
 const vault = vaultData as VaultCard[];
-const subjects = ['all', ...Object.keys(SUBJECTS)];
+const subjects = ['all', ...Object.keys(ALL_SUBJECT_INFO)];
 
 const accentFor: Record<string, string> = {
   math:  '#6d28d9',
@@ -104,7 +104,7 @@ export default function VaultPage() {
               }`}
               style={subject !== s ? { color: 'var(--mute)', borderColor: 'var(--line)', background: 'var(--card)' } : undefined}
             >
-              {s === 'all' ? 'All' : SUBJECTS[s as keyof typeof SUBJECTS]?.name || s}
+              {s === 'all' ? 'All' : ALL_SUBJECT_INFO[s as keyof typeof ALL_SUBJECT_INFO]?.name || s}
             </button>
           ))}
         </div>
@@ -131,7 +131,7 @@ export default function VaultPage() {
                     <div className="flex items-start justify-between gap-2 mb-3">
                       <div className="font-bold text-sm leading-snug" style={{ color: 'var(--ink)' }}>{v.title}</div>
                       <span className={`shrink-0 px-2 py-0.5 rounded text-[10px] font-semibold uppercase tracking-wide ${chipFor[v.subject] || ''}`}>
-                        {SUBJECTS[v.subject as keyof typeof SUBJECTS]?.name.split(' ')[0] || v.subject}
+                        {ALL_SUBJECT_INFO[v.subject as keyof typeof ALL_SUBJECT_INFO]?.name.split(' ')[0] || v.subject}
                       </span>
                     </div>
                     <div className="space-y-1.5">

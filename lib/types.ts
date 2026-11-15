@@ -58,13 +58,24 @@ export interface SubjectConfig {
   tw: string;        // Tailwind class
 }
 
-export const SUBJECTS: Record<SubjectKey, SubjectConfig> = {
-  math:  { name: 'Mathematics',    count: 80,  weight: 40, color: '#4f46e5', darkColor: '#8b92ff', tw: 'indigo' },
-  phy:   { name: 'Physics',        count: 60,  weight: 30, color: '#0e8a9b', darkColor: '#3fcbdc', tw: 'cyan' },
-  eng:   { name: 'English',        count: 20,  weight: 10, color: '#c2410c', darkColor: '#ff9a62', tw: 'orange' },
-  chem:  { name: 'Chemistry / CS', count: 30,  weight: 15, color: '#16a34a', darkColor: '#4ade80', tw: 'green' },
-  intel: { name: 'Intelligence',   count: 10,  weight: 5,  color: '#9333ea', darkColor: '#c084fc', tw: 'purple' },
+// Current (post-reform) NET Engineering & Computing pattern: 200 MCQs, 180 min,
+// no negative marking. Chemistry was dropped from this stream (it's only tested
+// in the separate Applied Sciences track) and CS was never a tested subject —
+// so only these three count toward the real paper and projected score.
+export const SUBJECTS: Record<'math' | 'phy' | 'eng', SubjectConfig> = {
+  math: { name: 'Mathematics', count: 100, weight: 50, color: '#6d28d9', darkColor: '#a78bfa', tw: 'violet' },
+  phy:  { name: 'Physics',     count: 60,  weight: 30, color: '#7e22ce', darkColor: '#c084fc', tw: 'purple' },
+  eng:  { name: 'English',     count: 40,  weight: 20, color: '#a21caf', darkColor: '#e879f9', tw: 'fuchsia' },
 };
+
+// Not part of the current Engineering & Computing paper — kept as optional
+// extra practice since the question bank already has them.
+export const BONUS_SUBJECTS: Record<'chem' | 'intel', SubjectConfig> = {
+  chem:  { name: 'Chemistry (bonus)',     count: 0, weight: 0, color: '#be185d', darkColor: '#f0abfc', tw: 'pink' },
+  intel: { name: 'Intelligence (bonus)',  count: 0, weight: 0, color: '#be123c', darkColor: '#fda4af', tw: 'rose' },
+};
+
+export const ALL_SUBJECT_INFO: Record<SubjectKey, SubjectConfig> = { ...SUBJECTS, ...BONUS_SUBJECTS };
 
 export const MOCK_SIZES = {
   full:  { label: 'Full paper · 200 Q · 180 min', k: 1,   mins: 180 },
