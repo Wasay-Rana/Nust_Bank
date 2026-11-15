@@ -14,36 +14,45 @@
 }
 
 :root {
-  --bg: #ffffff;
-  --card: #faf9fc;
+  --bg: #f7f5fb;
+  --card: rgba(255, 255, 255, 0.6);
+  --card-solid: #ffffff;
   --ink: #1a1523;
   --mute: #6b6478;
-  --line: #e9e5f0;
+  --line: rgba(109, 40, 217, 0.12);
   --pri: #6d28d9;
   --pri-ink: #ffffff;
+  --glass-highlight: rgba(255, 255, 255, 0.6);
+  --glass-shadow: rgba(109, 40, 217, 0.12);
   color-scheme: light;
 }
 
 [data-theme="dark"], .dark {
-  --bg: #0c0a10;
-  --card: #15121c;
+  --bg: #0a0810;
+  --card: rgba(26, 21, 36, 0.55);
+  --card-solid: #15121c;
   --ink: #f2effa;
   --mute: #9a93ab;
-  --line: #262131;
+  --line: rgba(167, 139, 250, 0.14);
   --pri: #a78bfa;
   --pri-ink: #140d26;
+  --glass-highlight: rgba(255, 255, 255, 0.05);
+  --glass-shadow: rgba(0, 0, 0, 0.45);
   color-scheme: dark;
 }
 
 @media (prefers-color-scheme: dark) {
   [data-theme="auto"] {
-    --bg: #0c0a10;
-    --card: #15121c;
+    --bg: #0a0810;
+    --card: rgba(26, 21, 36, 0.55);
+    --card-solid: #15121c;
     --ink: #f2effa;
     --mute: #9a93ab;
-    --line: #262131;
+    --line: rgba(167, 139, 250, 0.14);
     --pri: #a78bfa;
     --pri-ink: #140d26;
+    --glass-highlight: rgba(255, 255, 255, 0.05);
+    --glass-shadow: rgba(0, 0, 0, 0.45);
     color-scheme: dark;
   }
 }
@@ -51,8 +60,61 @@
 body {
   background: var(--bg);
   color: var(--ink);
-  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
   -webkit-tap-highlight-color: transparent;
+  letter-spacing: -0.011em;
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.02em;
+}
+
+p, li {
+  line-height: 1.6;
+}
+
+/* Ambient animated gradient mesh behind everything */
+.bg-mesh {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+}
+.bg-mesh span {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(70px);
+  opacity: 0.35;
+}
+.bg-mesh span:nth-child(1) {
+  width: 55vw; height: 55vw;
+  top: -15%; left: -12%;
+  background: radial-gradient(circle, #a78bfa, transparent 70%);
+  animation: drift1 26s ease-in-out infinite alternate;
+}
+.bg-mesh span:nth-child(2) {
+  width: 50vw; height: 50vw;
+  bottom: -18%; right: -10%;
+  background: radial-gradient(circle, #f0abfc, transparent 70%);
+  animation: drift2 32s ease-in-out infinite alternate;
+}
+.bg-mesh span:nth-child(3) {
+  width: 38vw; height: 38vw;
+  top: 35%; right: 18%;
+  background: radial-gradient(circle, #c4b5fd, transparent 70%);
+  animation: drift3 22s ease-in-out infinite alternate;
+}
+[data-theme="dark"] .bg-mesh span, .dark .bg-mesh span { opacity: 0.16; }
+
+@keyframes drift1 { from { transform: translate(0,0) scale(1); } to { transform: translate(6%, 8%) scale(1.08); } }
+@keyframes drift2 { from { transform: translate(0,0) scale(1); } to { transform: translate(-6%, -6%) scale(1.05); } }
+@keyframes drift3 { from { transform: translate(0,0) scale(1); } to { transform: translate(-4%, 6%) scale(0.95); } }
+
+/* Retrofit glass styling onto every surface that uses the --card variable inline */
+[style*="var(--card)"] {
+  backdrop-filter: blur(22px) saturate(160%);
+  -webkit-backdrop-filter: blur(22px) saturate(160%);
+  box-shadow: inset 0 1px 0 var(--glass-highlight), 0 10px 30px -14px var(--glass-shadow);
 }
 
 /* custom scrollbar */

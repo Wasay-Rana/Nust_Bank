@@ -24,9 +24,19 @@ export default function Dashboard() {
   return (
     <div className="space-y-5">
       {/* Hero */}
-      <div className="rounded-2xl p-6 text-white" style={{ background: 'linear-gradient(135deg, #581c87, #7c3aed)' }}>
+      <div
+        className="relative overflow-hidden rounded-2xl p-6 text-white"
+        style={{
+          background: 'linear-gradient(135deg, #581c87, #7c3aed 55%, #a21caf)',
+          boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.25), 0 20px 50px -20px rgba(124,58,237,0.5)',
+        }}
+      >
+        <div
+          className="pointer-events-none absolute -top-16 -right-16 w-56 h-56 rounded-full"
+          style={{ background: 'radial-gradient(circle, rgba(255,255,255,0.18), transparent 70%)' }}
+        />
         <div className="text-sm font-medium opacity-80 mb-1">Projected score</div>
-        <div className="text-6xl font-black leading-none mb-1">{projected || '—'}</div>
+        <div className="text-6xl font-black leading-none mb-1 tracking-tight">{projected || '—'}</div>
         <div className="text-sm opacity-70">/ 200 · target {target}+</div>
         {projected > 0 && (
           <div className="mt-3 h-2 rounded-full bg-white/25 overflow-hidden">

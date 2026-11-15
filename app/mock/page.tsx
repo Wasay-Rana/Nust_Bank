@@ -51,7 +51,7 @@ export default function MockPage() {
             <div className="space-y-2">
               {(Object.entries(MOCK_SIZES) as [string, typeof MOCK_SIZES[keyof typeof MOCK_SIZES]][]).map(([k, v]) => (
                 <label key={k} className="flex items-center gap-3 p-3 rounded-xl border cursor-pointer transition-colors"
-                  style={{ borderColor: kind === k ? 'var(--pri)' : 'var(--line)', background: kind === k ? 'rgba(79,70,229,0.06)' : 'var(--card)' }}>
+                  style={{ borderColor: kind === k ? 'var(--pri)' : 'var(--line)', background: kind === k ? 'rgba(124,58,237,0.08)' : 'var(--card)' }}>
                   <input type="radio" name="kind" value={k} checked={kind === k} onChange={() => setKind(k as 'full' | 'half' | 'quick')} className="accent-purple-600" />
                   <span className="text-sm font-medium">{v.label}</span>
                 </label>
@@ -88,7 +88,7 @@ export default function MockPage() {
     return (
       <div className="max-w-xl space-y-5">
         <h1 className="text-2xl font-black">Results</h1>
-        <div className="rounded-2xl p-6 text-white" style={{ background: 'linear-gradient(135deg,#4f46e5,#7c3aed)' }}>
+        <div className="rounded-2xl p-6 text-white" style={{ background: 'linear-gradient(135deg,#581c87,#7c3aed 55%,#a21caf)' }}>
           <div className="text-5xl font-black">{score}</div>
           <div className="text-sm opacity-80">/ {qs.length} · scaled: {Math.round((score / qs.length) * 200)}/200</div>
           <div className="text-sm mt-1 opacity-70">{correct.length} correct · {qs.length - answered.length} skipped</div>
