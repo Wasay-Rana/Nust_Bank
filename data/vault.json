@@ -1,0 +1,374 @@
+[
+  {
+    "subject": "math",
+    "group": "Algebra",
+    "title": "Quadratic roots",
+    "body": "Sum = −b/a, product = c/a, D = b² − 4ac. D>0 real distinct, D=0 equal, D<0 complex conjugates."
+  },
+  {
+    "subject": "math",
+    "group": "Algebra",
+    "title": "Symmetric functions of roots",
+    "body": "α²+β² = (α+β)² − 2αβ\nα³+β³ = (α+β)³ − 3αβ(α+β)\n(α−β)² = (α+β)² − 4αβ"
+  },
+  {
+    "subject": "math",
+    "group": "Algebra",
+    "title": "Logarithms",
+    "body": "log(ab)=log a+log b · log(a/b)=log a−log b · log aⁿ = n log a\nChange of base: logₐb = ln b / ln a = 1/log_b a\na^(log_a x) = x"
+  },
+  {
+    "subject": "math",
+    "group": "Algebra",
+    "title": "A.P. / G.P.",
+    "body": "A.P.: aₙ = a+(n−1)d, Sₙ = n/2 [2a+(n−1)d]\nG.P.: aₙ = arⁿ⁻¹, Sₙ = a(rⁿ−1)/(r−1), S∞ = a/(1−r) for |r|<1"
+  },
+  {
+    "subject": "math",
+    "group": "Algebra",
+    "title": "Binomial theorem",
+    "body": "General term T(r+1) = ⁿCᵣ aⁿ⁻ʳ bʳ · n+1 terms\nSum of coefficients: put x = 1 · alternating: put x = −1\nMiddle term: n even → T(n/2+1); n odd → two middle terms"
+  },
+  {
+    "subject": "math",
+    "group": "Algebra",
+    "title": "Permutations & combinations",
+    "body": "ⁿPᵣ = n!/(n−r)! · ⁿCᵣ = n!/(r!(n−r)!) · ⁿCᵣ = ⁿCₙ₋ᵣ\nCircular: (n−1)! · Repeated letters: n!/(p!q!…)\nSubsets of n-set: 2ⁿ"
+  },
+  {
+    "subject": "math",
+    "group": "Algebra",
+    "title": "Complex numbers",
+    "body": "|z|² = z·z̄ · iⁿ cycles 1, i, −1, −i (use n mod 4)\n1+ω+ω² = 0, ω³ = 1 · De Moivre: (cosθ+i sinθ)ⁿ = cos nθ + i sin nθ"
+  },
+  {
+    "subject": "math",
+    "group": "Algebra",
+    "title": "Inequalities / modulus",
+    "body": "|x|<a ⇔ −a<x<a · |x|>a ⇔ x<−a or x>a · Always flip the sign when multiplying by a negative."
+  },
+  {
+    "subject": "math",
+    "group": "Trigonometry",
+    "title": "Double-angle",
+    "body": "sin2θ = 2sinθcosθ\ncos2θ = cos²θ − sin²θ = 2cos²θ − 1 = 1 − 2sin²θ\ntan2θ = 2tanθ/(1 − tan²θ)"
+  },
+  {
+    "subject": "math",
+    "group": "Trigonometry",
+    "title": "Compound angle",
+    "body": "sin(A±B) = sinAcosB ± cosAsinB\ncos(A±B) = cosAcosB ∓ sinAsinB\ntan(A±B) = (tanA ± tanB)/(1 ∓ tanA tanB)"
+  },
+  {
+    "subject": "math",
+    "group": "Trigonometry",
+    "title": "Sum-to-product",
+    "body": "sinC + sinD = 2 sin((C+D)/2) cos((C−D)/2)\ncosC + cosD = 2 cos((C+D)/2) cos((C−D)/2)\ncosC − cosD = −2 sin((C+D)/2) sin((C−D)/2)"
+  },
+  {
+    "subject": "math",
+    "group": "Trigonometry",
+    "title": "Special values",
+    "body": "sin 0,30,45,60,90 = √0/2, √1/2, √2/2, √3/2, √4/2 (all over 2)\ncos is the same list reversed. tan = sin/cos.\nsin15° = (√6−√2)/4 · cos15° = (√6+√2)/4 · tan15° = 2−√3"
+  },
+  {
+    "subject": "math",
+    "group": "Trigonometry",
+    "title": "General solutions",
+    "body": "sinθ=0 → nπ · cosθ=0 → (2n+1)π/2 · tanθ=0 → nπ\nsinθ=sinα → θ = nπ + (−1)ⁿα · cosθ=cosα → θ = 2nπ ± α"
+  },
+  {
+    "subject": "math",
+    "group": "Calculus",
+    "title": "Derivative table",
+    "body": "(xⁿ)′=nxⁿ⁻¹ · (eˣ)′=eˣ · (aˣ)′=aˣ ln a · (ln x)′=1/x\n(sin)′=cos · (cos)′=−sin · (tan)′=sec² · (cot)′=−csc² · (sec)′=sec tan\n(sin⁻¹x)′=1/√(1−x²) · (tan⁻¹x)′=1/(1+x²)"
+  },
+  {
+    "subject": "math",
+    "group": "Calculus",
+    "title": "Differentiation rules",
+    "body": "Product: (uv)′=u′v+uv′ · Quotient: (u/v)′=(u′v−uv′)/v² · Chain: f(g)′ = f′(g)g′\nxˣ-type: take ln of both sides, then differentiate."
+  },
+  {
+    "subject": "math",
+    "group": "Calculus",
+    "title": "Integral table",
+    "body": "∫xⁿ = xⁿ⁺¹/(n+1) · ∫1/x = ln|x| · ∫eˣ = eˣ\n∫tan x = ln|sec x| · ∫sec x = ln|sec x+tan x|\n∫1/(a²+x²) = (1/a)tan⁻¹(x/a) · ∫1/√(a²−x²) = sin⁻¹(x/a)"
+  },
+  {
+    "subject": "math",
+    "group": "Calculus",
+    "title": "Integration shortcuts",
+    "body": "By parts: ∫u dv = uv − ∫v du, pick u by ILATE (Inverse, Log, Algebraic, Trig, Exp)\n∫eˣ[f(x)+f′(x)] dx = eˣ f(x) + C\nsin²x = (1−cos2x)/2, cos²x = (1+cos2x)/2"
+  },
+  {
+    "subject": "math",
+    "group": "Calculus",
+    "title": "Definite integral tricks",
+    "body": "Odd f over [−a,a] → 0 · Even f → 2∫₀ᵃ\n∫₀ᵃ f(x)dx = ∫₀ᵃ f(a−x)dx\n∫₀ᵃ f(x)/(f(x)+f(a−x)) dx = a/2   (e.g. ∫₀^(π/2) sinx/(sinx+cosx) = π/4)"
+  },
+  {
+    "subject": "math",
+    "group": "Calculus",
+    "title": "Limits",
+    "body": "sin x/x → 1 · (eˣ−1)/x → 1 · ln(1+x)/x → 1 · (1+1/x)ˣ → e as x→∞\n(xⁿ−aⁿ)/(x−a) → n aⁿ⁻¹ · 0/0 or ∞/∞ → L’Hôpital."
+  },
+  {
+    "subject": "math",
+    "group": "Calculus",
+    "title": "Maxima / minima",
+    "body": "f′(x)=0 for critical points. f″>0 → minimum, f″<0 → maximum. Sum fixed → product max when equal."
+  },
+  {
+    "subject": "math",
+    "group": "Matrices",
+    "title": "Determinant facts",
+    "body": "|AB| = |A||B| · |kA| = kⁿ|A| · |Aᵀ| = |A| · |A⁻¹| = 1/|A| · |adj A| = |A|ⁿ⁻¹\nSwapping two rows flips the sign; two equal rows → 0."
+  },
+  {
+    "subject": "math",
+    "group": "Matrices",
+    "title": "Inverse / transpose",
+    "body": "A⁻¹ = adj A / |A| (2×2: swap diagonal, negate off-diagonal, divide by det)\n(AB)ᵀ = BᵀAᵀ · (AB)⁻¹ = B⁻¹A⁻¹ · A·adj A = |A| I"
+  },
+  {
+    "subject": "math",
+    "group": "Matrices",
+    "title": "Systems of equations",
+    "body": "Cramer: x = Dₓ/D. |A|≠0 → unique solution. |A|=0 → none or infinitely many."
+  },
+  {
+    "subject": "math",
+    "group": "Coordinate Geometry",
+    "title": "Line formulas",
+    "body": "Distance = √(Δx²+Δy²) · Section (m:n) = ((mx₂+nx₁)/(m+n), …)\nSlope-intercept y=mx+c · Distance from (x₁,y₁) to ax+by+c=0: |ax₁+by₁+c|/√(a²+b²)\nParallel m₁=m₂ · Perpendicular m₁m₂=−1 · Triangle area = ½|x₁(y₂−y₃)+x₂(y₃−y₁)+x₃(y₁−y₂)|"
+  },
+  {
+    "subject": "math",
+    "group": "Coordinate Geometry",
+    "title": "Circle",
+    "body": "Centre (h,k), radius r: (x−h)²+(y−k)²=r²\nx²+y²+2gx+2fy+c=0 → centre (−g,−f), r = √(g²+f²−c)\nLine y=mx+c touches x²+y²=r² when c² = r²(1+m²)"
+  },
+  {
+    "subject": "math",
+    "group": "Coordinate Geometry",
+    "title": "Conics",
+    "body": "Parabola y²=4ax: focus (a,0), directrix x=−a, latus rectum 4a, e=1\nEllipse x²/a²+y²/b²=1: b²=a²(1−e²), foci (±ae,0), e<1\nHyperbola x²/a²−y²/b²=1: b²=a²(e²−1), e>1"
+  },
+  {
+    "subject": "math",
+    "group": "Vectors",
+    "title": "Products",
+    "body": "a·b = |a||b|cosθ = a₁b₁+a₂b₂+a₃b₃ · a⊥b ⇔ a·b=0\n|a×b| = |a||b|sinθ · area of triangle = ½|a×b| · parallelogram = |a×b|\nProjection of a on b = a·b/|b| · i×j=k, j×k=i, k×i=j"
+  },
+  {
+    "subject": "math",
+    "group": "Probability",
+    "title": "Rules",
+    "body": "P(A∪B) = P(A)+P(B)−P(A∩B) · P(A|B) = P(A∩B)/P(B)\nIndependent: P(A∩B) = P(A)P(B) · P(not A) = 1−P(A) · Bayes: P(A|B) = P(B|A)P(A)/P(B)"
+  },
+  {
+    "subject": "math",
+    "group": "Exam Tactics",
+    "title": "Option elimination",
+    "body": "Plug in x = 0, 1, −1 into the options before solving. Check dimensions/signs/limits. For “find the value” with 4 numbers, back-substitute."
+  },
+  {
+    "subject": "math",
+    "group": "Exam Tactics",
+    "title": "Timing (suggested)",
+    "body": "Paper: 200 MCQs / 180 min = 54 s each. Aim ≈ 45 s for Math basics, bank time for the hard ones. Skip anything > 90 s and flag it; return in the last 20 minutes."
+  },
+  {
+    "subject": "phy",
+    "group": "Mechanics",
+    "title": "Kinematics",
+    "body": "v = u + at · s = ut + ½at² · v² = u² + 2as · s_nth = u + a(n − ½)"
+  },
+  {
+    "subject": "phy",
+    "group": "Mechanics",
+    "title": "Projectile",
+    "body": "T = 2u sinθ/g · H = u² sin²θ / 2g · R = u² sin2θ / g · max range at 45° · R(θ) = R(90°−θ)"
+  },
+  {
+    "subject": "phy",
+    "group": "Mechanics",
+    "title": "Newton & friction",
+    "body": "F = ma = dp/dt · f ≤ μN · on incline a = g(sinθ − μcosθ) · Banking: tanθ = v²/rg"
+  },
+  {
+    "subject": "phy",
+    "group": "Mechanics",
+    "title": "Circular motion",
+    "body": "a = v²/r = ω²r · F = mv²/r · v = ωr · T = 2π/ω · vertical circle minimum speed at top √(gr), at bottom √(5gr)"
+  },
+  {
+    "subject": "phy",
+    "group": "Mechanics",
+    "title": "Work, energy, power",
+    "body": "W = Fd cosθ · KE = ½mv² · PE = mgh · P = W/t = Fv · Work-energy: W_net = ΔKE"
+  },
+  {
+    "subject": "phy",
+    "group": "Mechanics",
+    "title": "Momentum & collisions",
+    "body": "p = mv · Elastic: v₁′ = [(m₁−m₂)v₁ + 2m₂v₂]/(m₁+m₂) · Perfectly inelastic: v = (m₁v₁+m₂v₂)/(m₁+m₂)\nEqual masses elastic → velocities exchange."
+  },
+  {
+    "subject": "phy",
+    "group": "Mechanics",
+    "title": "Rotation",
+    "body": "τ = Iα = r×F · L = Iω · KE_rot = ½Iω² · I: ring MR², disc ½MR², solid sphere ⅖MR², rod (centre) ML²/12\nParallel axis I = I_cm + Md²"
+  },
+  {
+    "subject": "phy",
+    "group": "Mechanics",
+    "title": "Gravitation",
+    "body": "F = Gm₁m₂/r² · g = GM/R² · v_orbit = √(GM/r) · v_escape = √(2GM/R) = √2 v_orbit · T² ∝ r³"
+  },
+  {
+    "subject": "phy",
+    "group": "Oscillations & Waves",
+    "title": "SHM",
+    "body": "ω = √(k/m) · T = 2π√(m/k) · pendulum T = 2π√(L/g)\nv = ω√(A²−x²) · a = −ω²x · E = ½kA²"
+  },
+  {
+    "subject": "phy",
+    "group": "Oscillations & Waves",
+    "title": "Waves & sound",
+    "body": "v = fλ · string v = √(T/μ) · closed pipe f = (2n−1)v/4L · open pipe f = nv/2L\nBeats = |f₁−f₂| · Doppler f′ = f (v ± v_o)/(v ∓ v_s)  (approach → higher)"
+  },
+  {
+    "subject": "phy",
+    "group": "Optics",
+    "title": "Ray & wave optics",
+    "body": "Lens/mirror: 1/f = 1/p + 1/q · m = −q/p · Snell n₁sinθ₁ = n₂sinθ₂ · sinθc = n₂/n₁\nYDSE fringe width β = λD/d · Grating d sinθ = nλ · Single slit minima a sinθ = nλ"
+  },
+  {
+    "subject": "phy",
+    "group": "Thermal",
+    "title": "Gas laws & thermo",
+    "body": "PV = nRT · KE per molecule = (3/2)kT · v_rms = √(3RT/M) · ΔU = Q − W · adiabatic PVᵞ = const\nQ = mcΔT · Carnot η = 1 − T_c/T_h (kelvin!)"
+  },
+  {
+    "subject": "phy",
+    "group": "Electricity",
+    "title": "Electrostatics",
+    "body": "F = kq₁q₂/r² · E = kq/r² · V = kq/r · W = qΔV · C = ε₀A/d · U = ½CV²\nParallel C = ΣC · series 1/C = Σ(1/C) · Gauss: Φ = q/ε₀ · field inside conductor = 0"
+  },
+  {
+    "subject": "phy",
+    "group": "Electricity",
+    "title": "Current electricity",
+    "body": "V = IR · R = ρL/A · P = VI = I²R = V²/R · series R = ΣR · parallel 1/R = Σ(1/R)\nTerminal voltage V = ε − Ir · Kirchhoff: ΣI = 0 at junction, ΣV = 0 in a loop · Two resistors in parallel R = R₁R₂/(R₁+R₂)"
+  },
+  {
+    "subject": "phy",
+    "group": "Electromagnetism",
+    "title": "Magnetism & induction",
+    "body": "F = qvB sinθ · F = BIL sinθ · r = mv/qB · B (long wire) = μ₀I/2πr · solenoid B = μ₀nI\nε = −dΦ/dt · motional ε = BLv · Lenz: induced current opposes the change"
+  },
+  {
+    "subject": "phy",
+    "group": "Electromagnetism",
+    "title": "AC circuits",
+    "body": "V_rms = V₀/√2 · X_L = ωL · X_C = 1/ωC · Z = √(R²+(X_L−X_C)²) · resonance f = 1/(2π√LC) · transformer V_s/V_p = N_s/N_p"
+  },
+  {
+    "subject": "phy",
+    "group": "Modern Physics",
+    "title": "Quantum & atom",
+    "body": "E = hf = hc/λ · KEmax = hf − φ · eV₀ = KEmax · λ = h/p · Bohr Eₙ = −13.6/n² eV\nSpectral lines: 1/λ = R(1/n₁² − 1/n₂²) · Intensity changes photocurrent, not KEmax."
+  },
+  {
+    "subject": "phy",
+    "group": "Modern Physics",
+    "title": "Nuclear",
+    "body": "N = N₀(½)^(t/T½) · T½ = 0.693/λ · E = Δm c² · 1 u = 931.5 MeV · α = He nucleus, β = electron, γ = photon"
+  },
+  {
+    "subject": "phy",
+    "group": "Fluids & Matter",
+    "title": "Fluids / elasticity",
+    "body": "P = P₀ + ρgh · A₁v₁ = A₂v₂ · Bernoulli: P + ½ρv² + ρgh = const · Young Y = stress/strain · buoyancy = ρVg"
+  },
+  {
+    "subject": "phy",
+    "group": "Exam Tactics",
+    "title": "Dimension check",
+    "body": "Wrong dimensions → wrong option. Convert units first (cm→m, μF→F, eV→J). Use g = 10 only if told or if the options are clean."
+  },
+  {
+    "subject": "eng",
+    "group": "Grammar",
+    "title": "Subject–verb agreement",
+    "body": "Singular: each, every, either, neither, one of, news, mathematics. With either/or, neither/nor the verb agrees with the NEARER subject.\nCollective nouns: singular if acting as a unit."
+  },
+  {
+    "subject": "eng",
+    "group": "Grammar",
+    "title": "Tenses & time words",
+    "body": "since + point in time, for + duration (present perfect). By next year → will have + V3. When/After the past event → past perfect for the earlier action."
+  },
+  {
+    "subject": "eng",
+    "group": "Grammar",
+    "title": "Conditionals",
+    "body": "Zero: if + present, present · First: if + present, will · Second: if + past (were), would · Third: if + had V3, would have V3.\nInverted: Had I known…, Were I you…, Should you need…"
+  },
+  {
+    "subject": "eng",
+    "group": "Grammar",
+    "title": "Prepositions to memorise",
+    "body": "senior/junior/superior/inferior to · good at · interested in · afraid of · different from · prefer X to Y · look forward to + -ing · capable of · aware of · accuse of"
+  },
+  {
+    "subject": "eng",
+    "group": "Grammar",
+    "title": "Common traps",
+    "body": "fewer (countable) / less (uncountable) · affect (v) / effect (n) · its / it’s · who (subject) / whom (object) · among (3+) / between (2) · a honest → an honest."
+  },
+  {
+    "subject": "eng",
+    "group": "Grammar",
+    "title": "Parallelism & modifiers",
+    "body": "List items must share form (swimming, running, cycling). A modifying phrase must sit next to what it describes: “Walking home, I saw…” not “Walking home, the tree…”."
+  },
+  {
+    "subject": "eng",
+    "group": "Grammar",
+    "title": "Punctuation (SAT-style)",
+    "body": "Semicolon joins two complete sentences. Comma + FANBOYS joins two complete sentences. Never splice with only a comma. Colon follows a complete clause. Apostrophe = possession/contraction, never plural."
+  },
+  {
+    "subject": "eng",
+    "group": "Grammar",
+    "title": "Voice & reported speech",
+    "body": "Active→Passive: object becomes subject, be + V3. Reported speech back-shifts: am→was, will→would, now→then, today→that day."
+  },
+  {
+    "subject": "eng",
+    "group": "Vocabulary",
+    "title": "High-yield roots",
+    "body": "bene = good (benevolent) · mal = bad (malevolent) · ambi = both (ambiguous) · ced/cess = go (precede) · chron = time (chronic) · dict = say (verdict) · loqu = speak (eloquent) · omni = all (omnipresent) · ped = foot · phil = love · spec = look (scrutinize)"
+  },
+  {
+    "subject": "eng",
+    "group": "Vocabulary",
+    "title": "Answering synonym/antonym",
+    "body": "Read the word in context first. Check whether the question asks for synonym or ANTONYM before choosing. Eliminate options with the opposite tone (positive/negative charge)."
+  },
+  {
+    "subject": "eng",
+    "group": "Strategy",
+    "title": "Sentence completion",
+    "body": "Predict the missing word BEFORE reading options. Signals: “despite/although/but” → contrast; “therefore/so/thus” → same direction."
+  },
+  {
+    "subject": "eng",
+    "group": "Strategy",
+    "title": "Time (suggested)",
+    "body": "40 questions ≈ 25 min. English is the fastest 20% of the paper — treat it as guaranteed marks and protect accuracy."
+  }
+]

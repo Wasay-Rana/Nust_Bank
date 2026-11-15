@@ -1,0 +1,5014 @@
+[
+  {
+    "id": "math-0",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "sin 75° equals",
+    "options": [
+      "(√6 − √2)/4",
+      "(√6 + √2)/4",
+      "(√3 + 1)/2",
+      "√3/2"
+    ],
+    "answer": 1,
+    "explanation": "sin(45°+30°) = sin45cos30 + cos45sin30 = (√6+√2)/4."
+  },
+  {
+    "id": "math-1",
+    "subject": "math",
+    "topic": "Calculus",
+    "question": "d/dx (eˣ sin x) =",
+    "options": [
+      "eˣ cos x",
+      "eˣ (sin x − cos x)",
+      "eˣ (sin x + cos x)",
+      "−eˣ cos x"
+    ],
+    "answer": 2,
+    "explanation": "Product rule: eˣ sin x + eˣ cos x."
+  },
+  {
+    "id": "math-2",
+    "subject": "math",
+    "topic": "Calculus",
+    "question": "∫ (1/x) dx =",
+    "options": [
+      "ln|x| + C",
+      "1/x² + C",
+      "x ln x + C",
+      "eˣ + C"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": "math-3",
+    "subject": "math",
+    "topic": "Calculus",
+    "question": "lim (x→0) sin(3x)/x =",
+    "options": [
+      "0",
+      "1",
+      "3",
+      "1/3"
+    ],
+    "answer": 2,
+    "explanation": "sin(kx)/x → k."
+  },
+  {
+    "id": "math-4",
+    "subject": "math",
+    "topic": "Complex Numbers",
+    "question": "i²³ equals",
+    "options": [
+      "i",
+      "−i",
+      "1",
+      "−1"
+    ],
+    "answer": 1,
+    "explanation": "23 = 4·5 + 3, so i²³ = i³ = −i."
+  },
+  {
+    "id": "math-5",
+    "subject": "math",
+    "topic": "Binomial",
+    "question": "Number of terms in the expansion of (x + y)¹⁰ is",
+    "options": [
+      "10",
+      "11",
+      "9",
+      "12"
+    ],
+    "answer": 1,
+    "explanation": "n + 1 terms."
+  },
+  {
+    "id": "math-6",
+    "subject": "math",
+    "topic": "Conics",
+    "question": "The eccentricity of a parabola is",
+    "options": [
+      "0",
+      "less than 1",
+      "1",
+      "greater than 1"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "math-7",
+    "subject": "math",
+    "topic": "Conics",
+    "question": "The centre of the circle x² + y² − 6x + 4y − 12 = 0 is",
+    "options": [
+      "(3, −2)",
+      "(−3, 2)",
+      "(6, −4)",
+      "(3, 2)"
+    ],
+    "answer": 0,
+    "explanation": "Centre = (−g, −f) = (3, −2)."
+  },
+  {
+    "id": "math-8",
+    "subject": "math",
+    "topic": "Matrices",
+    "question": "If A is a 3×3 matrix with |A| = 4, then |adj A| =",
+    "options": [
+      "4",
+      "8",
+      "16",
+      "64"
+    ],
+    "answer": 2,
+    "explanation": "|adj A| = |A|ⁿ⁻¹ = 4² = 16."
+  },
+  {
+    "id": "math-9",
+    "subject": "math",
+    "topic": "Functions",
+    "question": "Domain of f(x) = √(x − 2) is",
+    "options": [
+      "(2, ∞)",
+      "[2, ∞)",
+      "(−∞, 2]",
+      "ℝ"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "math-10",
+    "subject": "math",
+    "topic": "Calculus",
+    "question": "d/dx [ln(sin x)] =",
+    "options": [
+      "cot x",
+      "tan x",
+      "1/sin x",
+      "−cot x"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": "math-11",
+    "subject": "math",
+    "topic": "Calculus",
+    "question": "∫ sin²x dx =",
+    "options": [
+      "x/2 − sin2x/4 + C",
+      "x/2 + sin2x/4 + C",
+      "−cos²x/2 + C",
+      "sin³x/3 + C"
+    ],
+    "answer": 0,
+    "explanation": "sin²x = (1 − cos2x)/2."
+  },
+  {
+    "id": "math-12",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "cos 2θ in terms of tan θ is",
+    "options": [
+      "(1 + tan²θ)/(1 − tan²θ)",
+      "(1 − tan²θ)/(1 + tan²θ)",
+      "2tanθ/(1 + tan²θ)",
+      "2tanθ/(1 − tan²θ)"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "math-13",
+    "subject": "math",
+    "topic": "Probability",
+    "question": "Two fair dice are rolled. P(sum = 7) =",
+    "options": [
+      "1/12",
+      "1/9",
+      "1/6",
+      "1/36"
+    ],
+    "answer": 2,
+    "explanation": "6 favourable pairs out of 36."
+  },
+  {
+    "id": "math-14",
+    "subject": "math",
+    "topic": "Permutations",
+    "question": "Number of distinct arrangements of the letters of LEVEL is",
+    "options": [
+      "120",
+      "60",
+      "30",
+      "15"
+    ],
+    "answer": 2,
+    "explanation": "5!/(2!·2!) = 30."
+  },
+  {
+    "id": "math-15",
+    "subject": "math",
+    "topic": "Vectors",
+    "question": "If a = (1, 2, 3) and b = (2, −1, 0), then a·b =",
+    "options": [
+      "0",
+      "4",
+      "−4",
+      "3"
+    ],
+    "answer": 0,
+    "explanation": "2 − 2 + 0 = 0 → perpendicular."
+  },
+  {
+    "id": "math-16",
+    "subject": "math",
+    "topic": "Vectors",
+    "question": "i × j equals",
+    "options": [
+      "k",
+      "−k",
+      "0",
+      "1"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": "math-17",
+    "subject": "math",
+    "topic": "Calculus",
+    "question": "Slope of the tangent to y = x³ at x = 2 is",
+    "options": [
+      "6",
+      "8",
+      "12",
+      "3"
+    ],
+    "answer": 2,
+    "explanation": "dy/dx = 3x² = 12."
+  },
+  {
+    "id": "math-18",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "question": "Equation of the line through (0, 3) with slope 2 is",
+    "options": [
+      "y = 3x + 2",
+      "y = 2x + 3",
+      "y = 2x − 3",
+      "2y = x + 3"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "math-19",
+    "subject": "math",
+    "topic": "Sequences & Series",
+    "question": "Tenth term of the A.P. 3, 7, 11, … is",
+    "options": [
+      "39",
+      "43",
+      "40",
+      "35"
+    ],
+    "answer": 0,
+    "explanation": "a + 9d = 3 + 36."
+  },
+  {
+    "id": "math-20",
+    "subject": "math",
+    "topic": "Matrices",
+    "question": "Inverse of [[2, 1], [5, 3]] is",
+    "options": [
+      "[[3, −1], [−5, 2]]",
+      "[[3, 1], [5, 2]]",
+      "[[−3, 1], [5, −2]]",
+      "[[2, −1], [−5, 3]]"
+    ],
+    "answer": 0,
+    "explanation": "det = 1; swap diagonal, negate off-diagonal."
+  },
+  {
+    "id": "math-21",
+    "subject": "math",
+    "topic": "Logarithms",
+    "question": "If log x = 2 log 3 − log 2, then x =",
+    "options": [
+      "6",
+      "4.5",
+      "1.5",
+      "7"
+    ],
+    "answer": 1,
+    "explanation": "log(9/2)."
+  },
+  {
+    "id": "math-22",
+    "subject": "math",
+    "topic": "Series",
+    "question": "Coefficient of x³ in the Maclaurin series of eˣ is",
+    "options": [
+      "1/3",
+      "1/6",
+      "1/2",
+      "1"
+    ],
+    "answer": 1,
+    "explanation": "x³/3!."
+  },
+  {
+    "id": "math-23",
+    "subject": "math",
+    "topic": "Calculus",
+    "question": "∫₀^π sin x dx =",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "π"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "math-24",
+    "subject": "math",
+    "topic": "Conics",
+    "question": "Foci of x²/9 + y²/4 = 1 are",
+    "options": [
+      "(±√5, 0)",
+      "(±√13, 0)",
+      "(0, ±√5)",
+      "(±5, 0)"
+    ],
+    "answer": 0,
+    "explanation": "c² = a² − b² = 5."
+  },
+  {
+    "id": "math-25",
+    "subject": "math",
+    "topic": "Inequalities",
+    "question": "|x − 2| < 3 gives",
+    "options": [
+      "−1 < x < 5",
+      "x < 5",
+      "−5 < x < 1",
+      "x > −1"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": "math-26",
+    "subject": "math",
+    "topic": "Binomial",
+    "question": "Coefficient of x² in (1 + x)⁵ is",
+    "options": [
+      "5",
+      "10",
+      "20",
+      "15"
+    ],
+    "answer": 1,
+    "explanation": "⁵C₂ = 10."
+  },
+  {
+    "id": "math-27",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "question": "Lines with slopes 1 and −1 meet at an angle of",
+    "options": [
+      "0°",
+      "45°",
+      "60°",
+      "90°"
+    ],
+    "answer": 3,
+    "explanation": "m₁m₂ = −1 → perpendicular."
+  },
+  {
+    "id": "math-28",
+    "subject": "math",
+    "topic": "Complex Numbers",
+    "question": "Principal argument of −1 is",
+    "options": [
+      "0",
+      "π/2",
+      "π",
+      "−π/2"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "math-29",
+    "subject": "math",
+    "topic": "Functions",
+    "question": "If f(x) = 2x + 1 and g(x) = x², then f(g(2)) =",
+    "options": [
+      "9",
+      "25",
+      "17",
+      "8"
+    ],
+    "answer": 0,
+    "explanation": "g(2) = 4, f(4) = 9."
+  },
+  {
+    "id": "math-30",
+    "subject": "math",
+    "topic": "Functions",
+    "question": "Inverse of f(x) = (x + 3)/2 is",
+    "options": [
+      "2x − 3",
+      "2x + 3",
+      "(x − 3)/2",
+      "2/(x + 3)"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": "math-31",
+    "subject": "math",
+    "topic": "Differential Eq.",
+    "question": "Solution of dy/dx = y with y(0) = 1 is",
+    "options": [
+      "y = x + 1",
+      "y = eˣ",
+      "y = e⁻ˣ",
+      "y = 1/x"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "math-32",
+    "subject": "math",
+    "topic": "Conics",
+    "question": "Focus of the parabola y² = 8x is",
+    "options": [
+      "(8, 0)",
+      "(4, 0)",
+      "(2, 0)",
+      "(0, 2)"
+    ],
+    "answer": 2,
+    "explanation": "4a = 8 → a = 2."
+  },
+  {
+    "id": "math-33",
+    "subject": "math",
+    "topic": "Sets",
+    "question": "If n(A) = 20, n(B) = 15, n(A∩B) = 5, then n(A∪B) =",
+    "options": [
+      "40",
+      "35",
+      "30",
+      "25"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "math-34",
+    "subject": "math",
+    "topic": "Calculus",
+    "question": "d/dx (tan x) =",
+    "options": [
+      "sec x tan x",
+      "sec²x",
+      "cot x",
+      "−csc²x"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "math-35",
+    "subject": "math",
+    "topic": "Quadratics",
+    "question": "If α, β are roots of x² − 3x + 1 = 0, then α² + β² =",
+    "options": [
+      "5",
+      "7",
+      "9",
+      "11"
+    ],
+    "answer": 1,
+    "explanation": "(α+β)² − 2αβ = 9 − 2."
+  },
+  {
+    "id": "math-36",
+    "subject": "math",
+    "topic": "Calculus",
+    "question": "d/dx (xˣ) =",
+    "options": [
+      "x·xˣ⁻¹",
+      "xˣ ln x",
+      "xˣ (1 + ln x)",
+      "xˣ (1 − ln x)"
+    ],
+    "answer": 2,
+    "explanation": "Log-differentiate: y = xˣ → y′/y = ln x + 1."
+  },
+  {
+    "id": "math-37",
+    "subject": "math",
+    "topic": "Calculus",
+    "question": "∫ x eˣ dx =",
+    "options": [
+      "eˣ (x + 1) + C",
+      "eˣ (x − 1) + C",
+      "x eˣ + C",
+      "x²eˣ/2 + C"
+    ],
+    "answer": 1,
+    "explanation": "By parts."
+  },
+  {
+    "id": "math-38",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "tan 15° equals",
+    "options": [
+      "2 − √3",
+      "2 + √3",
+      "√3 − 1",
+      "1/√3"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": "math-39",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "General solution of sin θ = 0 is",
+    "options": [
+      "θ = nπ",
+      "θ = 2nπ",
+      "θ = (2n+1)π/2",
+      "θ = nπ/2"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": "math-40",
+    "subject": "math",
+    "topic": "Sequences & Series",
+    "question": "Sum of the first 20 natural numbers is",
+    "options": [
+      "190",
+      "200",
+      "210",
+      "420"
+    ],
+    "answer": 2,
+    "explanation": "n(n+1)/2."
+  },
+  {
+    "id": "math-41",
+    "subject": "math",
+    "topic": "Permutations",
+    "question": "In how many ways can 5 people sit in a row?",
+    "options": [
+      "25",
+      "60",
+      "120",
+      "24"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "math-42",
+    "subject": "math",
+    "topic": "Probability",
+    "question": "A card is drawn from a standard deck. P(king or heart) =",
+    "options": [
+      "4/13",
+      "17/52",
+      "15/52",
+      "1/4"
+    ],
+    "answer": 0,
+    "explanation": "(4 + 13 − 1)/52 = 16/52 = 4/13."
+  },
+  {
+    "id": "math-43",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "question": "Distance of (3, 4) from the line 3x + 4y − 5 = 0 is",
+    "options": [
+      "4",
+      "5",
+      "3",
+      "2"
+    ],
+    "answer": 0,
+    "explanation": "|9+16−5|/5 = 4."
+  },
+  {
+    "id": "math-44",
+    "subject": "math",
+    "topic": "Vectors",
+    "question": "Area of the triangle with sides a = (1,0,0) and b = (0,2,0) is",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "1/2"
+    ],
+    "answer": 0,
+    "explanation": "½|a×b| = ½·2."
+  },
+  {
+    "id": "math-45",
+    "subject": "math",
+    "topic": "Calculus",
+    "question": "Maximum value of f(x) = 3 − (x − 1)² is",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "math-46",
+    "subject": "math",
+    "topic": "Calculus",
+    "question": "lim (x→∞) (1 + 1/x)ˣ =",
+    "options": [
+      "1",
+      "0",
+      "∞",
+      "e"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": "math-47",
+    "subject": "math",
+    "topic": "Matrices",
+    "question": "If A is 2×3 and B is 3×4, then AB is",
+    "options": [
+      "2×4",
+      "3×3",
+      "4×2",
+      "not defined"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": "math-48",
+    "subject": "math",
+    "topic": "Quadratics",
+    "question": "For ax² + bx + c = 0 to have equal roots we need",
+    "options": [
+      "b² − 4ac > 0",
+      "b² − 4ac = 0",
+      "b² − 4ac < 0",
+      "b = 0"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "math-49",
+    "subject": "math",
+    "topic": "Complex Numbers",
+    "question": "If ω is a complex cube root of unity, 1 + ω + ω² =",
+    "options": [
+      "1",
+      "−1",
+      "ω",
+      "0"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": "math-50",
+    "subject": "math",
+    "topic": "Logarithms",
+    "question": "log₄ 8 =",
+    "options": [
+      "3/2",
+      "2",
+      "2/3",
+      "1/2"
+    ],
+    "answer": 0,
+    "explanation": "2^3 over 2^2: (3 log2)/(2 log2)."
+  },
+  {
+    "id": "phy-51",
+    "subject": "phy",
+    "topic": "Units & Dimensions",
+    "question": "The dimensional formula of force is",
+    "options": [
+      "[MLT⁻¹]",
+      "[MLT⁻²]",
+      "[ML²T⁻²]",
+      "[ML⁻¹T⁻²]"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "phy-52",
+    "subject": "phy",
+    "topic": "Units & Dimensions",
+    "question": "The SI unit of capacitance is",
+    "options": [
+      "henry",
+      "farad",
+      "weber",
+      "tesla"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "phy-53",
+    "subject": "phy",
+    "topic": "Vectors",
+    "question": "Which of the following is a vector quantity?",
+    "options": [
+      "Work",
+      "Speed",
+      "Displacement",
+      "Energy"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "phy-54",
+    "subject": "phy",
+    "topic": "Gravitation",
+    "question": "Escape velocity of a planet does NOT depend on",
+    "options": [
+      "mass of the planet",
+      "radius of the planet",
+      "mass of the escaping object",
+      "g at its surface"
+    ],
+    "answer": 2,
+    "explanation": "v = √(2GM/R)."
+  },
+  {
+    "id": "phy-55",
+    "subject": "phy",
+    "topic": "Gravitation",
+    "question": "According to Kepler's third law",
+    "options": [
+      "T ∝ r",
+      "T² ∝ r³",
+      "T ∝ r²",
+      "T³ ∝ r²"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "phy-56",
+    "subject": "phy",
+    "topic": "Work & Energy",
+    "question": "Work done by the centripetal force on a body in uniform circular motion is",
+    "options": [
+      "positive",
+      "negative",
+      "zero",
+      "depends on radius"
+    ],
+    "answer": 2,
+    "explanation": "Force ⟂ displacement."
+  },
+  {
+    "id": "phy-57",
+    "subject": "phy",
+    "topic": "Rotational Motion",
+    "question": "Torque is given by",
+    "options": [
+      "r · F",
+      "r × F",
+      "F / r",
+      "m a"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "phy-58",
+    "subject": "phy",
+    "topic": "Electrostatics",
+    "question": "Two 4 μF capacitors in series have equivalent capacitance of",
+    "options": [
+      "8 μF",
+      "4 μF",
+      "2 μF",
+      "1 μF"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "phy-59",
+    "subject": "phy",
+    "topic": "Electrostatics",
+    "question": "Inside a conductor in electrostatic equilibrium the electric field is",
+    "options": [
+      "maximum",
+      "zero",
+      "uniform non-zero",
+      "infinite"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "phy-60",
+    "subject": "phy",
+    "topic": "Electromagnetism",
+    "question": "Magnetic force on a charge moving parallel to a magnetic field is",
+    "options": [
+      "maximum",
+      "qvB/2",
+      "zero",
+      "qvB"
+    ],
+    "answer": 2,
+    "explanation": "F = qvB sinθ, θ = 0."
+  },
+  {
+    "id": "phy-61",
+    "subject": "phy",
+    "topic": "Electromagnetic Induction",
+    "question": "Lenz's law is a consequence of conservation of",
+    "options": [
+      "charge",
+      "momentum",
+      "energy",
+      "mass"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "phy-62",
+    "subject": "phy",
+    "topic": "AC & Transformer",
+    "question": "A step-up transformer has",
+    "options": [
+      "Ns < Np",
+      "Ns > Np",
+      "Ns = Np",
+      "no secondary"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "phy-63",
+    "subject": "phy",
+    "topic": "Modern Physics",
+    "question": "Increasing the intensity of light in the photoelectric effect increases",
+    "options": [
+      "maximum KE of electrons",
+      "stopping potential",
+      "number of photoelectrons per second",
+      "threshold frequency"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "phy-64",
+    "subject": "phy",
+    "topic": "Nuclear Physics",
+    "question": "Fraction of a radioactive sample left after 3 half-lives is",
+    "options": [
+      "1/3",
+      "1/6",
+      "1/8",
+      "1/9"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "phy-65",
+    "subject": "phy",
+    "topic": "Waves",
+    "question": "Beat frequency of two sources of frequency f₁ and f₂ is",
+    "options": [
+      "f₁ + f₂",
+      "|f₁ − f₂|",
+      "f₁ f₂",
+      "(f₁ + f₂)/2"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "phy-66",
+    "subject": "phy",
+    "topic": "Waves",
+    "question": "Fundamental frequency of a pipe closed at one end of length L is",
+    "options": [
+      "v/2L",
+      "v/4L",
+      "2v/L",
+      "v/L"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "phy-67",
+    "subject": "phy",
+    "topic": "Optics",
+    "question": "Fringe spacing in Young’s double-slit experiment is",
+    "options": [
+      "λd/D",
+      "λD/d",
+      "dD/λ",
+      "λ/(dD)"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "phy-68",
+    "subject": "phy",
+    "topic": "Thermodynamics",
+    "question": "For an isothermal process in an ideal gas",
+    "options": [
+      "ΔU = 0",
+      "Q = 0",
+      "W = 0",
+      "ΔP = 0"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": "phy-69",
+    "subject": "phy",
+    "topic": "Thermodynamics",
+    "question": "First law of thermodynamics: ΔU =",
+    "options": [
+      "Q + W",
+      "Q − W (W done by system)",
+      "W − Q",
+      "Q × W"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "phy-70",
+    "subject": "phy",
+    "topic": "Thermodynamics",
+    "question": "Carnot engine efficiency between 500 K and 300 K is",
+    "options": [
+      "20%",
+      "40%",
+      "60%",
+      "80%"
+    ],
+    "answer": 1,
+    "explanation": "1 − 300/500."
+  },
+  {
+    "id": "phy-71",
+    "subject": "phy",
+    "topic": "SHM",
+    "question": "If the length of a simple pendulum is quadrupled, its time period",
+    "options": [
+      "doubles",
+      "quadruples",
+      "halves",
+      "is unchanged"
+    ],
+    "answer": 0,
+    "explanation": "T ∝ √L."
+  },
+  {
+    "id": "phy-72",
+    "subject": "phy",
+    "topic": "Current Electricity",
+    "question": "Kirchhoff’s junction rule is based on conservation of",
+    "options": [
+      "energy",
+      "charge",
+      "momentum",
+      "power"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "phy-73",
+    "subject": "phy",
+    "topic": "Modern Physics",
+    "question": "Ground-state energy of hydrogen (Bohr model) is",
+    "options": [
+      "−13.6 eV",
+      "+13.6 eV",
+      "−3.4 eV",
+      "−27.2 eV"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": "phy-74",
+    "subject": "phy",
+    "topic": "Dynamics",
+    "question": "At terminal velocity the net force on a falling body is",
+    "options": [
+      "equal to weight",
+      "zero",
+      "upward",
+      "maximum"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "phy-75",
+    "subject": "phy",
+    "topic": "Rotational Motion",
+    "question": "Moment of inertia of a solid sphere about its diameter is",
+    "options": [
+      "MR²",
+      "½MR²",
+      "⅖MR²",
+      "⅔MR²"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "phy-76",
+    "subject": "phy",
+    "topic": "Electrostatics",
+    "question": "Energy stored in a 2 μF capacitor charged to 10 V is",
+    "options": [
+      "1 × 10⁻⁴ J",
+      "2 × 10⁻⁵ J",
+      "1 × 10⁻⁵ J",
+      "2 × 10⁻⁴ J"
+    ],
+    "answer": 0,
+    "explanation": "½CV² = ½(2×10⁻⁶)(100)."
+  },
+  {
+    "id": "phy-77",
+    "subject": "phy",
+    "topic": "Rotational Motion",
+    "question": "Angular momentum is conserved when",
+    "options": [
+      "net external force is zero",
+      "net external torque is zero",
+      "kinetic energy is constant",
+      "speed is constant"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "phy-78",
+    "subject": "phy",
+    "topic": "Elasticity",
+    "question": "Young’s modulus is the ratio of",
+    "options": [
+      "stress to strain",
+      "strain to stress",
+      "force to area",
+      "pressure to volume"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": "phy-79",
+    "subject": "phy",
+    "topic": "Kinetic Theory",
+    "question": "At constant volume, doubling the absolute temperature of an ideal gas",
+    "options": [
+      "halves pressure",
+      "doubles pressure",
+      "quadruples pressure",
+      "leaves pressure unchanged"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "phy-80",
+    "subject": "phy",
+    "topic": "Electrostatics",
+    "question": "Gauss’s law: net electric flux through a closed surface equals",
+    "options": [
+      "q·ε₀",
+      "q/ε₀",
+      "ε₀/q",
+      "zero always"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "phy-81",
+    "subject": "phy",
+    "topic": "EM Waves",
+    "question": "Which electromagnetic wave has the highest frequency?",
+    "options": [
+      "X-rays",
+      "Gamma rays",
+      "Ultraviolet",
+      "Microwaves"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "phy-82",
+    "subject": "phy",
+    "topic": "Electromagnetism",
+    "question": "Radius of a charged particle’s circular path in a uniform B field is",
+    "options": [
+      "qB/mv",
+      "mv/qB",
+      "mqB/v",
+      "mvqB"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "phy-83",
+    "subject": "phy",
+    "topic": "Fluids",
+    "question": "In Bernoulli’s principle, where fluid speed is higher, pressure is",
+    "options": [
+      "higher",
+      "lower",
+      "same",
+      "infinite"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "phy-84",
+    "subject": "phy",
+    "topic": "Optics",
+    "question": "Critical angle exists when light travels from",
+    "options": [
+      "rarer to denser medium",
+      "denser to rarer medium",
+      "air to vacuum",
+      "any medium"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "phy-85",
+    "subject": "phy",
+    "topic": "Current Electricity",
+    "question": "Resistivity of a metallic conductor generally ____ with temperature.",
+    "options": [
+      "decreases",
+      "increases",
+      "stays constant",
+      "becomes zero"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "eng-86",
+    "subject": "eng",
+    "topic": "Grammar: Agreement",
+    "question": "Neither of the boys ___ present.",
+    "options": [
+      "were",
+      "was",
+      "are",
+      "have been"
+    ],
+    "answer": 1,
+    "explanation": "\"Neither\" is singular."
+  },
+  {
+    "id": "eng-87",
+    "subject": "eng",
+    "topic": "Grammar: Conditionals",
+    "question": "If I ___ you, I would apologise.",
+    "options": [
+      "was",
+      "am",
+      "were",
+      "be"
+    ],
+    "answer": 2,
+    "explanation": "Second conditional / subjunctive."
+  },
+  {
+    "id": "eng-88",
+    "subject": "eng",
+    "topic": "Grammar: Prepositions",
+    "question": "She is good ___ mathematics.",
+    "options": [
+      "in",
+      "at",
+      "on",
+      "with"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "eng-89",
+    "subject": "eng",
+    "topic": "Grammar: Prepositions",
+    "question": "He has been living here ___ 2015.",
+    "options": [
+      "for",
+      "since",
+      "from",
+      "by"
+    ],
+    "answer": 1,
+    "explanation": "Since + point in time; for + duration."
+  },
+  {
+    "id": "eng-90",
+    "subject": "eng",
+    "topic": "Grammar: Agreement",
+    "question": "Each of the students ___ a prize.",
+    "options": [
+      "receive",
+      "have received",
+      "received",
+      "were receiving"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "eng-91",
+    "subject": "eng",
+    "topic": "Grammar: Gerunds",
+    "question": "I look forward to ___ you.",
+    "options": [
+      "meet",
+      "meeting",
+      "have met",
+      "met"
+    ],
+    "answer": 1,
+    "explanation": "\"to\" is a preposition here → gerund."
+  },
+  {
+    "id": "eng-92",
+    "subject": "eng",
+    "topic": "Grammar: Agreement",
+    "question": "The news ___ shocking.",
+    "options": [
+      "were",
+      "are",
+      "was",
+      "have been"
+    ],
+    "answer": 2,
+    "explanation": "\"News\" is uncountable/singular."
+  },
+  {
+    "id": "eng-93",
+    "subject": "eng",
+    "topic": "Grammar: Conjunctions",
+    "question": "Hardly had he arrived ___ it began to rain.",
+    "options": [
+      "than",
+      "when",
+      "then",
+      "while"
+    ],
+    "answer": 1,
+    "explanation": "Hardly … when; no sooner … than."
+  },
+  {
+    "id": "eng-94",
+    "subject": "eng",
+    "topic": "Grammar: Agreement",
+    "question": "Choose the correct sentence.",
+    "options": [
+      "Neither the teacher nor the students was present.",
+      "Neither the teacher nor the students were present.",
+      "Neither the teacher nor the students is present.",
+      "Neither the teacher nor the students has been present."
+    ],
+    "answer": 1,
+    "explanation": "Verb agrees with the nearer subject."
+  },
+  {
+    "id": "eng-95",
+    "subject": "eng",
+    "topic": "Analogies",
+    "question": "Doctor : Patient :: Teacher : ?",
+    "options": [
+      "School",
+      "Student",
+      "Book",
+      "Class"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "eng-96",
+    "subject": "eng",
+    "topic": "Analogies",
+    "question": "Hot : Cold :: Day : ?",
+    "options": [
+      "Sun",
+      "Night",
+      "Light",
+      "Week"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "eng-97",
+    "subject": "eng",
+    "topic": "Analogies",
+    "question": "Pen : Write :: Knife : ?",
+    "options": [
+      "Sharp",
+      "Kitchen",
+      "Cut",
+      "Steel"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "eng-98",
+    "subject": "eng",
+    "topic": "Idioms",
+    "question": "\"To break the ice\" means",
+    "options": [
+      "to damage something",
+      "to start a conversation in a tense setting",
+      "to freeze water",
+      "to become angry"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "eng-99",
+    "subject": "eng",
+    "topic": "Idioms",
+    "question": "\"Once in a blue moon\" means",
+    "options": [
+      "frequently",
+      "very rarely",
+      "at night",
+      "never"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "eng-100",
+    "subject": "eng",
+    "topic": "Idioms",
+    "question": "\"A blessing in disguise\" is",
+    "options": [
+      "an obvious gift",
+      "a good thing that seemed bad at first",
+      "a hidden danger",
+      "a religious act"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "eng-101",
+    "subject": "eng",
+    "topic": "Sentence Completion",
+    "question": "Despite his ___ appearance, he was a kind man.",
+    "options": [
+      "pleasant",
+      "amiable",
+      "fearsome",
+      "gentle"
+    ],
+    "answer": 2,
+    "explanation": "\"Despite\" signals contrast."
+  },
+  {
+    "id": "eng-102",
+    "subject": "eng",
+    "topic": "Sentence Completion",
+    "question": "The scientist's theory was so ___ that few could understand it.",
+    "options": [
+      "lucid",
+      "abstruse",
+      "simple",
+      "trivial"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "eng-103",
+    "subject": "eng",
+    "topic": "Spelling",
+    "question": "Choose the correct spelling.",
+    "options": [
+      "Accomodation",
+      "Acommodation",
+      "Accommodation",
+      "Accomodetion"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "eng-104",
+    "subject": "eng",
+    "topic": "Voice",
+    "question": "Change to active voice: \"The letter was written by her.\"",
+    "options": [
+      "She wrote the letter.",
+      "She has written the letter.",
+      "She writes the letter.",
+      "She was writing the letter."
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": "eng-105",
+    "subject": "eng",
+    "topic": "Reported Speech",
+    "question": "He said, \"I am tired.\" → ",
+    "options": [
+      "He said that he is tired.",
+      "He said that he was tired.",
+      "He said that I was tired.",
+      "He said that he has been tired."
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "eng-106",
+    "subject": "eng",
+    "topic": "Tenses",
+    "question": "By next year, she ___ her degree.",
+    "options": [
+      "will complete",
+      "completes",
+      "will have completed",
+      "has completed"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "eng-107",
+    "subject": "eng",
+    "topic": "Grammar: Prepositions",
+    "question": "He is senior ___ me.",
+    "options": [
+      "than",
+      "to",
+      "from",
+      "of"
+    ],
+    "answer": 1,
+    "explanation": "senior/junior/superior/inferior + to."
+  },
+  {
+    "id": "eng-108",
+    "subject": "eng",
+    "topic": "Grammar: Articles",
+    "question": "He is ___ honest man.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
+    "answer": 1,
+    "explanation": "Silent h → vowel sound."
+  },
+  {
+    "id": "eng-109",
+    "subject": "eng",
+    "topic": "Grammar: Conditionals",
+    "question": "Had I known, I ___ you.",
+    "options": [
+      "would help",
+      "will help",
+      "would have helped",
+      "helped"
+    ],
+    "answer": 2,
+    "explanation": "Third conditional (inverted)."
+  },
+  {
+    "id": "eng-110",
+    "subject": "eng",
+    "topic": "Commonly Confused",
+    "question": "The new policy will ___ everyone in the company.",
+    "options": [
+      "affect",
+      "effect",
+      "afflict",
+      "infect"
+    ],
+    "answer": 0,
+    "explanation": "Affect = verb (influence); effect = noun (result)."
+  },
+  {
+    "id": "eng-111",
+    "subject": "eng",
+    "topic": "Commonly Confused",
+    "question": "The dog wagged ___ tail.",
+    "options": [
+      "it's",
+      "its",
+      "its’",
+      "it is"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "eng-112",
+    "subject": "eng",
+    "topic": "Grammar: Quantifiers",
+    "question": "There are ___ mistakes in this essay than in yours.",
+    "options": [
+      "less",
+      "fewer",
+      "little",
+      "lesser"
+    ],
+    "answer": 1,
+    "explanation": "Fewer with countable nouns."
+  },
+  {
+    "id": "eng-113",
+    "subject": "eng",
+    "topic": "Grammar: Pronouns",
+    "question": "___ did you give the book to?",
+    "options": [
+      "Who",
+      "Whom",
+      "Whose",
+      "Which one who"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "eng-114",
+    "subject": "eng",
+    "topic": "Parallelism",
+    "question": "Choose the sentence with correct parallel structure.",
+    "options": [
+      "She likes swimming, to run and cycling.",
+      "She likes swimming, running and cycling.",
+      "She likes to swim, running and to cycle.",
+      "She likes swim, run and cycling."
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "eng-115",
+    "subject": "eng",
+    "topic": "Modifiers",
+    "question": "Choose the sentence without a dangling modifier.",
+    "options": [
+      "Walking down the street, the trees looked beautiful.",
+      "Walking down the street, I thought the trees looked beautiful.",
+      "Walking down the street, the trees were seen by me.",
+      "The trees looked beautiful walking down the street."
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "eng-116",
+    "subject": "eng",
+    "topic": "Punctuation",
+    "question": "Which sentence uses the semicolon correctly?",
+    "options": [
+      "I like tea; and coffee.",
+      "I like tea; she likes coffee.",
+      "I like; tea and coffee.",
+      "Because I like tea; I drink it."
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "eng-117",
+    "subject": "eng",
+    "topic": "Grammar: Agreement",
+    "question": "The committee ___ its report yesterday.",
+    "options": [
+      "submit",
+      "submitted",
+      "were submitting",
+      "have submitting"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "eng-118",
+    "subject": "eng",
+    "topic": "Grammar: Tenses",
+    "question": "She ___ in Lahore since 2010.",
+    "options": [
+      "lives",
+      "lived",
+      "has lived",
+      "is living"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "eng-119",
+    "subject": "eng",
+    "topic": "Reading / Inference",
+    "question": "\"Despite repeated warnings, he continued.\" The sentence implies he",
+    "options": [
+      "obeyed",
+      "ignored the warnings",
+      "never heard them",
+      "agreed with them"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "math-120",
+    "subject": "math",
+    "topic": "Vectors",
+    "question": "Which list consists ONLY of vector quantities?",
+    "options": [
+      "Time, temperature, velocity",
+      "Force, volume, momentum",
+      "Velocity, acceleration, mass",
+      "Force, acceleration, velocity"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": "math-121",
+    "subject": "math",
+    "topic": "Vectors",
+    "question": "If (a × b) points along the negative z-axis, the vectors a and b must lie in the",
+    "options": [
+      "zx-plane",
+      "yx-plane",
+      "xy-plane",
+      "none of the above"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "math-122",
+    "subject": "math",
+    "topic": "Vectors",
+    "question": "k × i =",
+    "options": [
+      "j",
+      "−j",
+      "k",
+      "−k"
+    ],
+    "answer": 0,
+    "explanation": "Right-hand rule: k × i = j."
+  },
+  {
+    "id": "math-123",
+    "subject": "math",
+    "topic": "Vectors",
+    "question": "If two forces each of magnitude 5 N act along the same line, their resultant is",
+    "options": [
+      "5 N",
+      "10 N",
+      "20 N",
+      "30 N"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "math-124",
+    "subject": "math",
+    "topic": "Vectors",
+    "question": "The cross product of two vectors is maximum when they are",
+    "options": [
+      "Parallel to each other",
+      "Perpendicular to each other",
+      "Anti-parallel",
+      "At 45°"
+    ],
+    "answer": 1,
+    "explanation": "F = AB sinθ, max at θ = 90°."
+  },
+  {
+    "id": "math-125",
+    "subject": "math",
+    "topic": "Vectors",
+    "question": "The perpendicular distance from the pivot to the line of action of force is called",
+    "options": [
+      "Couple arm",
+      "Angular distance",
+      "Moment arm",
+      "None of these"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "math-126",
+    "subject": "math",
+    "topic": "Sets",
+    "question": "The multiplicative identity in ℝ is",
+    "options": [
+      "0",
+      "1",
+      "−1",
+      "None"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "math-127",
+    "subject": "math",
+    "topic": "Sets",
+    "question": "The multiplicative inverse of 0 is",
+    "options": [
+      "1",
+      "0",
+      "−1",
+      "Does not exist"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": "math-128",
+    "subject": "math",
+    "topic": "Complex Numbers",
+    "question": "i⁷ equals",
+    "options": [
+      "1",
+      "−1",
+      "i",
+      "−i"
+    ],
+    "answer": 3,
+    "explanation": "i⁷ = i^(4+3) = i³ = −i."
+  },
+  {
+    "id": "math-129",
+    "subject": "math",
+    "topic": "Sets",
+    "question": "The set of integers is a subset of",
+    "options": [
+      "Natural numbers",
+      "Prime numbers",
+      "Whole numbers",
+      "Rational numbers"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": "math-130",
+    "subject": "math",
+    "topic": "Sets",
+    "question": "{1, 2, 3, …} is",
+    "options": [
+      "An infinite set",
+      "A finite set",
+      "A singleton set",
+      "The universal set"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": "math-131",
+    "subject": "math",
+    "topic": "Sets",
+    "question": "The sets {1, 2, 4} and {4, 6, 8, 10} are",
+    "options": [
+      "Equal sets",
+      "Equivalent sets",
+      "Disjoint sets",
+      "Overlapping sets"
+    ],
+    "answer": 3,
+    "explanation": "They share element 4."
+  },
+  {
+    "id": "math-132",
+    "subject": "math",
+    "topic": "Sets",
+    "question": "The power set of {9, 11} is",
+    "options": [
+      "{Φ,{9},{11}}",
+      "{{9},{11},{9,11}}",
+      "{{9},{11}}",
+      "{Φ,{9},{11},{9,11}}"
+    ],
+    "answer": 3,
+    "explanation": "2² = 4 elements including Ø."
+  },
+  {
+    "id": "math-133",
+    "subject": "math",
+    "topic": "Sets",
+    "question": "Φ' (complement of the empty set) equals",
+    "options": [
+      "A",
+      "Φ",
+      "A'",
+      "U"
+    ],
+    "answer": 3,
+    "explanation": "The complement of empty is the universal set."
+  },
+  {
+    "id": "math-134",
+    "subject": "math",
+    "topic": "Sets",
+    "question": "p iff q is denoted by",
+    "options": [
+      "p∧q",
+      "p∨q",
+      "p→q",
+      "p↔q"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": "math-135",
+    "subject": "math",
+    "topic": "Sets",
+    "question": "The number of subsets of a set having 3 elements is",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "None of these"
+    ],
+    "answer": 2,
+    "explanation": "2³ = 8."
+  },
+  {
+    "id": "math-136",
+    "subject": "math",
+    "topic": "Matrices",
+    "question": "A matrix with a single row is called a",
+    "options": [
+      "Column matrix",
+      "Row matrix",
+      "Null matrix",
+      "Identity matrix"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "math-137",
+    "subject": "math",
+    "topic": "Matrices",
+    "question": "A square matrix whose off-diagonal elements are all zero is called a",
+    "options": [
+      "Null matrix",
+      "Singular matrix",
+      "Symmetric matrix",
+      "Diagonal matrix"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": "math-138",
+    "subject": "math",
+    "topic": "Matrices",
+    "question": "A square matrix A for which Aᵀ = A is called a",
+    "options": [
+      "Column matrix",
+      "Symmetric matrix",
+      "Skew-symmetric matrix",
+      "Row matrix"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "math-139",
+    "subject": "math",
+    "topic": "Matrices",
+    "question": "Two matrices A and B are conformable for AB if",
+    "options": [
+      "Both are square",
+      "Both are symmetric",
+      "Rows of A = columns of B",
+      "Columns of A = rows of B"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": "math-140",
+    "subject": "math",
+    "topic": "Matrices",
+    "question": "The transpose of a square matrix is",
+    "options": [
+      "A row matrix",
+      "A column matrix",
+      "A square matrix",
+      "A null matrix"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "math-141",
+    "subject": "math",
+    "topic": "Matrices",
+    "question": "The additive inverse of matrix A is",
+    "options": [
+      "A",
+      "A⁻¹",
+      "Aᵀ",
+      "−A"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": "math-142",
+    "subject": "math",
+    "topic": "Matrices",
+    "question": "|A| = 0 when A is",
+    "options": [
+      "Non-singular",
+      "Symmetric",
+      "Singular",
+      "Identity"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "math-143",
+    "subject": "math",
+    "topic": "Matrices",
+    "question": "(AB)⁻¹ equals",
+    "options": [
+      "A⁻¹",
+      "B⁻¹",
+      "A⁻¹B⁻¹",
+      "B⁻¹A⁻¹"
+    ],
+    "answer": 3,
+    "explanation": "Reverse order on inverse of product."
+  },
+  {
+    "id": "math-144",
+    "subject": "math",
+    "topic": "Matrices",
+    "question": "The transpose of a column matrix is a",
+    "options": [
+      "Zero matrix",
+      "Singular matrix",
+      "Column matrix",
+      "Row matrix"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": "math-145",
+    "subject": "math",
+    "topic": "Quadratics",
+    "question": "Roots of x² − 7x + 10 = 0 are",
+    "options": [
+      "{2, −5}",
+      "{−2, 5}",
+      "{2, 5}",
+      "{−2, −5}"
+    ],
+    "answer": 2,
+    "explanation": "(x−5)(x−2) = 0."
+  },
+  {
+    "id": "math-146",
+    "subject": "math",
+    "topic": "Quadratics",
+    "question": "The quadratic formula for ax² + bx + c = 0 is",
+    "options": [
+      "x = (b ± √(b²−4ac))/(2a)",
+      "x = (−b ± √(b²−4ac))/a",
+      "x = (−b ± √(b²−4ac))/(2a)",
+      "x = (b ± √(b²+4ac))/(2a)"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "math-147",
+    "subject": "math",
+    "topic": "Quadratics",
+    "question": "Roots are real and equal when",
+    "options": [
+      "b² − 4ac < 0",
+      "b² − 4ac = 0",
+      "b² − 4ac ≥ 0",
+      "b = 0"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "math-148",
+    "subject": "math",
+    "topic": "Quadratics",
+    "question": "Roots of x² + 5x − 1 = 0 are",
+    "options": [
+      "Rational",
+      "Irrational",
+      "Complex",
+      "None of these"
+    ],
+    "answer": 1,
+    "explanation": "D = 25+4 = 29; √29 is irrational."
+  },
+  {
+    "id": "math-149",
+    "subject": "math",
+    "topic": "Quadratics",
+    "question": "The sum of the four 4th roots of unity is",
+    "options": [
+      "4",
+      "1",
+      "0",
+      "−1"
+    ],
+    "answer": 2,
+    "explanation": "1 + i + (−1) + (−i) = 0."
+  },
+  {
+    "id": "math-150",
+    "subject": "math",
+    "topic": "Algebra",
+    "question": "(x − a) is a factor of f(x) iff",
+    "options": [
+      "f(a) is positive",
+      "f(a) is negative",
+      "f(a) = 0",
+      "None of these"
+    ],
+    "answer": 2,
+    "explanation": "Factor theorem."
+  },
+  {
+    "id": "math-151",
+    "subject": "math",
+    "topic": "Algebra",
+    "question": "If α, β are roots of 2x² − 4x + 5 = 0, then α²β + αβ² =",
+    "options": [
+      "1",
+      "−1",
+      "5",
+      "2"
+    ],
+    "answer": 2,
+    "explanation": "αβ(α+β) = (5/2)(2) = 5."
+  },
+  {
+    "id": "math-152",
+    "subject": "math",
+    "topic": "Algebra",
+    "question": "x³ + 2x² − 3x + 5 is",
+    "options": [
+      "A quadratic equation",
+      "A polynomial",
+      "A proper rational fraction",
+      "An improper rational fraction"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "math-153",
+    "subject": "math",
+    "topic": "Algebra",
+    "question": "A fraction where the degree of numerator is less than the denominator is",
+    "options": [
+      "Polynomial",
+      "Equation",
+      "Proper fraction",
+      "Improper fraction"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "math-154",
+    "subject": "math",
+    "topic": "Algebra",
+    "question": "If f(x) = {(1+x)/(1−x)}⁴ + ... = 10 is called a(n)",
+    "options": [
+      "Reciprocal equation",
+      "Exponential equation",
+      "Radical equation",
+      "None of these"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "math-155",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "The horizontal range of a projectile is maximum at",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "90°"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "math-156",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "Find the angle of elevation when a 6 m pole makes a shadow of √3 m on horizontal plane",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "90°"
+    ],
+    "answer": 2,
+    "explanation": "tan θ = 6/√3·6 → tan θ = √3 → 60°. Wait: tan θ = 6/(√3·?) — standard: 6m pole, 2√3 shadow → tan θ = 6/(2√3) = √3 → 60°."
+  },
+  {
+    "id": "math-157",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "Torque on a body is zero when angle between r and F is 0° or",
+    "options": [
+      "90°",
+      "180°",
+      "270°",
+      "None"
+    ],
+    "answer": 1,
+    "explanation": "τ = rF sinθ; sinθ = 0 at 0° or 180°."
+  },
+  {
+    "id": "math-158",
+    "subject": "math",
+    "topic": "Calculus",
+    "question": "∫ ln x dx =",
+    "options": [
+      "ln x + C",
+      "x ln x − x + C",
+      "x ln x + C",
+      "1/x + C"
+    ],
+    "answer": 1,
+    "explanation": "Integration by parts: u=ln x, dv=dx."
+  },
+  {
+    "id": "math-159",
+    "subject": "math",
+    "topic": "Calculus",
+    "question": "For positive rational k and real c: which limit is incorrect?",
+    "options": [
+      "lim(x→c) c = c",
+      "lim(x→c) xᵏ = cᵏ",
+      "lim(x→∞) c/xᵏ = 0",
+      "All are correct"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": "math-160",
+    "subject": "math",
+    "topic": "Number Systems",
+    "question": "35 is",
+    "options": [
+      "A prime number",
+      "An integer",
+      "A whole number",
+      "An irrational number"
+    ],
+    "answer": 1,
+    "explanation": "35 = 5 × 7, not prime. It is an integer (and whole number); conventionally the answer here is integer."
+  },
+  {
+    "id": "math-161",
+    "subject": "math",
+    "topic": "Algebra",
+    "question": "a · b = b · a is called",
+    "options": [
+      "Closure law of addition",
+      "Associative law of addition",
+      "Commutative law of multiplication",
+      "Associative law of multiplication"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "phy-162",
+    "subject": "phy",
+    "topic": "Mechanics",
+    "question": "What must be changing when a body accelerates uniformly along a straight path?",
+    "options": [
+      "The force on the body",
+      "The velocity of the body",
+      "The mass of the body",
+      "The speed of the body"
+    ],
+    "answer": 1,
+    "explanation": "Uniform acceleration → velocity changes at a constant rate; speed also changes unless circular."
+  },
+  {
+    "id": "phy-163",
+    "subject": "phy",
+    "topic": "Mechanics",
+    "question": "A paratrooper jumping out of an airplane at constant velocity is an example of",
+    "options": [
+      "Equilibrium",
+      "Static equilibrium",
+      "Dynamic equilibrium",
+      "None"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "phy-164",
+    "subject": "phy",
+    "topic": "Gravitation",
+    "question": "At distance R/3 above Earth's surface, g is multiplied by",
+    "options": [
+      "1/2",
+      "9/16",
+      "1/9",
+      "16/9"
+    ],
+    "answer": 1,
+    "explanation": "g’ = g(R/(R+R/3))² = g(3/4)² = 9g/16."
+  },
+  {
+    "id": "phy-165",
+    "subject": "phy",
+    "topic": "Work & Energy",
+    "question": "Work done by a person holding a pail and walking forward (force vertical) is",
+    "options": [
+      "Positive",
+      "Negative",
+      "Zero",
+      "Maximum"
+    ],
+    "answer": 2,
+    "explanation": "Force perpendicular to displacement → W = 0."
+  },
+  {
+    "id": "phy-166",
+    "subject": "phy",
+    "topic": "Work & Energy",
+    "question": "If the angle θ between force and displacement is > 90°, work done is",
+    "options": [
+      "Positive",
+      "Negative",
+      "Zero",
+      "Maximum"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "phy-167",
+    "subject": "phy",
+    "topic": "Work & Energy",
+    "question": "If work is done at 1000 J/s the power is",
+    "options": [
+      "One watt",
+      "One kilowatt",
+      "Half watt",
+      "One megawatt"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "phy-168",
+    "subject": "phy",
+    "topic": "Work & Energy",
+    "question": "According to the work–energy principle, work done on a body equals",
+    "options": [
+      "Less than the change in KE",
+      "Greater than the change in KE",
+      "The change in KE",
+      "None"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "phy-169",
+    "subject": "phy",
+    "topic": "Work & Energy",
+    "question": "Kinetic energy of a 10 kg body moving at 1 m/s is",
+    "options": [
+      "10 J",
+      "20 J",
+      "5 J",
+      "2.5 J"
+    ],
+    "answer": 2,
+    "explanation": "KE = ½ × 10 × 1² = 5 J."
+  },
+  {
+    "id": "phy-170",
+    "subject": "phy",
+    "topic": "Rotational Motion",
+    "question": "The direction of angular displacement is",
+    "options": [
+      "Along the radius",
+      "Perpendicular to radius",
+      "Along the axis of rotation",
+      "All of them"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "phy-171",
+    "subject": "phy",
+    "topic": "Rotational Motion",
+    "question": "The force required to keep a body in circular motion is called",
+    "options": [
+      "Centrifugal force",
+      "Centripetal force",
+      "Gravitational force",
+      "None"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "phy-172",
+    "subject": "phy",
+    "topic": "Rotational Motion",
+    "question": "Moment of inertia depends upon",
+    "options": [
+      "Mass only",
+      "Square of radius only",
+      "Both mass and r²",
+      "None"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "phy-173",
+    "subject": "phy",
+    "topic": "Rotational Motion",
+    "question": "The relation between time period T and angular velocity ω is",
+    "options": [
+      "T = 2πω",
+      "T = ω/2π",
+      "T = 2π/ω",
+      "T = vω"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "phy-174",
+    "subject": "phy",
+    "topic": "Rotational Motion",
+    "question": "When a body moves in a circle, the angle between its linear velocity v and angular velocity ω is",
+    "options": [
+      "0°",
+      "45°",
+      "90°",
+      "180°"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "phy-175",
+    "subject": "phy",
+    "topic": "Rotational Motion",
+    "question": "The time period is defined as the time required to traverse ___ by a revolving body.",
+    "options": [
+      "One radian",
+      "180 degrees",
+      "One revolution",
+      "90 degrees"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "phy-176",
+    "subject": "phy",
+    "topic": "Mechanics",
+    "question": "An inertial frame of reference has",
+    "options": [
+      "Zero acceleration",
+      "Velocity changing with time",
+      "Uniform acceleration",
+      "Non-zero inertia"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": "phy-177",
+    "subject": "phy",
+    "topic": "Mechanics",
+    "question": "A moving car whose engine is switched off comes to rest due to",
+    "options": [
+      "Inertia",
+      "Its mass",
+      "Friction",
+      "Earth's gravitation"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "phy-178",
+    "subject": "phy",
+    "topic": "Mechanics",
+    "question": "The time of flight of a projectile equals",
+    "options": [
+      "Half the time to reach max height",
+      "Twice the time to reach max height",
+      "One-quarter the time to reach max height",
+      "The time to reach max height"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "phy-179",
+    "subject": "phy",
+    "topic": "Mechanics",
+    "question": "A body is in complete equilibrium when",
+    "options": [
+      "Translational acceleration = 0",
+      "Rotational acceleration = 0",
+      "Both translational AND rotational acceleration = 0",
+      "Angular momentum = 0"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "phy-180",
+    "subject": "phy",
+    "topic": "Mechanics",
+    "question": "According to Newton's second law, acceleration is proportional to",
+    "options": [
+      "Force",
+      "Time",
+      "Mass",
+      "Distance"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": "phy-181",
+    "subject": "phy",
+    "topic": "Mechanics",
+    "question": "Applied force F on body of mass m with acceleration a is",
+    "options": [
+      "m/a",
+      "a/m",
+      "ma",
+      "m:a"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "phy-182",
+    "subject": "phy",
+    "topic": "Optics",
+    "question": "Object placed at 2f of a convex lens produces an image",
+    "options": [
+      "At the focus",
+      "At 2f (real, inverted, same size)",
+      "Beyond 2f",
+      "Between f and 2f"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "phy-183",
+    "subject": "phy",
+    "topic": "Optics",
+    "question": "Object placed at the principal focus of a convex lens gives an image at",
+    "options": [
+      "Same distance",
+      "Infinity",
+      "Same side of lens",
+      "Centre of curvature"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "phy-184",
+    "subject": "phy",
+    "topic": "Optics",
+    "question": "Which cannot be used to measure the wavelength of X-rays?",
+    "options": [
+      "Bragg's law",
+      "Diffraction grating",
+      "Compton effect",
+      "Photoelectric effect"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": "phy-185",
+    "subject": "phy",
+    "topic": "Optics",
+    "question": "Which property is NOT shared by both sound and light?",
+    "options": [
+      "Interference",
+      "Diffraction",
+      "Polarization",
+      "Reflection"
+    ],
+    "answer": 2,
+    "explanation": "Sound cannot be polarized (it is a longitudinal wave)."
+  },
+  {
+    "id": "phy-186",
+    "subject": "phy",
+    "topic": "Optics",
+    "question": "Two identical plano-convex lenses (f = 40 cm each) are pressed flat-to-flat. To get m = 1, place object at",
+    "options": [
+      "40 cm",
+      "80 cm",
+      "20 cm",
+      "60 cm"
+    ],
+    "answer": 0,
+    "explanation": "1/f_comb = 1/40+1/40 → f=20 cm. For m=1 real image: u = 2f = 40 cm."
+  },
+  {
+    "id": "phy-187",
+    "subject": "phy",
+    "topic": "Electrostatics",
+    "question": "Capacity of a capacitor depends upon",
+    "options": [
+      "Distance between plates",
+      "Nature of dielectric",
+      "Size of plates",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": "phy-188",
+    "subject": "phy",
+    "topic": "Electrostatics",
+    "question": "Coulomb force in medium of relative permittivity εᵣ becomes",
+    "options": [
+      "F' = εᵣF",
+      "F' = F/εᵣ",
+      "F' = F·εᵣ",
+      "F' = F/ε₀εᵣ"
+    ],
+    "answer": 1,
+    "explanation": "F' = F/εᵣ."
+  },
+  {
+    "id": "phy-189",
+    "subject": "phy",
+    "topic": "Electricity",
+    "question": "If resistance in a circuit is increased, current will",
+    "options": [
+      "Increase",
+      "Decrease",
+      "Remain same",
+      "First increase then decrease"
+    ],
+    "answer": 1,
+    "explanation": "V = IR."
+  },
+  {
+    "id": "phy-190",
+    "subject": "phy",
+    "topic": "Electricity",
+    "question": "The phenomenon where resistance of a metal falls to zero near absolute zero is",
+    "options": [
+      "Conductivity",
+      "Low conductivity",
+      "Super-conductivity",
+      "Low resistivity"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "phy-191",
+    "subject": "phy",
+    "topic": "Electricity",
+    "question": "In a house circuit, appliances are connected in parallel to get",
+    "options": [
+      "Same current, different voltage",
+      "Same current, same pd",
+      "Different current, same pd",
+      "Different current, different pd"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "phy-192",
+    "subject": "phy",
+    "topic": "Electricity",
+    "question": "Power dissipated in a circuit in terms of V and R is",
+    "options": [
+      "P = V/I",
+      "P = R/V",
+      "P = V²/R",
+      "P = I²/V"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "phy-193",
+    "subject": "phy",
+    "topic": "Electromagnetism",
+    "question": "Magnetic force Fₘ on charge q moving with velocity v through field B is",
+    "options": [
+      "Fₘ = q v × B",
+      "Fₘ = q v² B",
+      "Fₘ = q v³ B",
+      "Fₘ = q v⁴ B"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": "phy-194",
+    "subject": "phy",
+    "topic": "Electromagnetism",
+    "question": "A substance that behaves like a magnet only in a strong external field is called",
+    "options": [
+      "Magnet",
+      "Ferromagnet",
+      "Electromagnet",
+      "None of above"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "phy-195",
+    "subject": "phy",
+    "topic": "Modern Physics",
+    "question": "Lyman series lies in",
+    "options": [
+      "Visible region",
+      "Ultra-violet region",
+      "Infra-red region",
+      "Far infra-red region"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "phy-196",
+    "subject": "phy",
+    "topic": "Modern Physics",
+    "question": "An interesting application of laser is production of 3-D images called",
+    "options": [
+      "Polygons",
+      "Holograms",
+      "Ovals",
+      "None"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "phy-197",
+    "subject": "phy",
+    "topic": "Modern Physics",
+    "question": "The laser device used to fragment gallstones is called",
+    "options": [
+      "Laser beam",
+      "Laser scanner",
+      "Laser lithotripter",
+      "Ruby laser"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "phy-198",
+    "subject": "phy",
+    "topic": "Modern Physics",
+    "question": "Production of X-rays is the reverse phenomenon of",
+    "options": [
+      "Photoelectric effect",
+      "Compton effect",
+      "Pair production",
+      "Annihilation"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": "phy-199",
+    "subject": "phy",
+    "topic": "Nuclear Physics",
+    "question": "Elements with atomic number Z > 82 are",
+    "options": [
+      "Stable",
+      "Unstable",
+      "Small",
+      "None"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "phy-200",
+    "subject": "phy",
+    "topic": "Nuclear Physics",
+    "question": "Which particle has the lowest penetration power?",
+    "options": [
+      "α-particle",
+      "β-particle",
+      "γ-particle",
+      "All equal"
+    ],
+    "answer": 0,
+    "explanation": "α stopped by paper; γ penetrates lead."
+  },
+  {
+    "id": "phy-201",
+    "subject": "phy",
+    "topic": "Nuclear Physics",
+    "question": "Which particle moves with the speed of light?",
+    "options": [
+      "α-particle",
+      "β-particle",
+      "γ-particle",
+      "All of above"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "phy-202",
+    "subject": "phy",
+    "topic": "Nuclear Physics",
+    "question": "During pair production, which particles are produced?",
+    "options": [
+      "Proton & electron",
+      "Electron & neutron",
+      "Electron & positron",
+      "Proton & neutron"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "phy-203",
+    "subject": "phy",
+    "topic": "Nuclear Physics",
+    "question": "The solid-state detector is basically",
+    "options": [
+      "A forward-biased PN junction",
+      "A reverse-biased PN junction",
+      "A forward-biased transistor",
+      "A photocell"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "phy-204",
+    "subject": "phy",
+    "topic": "Nuclear Physics",
+    "question": "Which particles can induce artificial radioactivity?",
+    "options": [
+      "α-particle only",
+      "β-particle only",
+      "γ-particle only",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": "phy-205",
+    "subject": "phy",
+    "topic": "Nuclear Physics",
+    "question": "An alpha particle is identified as",
+    "options": [
+      "₁H¹",
+      "₁H²",
+      "₁H³",
+      "₂He⁴"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": "phy-206",
+    "subject": "phy",
+    "topic": "Thermodynamics",
+    "question": "Einstein explained the photoelectric effect by assuming",
+    "options": [
+      "Mass of electrons increases",
+      "Energy of light increases with speed",
+      "Light consists of photons/quanta",
+      "Photo-electrons are identical with atomic electrons"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "phy-207",
+    "subject": "phy",
+    "topic": "Thermodynamics",
+    "question": "The saturated vapour pressure of a liquid",
+    "options": [
+      "Increases with rise in temperature",
+      "Decreases with rise in temperature",
+      "May increase or decrease",
+      "Remains unchanged"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": "phy-208",
+    "subject": "phy",
+    "topic": "Thermodynamics",
+    "question": "If coefficient of linear expansion of copper is α, its coefficient of volume expansion is",
+    "options": [
+      "Same as linear",
+      "Twice linear",
+      "Three times linear",
+      "Half linear"
+    ],
+    "answer": 2,
+    "explanation": "γ = 3α."
+  },
+  {
+    "id": "phy-209",
+    "subject": "phy",
+    "topic": "Waves",
+    "question": "To make a drum produce a note of lower pitch, the drummer should",
+    "options": [
+      "Hit with larger force",
+      "Hit with smaller force",
+      "Hit nearer the edge",
+      "Loosen the drum skin"
+    ],
+    "answer": 3,
+    "explanation": "Looser skin → lower frequency → lower pitch."
+  },
+  {
+    "id": "phy-210",
+    "subject": "phy",
+    "topic": "Waves",
+    "question": "What would a hygrometer measure?",
+    "options": [
+      "Compression of water vapour with temperature",
+      "Amount of water vapour in the atmosphere",
+      "Specific gravity of air",
+      "Density of air"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "phy-211",
+    "subject": "phy",
+    "topic": "Mechanics",
+    "question": "When a force is applied to a body, which effect could NOT occur?",
+    "options": [
+      "The body speeds up",
+      "The body rotates",
+      "The mass of the body decreases",
+      "The body changes direction"
+    ],
+    "answer": 2,
+    "explanation": "Force cannot change mass."
+  },
+  {
+    "id": "phy-212",
+    "subject": "phy",
+    "topic": "Energy",
+    "question": "Main energy conversion in a hydroelectric power station is",
+    "options": [
+      "electrical → kinetic → heat",
+      "potential → kinetic → electrical",
+      "kinetic → light → electrical",
+      "heat → electrical → kinetic"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "phy-213",
+    "subject": "phy",
+    "topic": "Thermodynamics",
+    "question": "Isobars on a weather map join points of equal",
+    "options": [
+      "Pressure",
+      "Rainfall",
+      "Temperature",
+      "Wind speed"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": "phy-214",
+    "subject": "phy",
+    "topic": "Thermodynamics",
+    "question": "An unlit match held near (not touching) a very hot flame does not light because",
+    "options": [
+      "The flame is not hot enough",
+      "Air is a bad conductor of heat",
+      "The match head reflects radiation",
+      "The flame does not radiate sideways"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "phy-215",
+    "subject": "phy",
+    "topic": "Energy",
+    "question": "Bio-gas is produced by rotting of bio-mass in a closed tank called a",
+    "options": [
+      "Tanker",
+      "Boiler",
+      "Container",
+      "Digester"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": "phy-216",
+    "subject": "phy",
+    "topic": "Fluids",
+    "question": "A layer of rock that holds water and allows it to percolate through with pressure is called",
+    "options": [
+      "Aquifer",
+      "Deaquifer",
+      "Both",
+      "None"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": "phy-217",
+    "subject": "phy",
+    "topic": "Branches of Physics",
+    "question": "The branch dealing with atomic nuclei is called",
+    "options": [
+      "Nuclear physics",
+      "Atomic physics",
+      "Particle physics",
+      "Modern physics"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": "phy-218",
+    "subject": "phy",
+    "topic": "Branches of Physics",
+    "question": "The branch studying structure and properties of solids is called",
+    "options": [
+      "Nuclear physics",
+      "Modern physics",
+      "Particle physics",
+      "Solid-state physics"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": "phy-219",
+    "subject": "phy",
+    "topic": "Branches of Physics",
+    "question": "Quantities that cannot be defined in terms of other physical quantities are",
+    "options": [
+      "Scalar quantities",
+      "Vector quantities",
+      "Base quantities",
+      "Derived quantities"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "phy-220",
+    "subject": "phy",
+    "topic": "Measurement",
+    "question": "A vector is graphically represented by an arrow, whose direction and length represent",
+    "options": [
+      "Direction only",
+      "Orientation only",
+      "Magnitude only",
+      "Both magnitude and direction"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": "phy-221",
+    "subject": "phy",
+    "topic": "Vectors",
+    "question": "The y-component of the resultant of two vectors equals",
+    "options": [
+      "x-component of resultant",
+      "Sum of y-components of individual vectors",
+      "Both of them",
+      "None"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "phy-222",
+    "subject": "phy",
+    "topic": "Mechanics",
+    "question": "According to Newton, gravity follows",
+    "options": [
+      "A direct proportion law",
+      "An inverse-square law",
+      "A linear law",
+      "A cubic law"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "chem-223",
+    "subject": "chem",
+    "topic": "Minerals",
+    "question": "Spodumene is the mineral of",
+    "options": [
+      "Lithium",
+      "Sodium",
+      "Potassium",
+      "None"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": "chem-224",
+    "subject": "chem",
+    "topic": "Gas Laws",
+    "question": "At constant temperature, volume of a gas is inversely proportional to pressure. This is",
+    "options": [
+      "Coulomb's law",
+      "Boyle's law",
+      "General gas law",
+      "Charles's law"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "chem-225",
+    "subject": "chem",
+    "topic": "Solutions",
+    "question": "If one mole of solute is dissolved in one litre of solution, it is called",
+    "options": [
+      "One molal",
+      "One normal",
+      "One molar",
+      "None"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "chem-226",
+    "subject": "chem",
+    "topic": "Solutions",
+    "question": "If one gram-equivalent of solute is dissolved in one litre of solution, it is called",
+    "options": [
+      "One normal",
+      "One molal",
+      "One molar",
+      "None"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": "chem-227",
+    "subject": "chem",
+    "topic": "Solutions",
+    "question": "Very small or very large quantities are expressed in",
+    "options": [
+      "Significant figures",
+      "Logarithm",
+      "Exponential notation",
+      "None"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "chem-228",
+    "subject": "chem",
+    "topic": "Kinetics",
+    "question": "The number of molecules whose concentration determines the rate is called",
+    "options": [
+      "Molecularity",
+      "Rate of reaction",
+      "Order of reaction",
+      "None"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": "chem-229",
+    "subject": "chem",
+    "topic": "Kinetics",
+    "question": "Electrolytes that ionize to a very small extent are called",
+    "options": [
+      "Neutral",
+      "Weak electrolytes",
+      "Strong electrolytes",
+      "None"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "chem-230",
+    "subject": "chem",
+    "topic": "Kinetics",
+    "question": "The change in concentration of reactants or products over time is the",
+    "options": [
+      "Order of reaction",
+      "Rate of reaction",
+      "Molecularity",
+      "None"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "chem-231",
+    "subject": "chem",
+    "topic": "Equilibrium",
+    "question": "Reactions that proceed in the forward direction and go to completion are",
+    "options": [
+      "Irreversible reactions",
+      "Reversible reactions",
+      "Equilibrium reactions",
+      "None"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": "chem-232",
+    "subject": "chem",
+    "topic": "Electrochemistry",
+    "question": "A substance through which electricity cannot flow in molten or solution form is called",
+    "options": [
+      "Molecularity",
+      "Conductor",
+      "Electrolyte",
+      "Non-electrolyte"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": "chem-233",
+    "subject": "chem",
+    "topic": "Thermochemistry",
+    "question": "The law stating that heat evolved/absorbed is the same whether the process takes one or several steps is",
+    "options": [
+      "Newton's law",
+      "First law of thermodynamics",
+      "Hess's law",
+      "Law of conservation of energy"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "chem-234",
+    "subject": "chem",
+    "topic": "Catalyst",
+    "question": "A substance that affects the rate of reaction but remains unchanged at the end is a",
+    "options": [
+      "Catalyst",
+      "Acid",
+      "Base",
+      "None"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": "chem-235",
+    "subject": "chem",
+    "topic": "Minerals",
+    "question": "Which of the following is NOT a mineral of silicon?",
+    "options": [
+      "Analcite",
+      "Asbestos",
+      "Dolomite",
+      "Zircon"
+    ],
+    "answer": 2,
+    "explanation": "Dolomite is CaMg(CO₃)₂ — not silicon-based."
+  },
+  {
+    "id": "chem-236",
+    "subject": "chem",
+    "topic": "Organic Chemistry",
+    "question": "The unreactivity of alkanes is based on",
+    "options": [
+      "Inertness of sigma-bond",
+      "Non-polarity of the bonds",
+      "Both a & b",
+      "None"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "chem-237",
+    "subject": "chem",
+    "topic": "Organic Chemistry",
+    "question": "Complete combustion of an alkane yields",
+    "options": [
+      "CO₂ + H₂O",
+      "CO₂ + heat",
+      "CO + H₂O + heat",
+      "CO₂ + H₂O + heat"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": "chem-238",
+    "subject": "chem",
+    "topic": "Organic Chemistry",
+    "question": "The major reaction in automobile engines is",
+    "options": [
+      "Oxidation",
+      "Reduction",
+      "Combustion",
+      "Decomposition"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "chem-239",
+    "subject": "chem",
+    "topic": "Organic Chemistry",
+    "question": "Isomerism is possible when the compound contains more than",
+    "options": [
+      "Two carbon atoms",
+      "Three carbon atoms",
+      "Four carbon atoms",
+      "Five carbon atoms"
+    ],
+    "answer": 0,
+    "explanation": "Isomers first appear from C₂ (ethanol vs dimethyl ether)."
+  },
+  {
+    "id": "chem-240",
+    "subject": "chem",
+    "topic": "Organic Chemistry",
+    "question": "Rates of organic reactions are generally",
+    "options": [
+      "Fast",
+      "Very fast",
+      "Slow",
+      "Non-reactive"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "chem-241",
+    "subject": "chem",
+    "topic": "Organic Chemistry",
+    "question": "The rotation of two carbon atoms joined by a double bond would occur only if",
+    "options": [
+      "Pi bond is broken",
+      "Sigma bond is broken",
+      "Both bonds are broken",
+      "None"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": "eng-242",
+    "subject": "eng",
+    "topic": "Sentence Completion",
+    "question": "The Selection Committee was amazed to see such fine work done by a mere ___",
+    "options": [
+      "Connoisseur",
+      "Artist",
+      "Amateur",
+      "Entrepreneur"
+    ],
+    "answer": 2,
+    "explanation": "\"Mere\" implies unexpectedness; an amateur would be surprising."
+  },
+  {
+    "id": "eng-243",
+    "subject": "eng",
+    "topic": "Sentence Completion",
+    "question": "Unlike W.E.B. Du Bois who was ___ of vocational emphasis, Booker T. Washington favored ___ funds to practical programs.",
+    "options": [
+      "critical … restricting",
+      "aware … confining",
+      "suspicious … denying",
+      "appreciative … allocating"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": "eng-244",
+    "subject": "eng",
+    "topic": "Vocabulary",
+    "question": "\"Illicit\" means",
+    "options": [
+      "Draw out",
+      "Barely perceptible",
+      "Not licensed / illegal",
+      "Not necessary"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "eng-245",
+    "subject": "eng",
+    "topic": "Vocabulary",
+    "question": "\"Explorer\" most closely means",
+    "options": [
+      "A person who travels around the world",
+      "A person who discovers new places",
+      "A person who looks for new business",
+      "A person who discovers old places"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "eng-246",
+    "subject": "eng",
+    "topic": "Antonyms",
+    "question": "GRANDIOSE : opposite",
+    "options": [
+      "Docile",
+      "Unlikely to occur",
+      "Simple and unimposing",
+      "Light in weight"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "eng-247",
+    "subject": "eng",
+    "topic": "Analogies",
+    "question": "FRAGILE : BREAK :: ___",
+    "options": [
+      "vital : destroy",
+      "hostile : invite",
+      "vivid : grow",
+      "flexible : bend"
+    ],
+    "answer": 3,
+    "explanation": "Fragile things break; flexible things bend."
+  },
+  {
+    "id": "eng-248",
+    "subject": "eng",
+    "topic": "Analogies",
+    "question": "TELLER : BANK :: ___",
+    "options": [
+      "artist : museum",
+      "cashier : check",
+      "waiter : restaurant",
+      "borrower : loan"
+    ],
+    "answer": 2,
+    "explanation": "A teller works in a bank; a waiter works in a restaurant."
+  },
+  {
+    "id": "eng-249",
+    "subject": "eng",
+    "topic": "Analogies",
+    "question": "INNING : BASEBALL :: ___",
+    "options": [
+      "round : boxing",
+      "puck : hockey",
+      "touchdown : football",
+      "serve : tennis"
+    ],
+    "answer": 0,
+    "explanation": "An inning is a unit of play in baseball; a round is a unit in boxing."
+  },
+  {
+    "id": "eng-250",
+    "subject": "eng",
+    "topic": "Analogies",
+    "question": "DEGREE : TEMPERATURE :: ___",
+    "options": [
+      "ounce : weight",
+      "fathom : volume",
+      "mass : energy",
+      "time : length"
+    ],
+    "answer": 0,
+    "explanation": "Degree measures temperature; ounce measures weight."
+  },
+  {
+    "id": "eng-251",
+    "subject": "eng",
+    "topic": "Analogies",
+    "question": "PICK : GUITAR :: ___",
+    "options": [
+      "peg : ukelele",
+      "string : banjo",
+      "pipe : organ",
+      "bow : violin"
+    ],
+    "answer": 3,
+    "explanation": "A pick is used to play guitar; a bow is used to play violin."
+  },
+  {
+    "id": "eng-252",
+    "subject": "eng",
+    "topic": "Antonyms",
+    "question": "OMNIPOTENT : opposite",
+    "options": [
+      "Weak",
+      "Strong",
+      "Sour",
+      "Safe"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": "eng-253",
+    "subject": "eng",
+    "topic": "Antonyms",
+    "question": "NOTORIOUS : opposite",
+    "options": [
+      "Renowned (positively famous)",
+      "Invincible",
+      "Inactive",
+      "Fashionable"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": "eng-254",
+    "subject": "eng",
+    "topic": "Antonyms",
+    "question": "NOCTURNAL : opposite",
+    "options": [
+      "Patrolling",
+      "Diurnal / daily",
+      "Harsh",
+      "Marauding"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "eng-255",
+    "subject": "eng",
+    "topic": "Antonyms",
+    "question": "OBDURATE (stubborn) : opposite",
+    "options": [
+      "Fleeting",
+      "Finite",
+      "Yielding",
+      "Permanent"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "eng-256",
+    "subject": "eng",
+    "topic": "Reading Comprehension",
+    "question": "For real happiness the writer argues that",
+    "options": [
+      "More than one hobby is preferable",
+      "Two or three hobbies are needed",
+      "Two or three hobbies are essential",
+      "Hobbies should be interesting"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "eng-257",
+    "subject": "eng",
+    "topic": "Reading Comprehension",
+    "question": "The phrase \"ought to\" in the passage suggests",
+    "options": [
+      "Liking",
+      "Likelihood",
+      "Compulsion",
+      "Preference"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "eng-258",
+    "subject": "eng",
+    "topic": "Reading Comprehension",
+    "question": "The word \"hardly\" in context most closely means",
+    "options": [
+      "Rarely",
+      "Never",
+      "Infrequently",
+      "Scarcely"
+    ],
+    "answer": 3,
+    "explanation": ""
+  },
+  {
+    "id": "eng-259",
+    "subject": "eng",
+    "topic": "Sentence Completion",
+    "question": "Your ___ remarks spoil the effect of your speech; try not to stray from your subject.",
+    "options": [
+      "innocuous",
+      "digressive",
+      "derogatory",
+      "persistent"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "eng-260",
+    "subject": "eng",
+    "topic": "Sentence Completion",
+    "question": "We need both ornament and implement; we need the artist and the ___.",
+    "options": [
+      "beautician",
+      "writer",
+      "politician",
+      "artisan"
+    ],
+    "answer": 3,
+    "explanation": "An artisan makes useful, crafted things — matching \"implement\"."
+  },
+  {
+    "id": "intel-261",
+    "subject": "intel",
+    "topic": "Number Series",
+    "question": "What comes next: 2, 1, ½, ¼, …?",
+    "options": [
+      "1/3",
+      "1/8",
+      "1/16",
+      "2/8"
+    ],
+    "answer": 1,
+    "explanation": "Each term is halved: ¼ ÷ 2 = 1/8."
+  },
+  {
+    "id": "intel-262",
+    "subject": "intel",
+    "topic": "Number Series",
+    "question": "What comes next: 7, 10, 8, 11, 9, 12, …?",
+    "options": [
+      "7",
+      "10",
+      "12",
+      "13"
+    ],
+    "answer": 1,
+    "explanation": "Pattern: +3, −2, +3, −2 … → 12 − 2 = 10."
+  },
+  {
+    "id": "intel-263",
+    "subject": "intel",
+    "topic": "Number Series",
+    "question": "What comes next: 36, 34, 30, 28, 24, …?",
+    "options": [
+      "20",
+      "22",
+      "23",
+      "26"
+    ],
+    "answer": 1,
+    "explanation": "Pattern: −2, −4, −2, −4 … → 24 − 2 = 22."
+  },
+  {
+    "id": "intel-264",
+    "subject": "intel",
+    "topic": "Number Series",
+    "question": "What comes next: 31, 29, 24, 22, 17, …?",
+    "options": [
+      "15",
+      "14",
+      "13",
+      "12"
+    ],
+    "answer": 0,
+    "explanation": "Pattern: −2, −5, −2, −5 … → 17 − 2 = 15."
+  },
+  {
+    "id": "intel-265",
+    "subject": "intel",
+    "topic": "Direction Sense",
+    "question": "Man faces West. Turns 45° CW, then 180° CW, then 270° CCW. He now faces",
+    "options": [
+      "South-West",
+      "West",
+      "South",
+      "East-South"
+    ],
+    "answer": 0,
+    "explanation": "W→NW(+45°CW)→SE(+180°CW)→SW(+90°CW from 270°CCW)."
+  },
+  {
+    "id": "intel-266",
+    "subject": "intel",
+    "topic": "Direction Sense",
+    "question": "Man faces North. Turns 45° CW, then 180° CW, then 45° CCW. He now faces",
+    "options": [
+      "North",
+      "East",
+      "West",
+      "South"
+    ],
+    "answer": 3,
+    "explanation": "N→NE→SW→S."
+  },
+  {
+    "id": "intel-267",
+    "subject": "intel",
+    "topic": "General Knowledge",
+    "question": "The Earth consists of three main zones: hydrosphere, lithosphere and",
+    "options": [
+      "Atmosphere",
+      "Ionosphere",
+      "Photosphere",
+      "None"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": "intel-268",
+    "subject": "intel",
+    "topic": "General Knowledge",
+    "question": "A flow of water, air, or heat moving in a definite direction is called",
+    "options": [
+      "Mantle",
+      "Current",
+      "Core",
+      "Crater"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "intel-269",
+    "subject": "intel",
+    "topic": "General Knowledge",
+    "question": "Lahore is famous as the",
+    "options": [
+      "City of Markets",
+      "City of People",
+      "City of Colleges",
+      "None"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "intel-270",
+    "subject": "intel",
+    "topic": "Coding-Decoding",
+    "question": "In a code GIGANTIC → GIGTANCI. What is MIRACLES?",
+    "options": [
+      "MIRLCAES",
+      "MIRLACSE",
+      "RIMCALSE",
+      "RIMLCAES"
+    ],
+    "answer": 0,
+    "explanation": ""
+  },
+  {
+    "id": "intel-271",
+    "subject": "intel",
+    "topic": "Number Series",
+    "question": "What comes next: 2, 6, 12, 20, 30, …?",
+    "options": [
+      "40",
+      "42",
+      "44",
+      "48"
+    ],
+    "answer": 1,
+    "explanation": "Differences: 4, 6, 8, 10 → next difference = 12 → 30+12 = 42."
+  },
+  {
+    "id": "intel-272",
+    "subject": "intel",
+    "topic": "Number Series",
+    "question": "What comes next: 1, 4, 9, 16, 25, …?",
+    "options": [
+      "30",
+      "36",
+      "40",
+      "49"
+    ],
+    "answer": 1,
+    "explanation": "Perfect squares: 6² = 36."
+  },
+  {
+    "id": "intel-273",
+    "subject": "intel",
+    "topic": "Number Series",
+    "question": "What comes next: 1, 1, 2, 3, 5, 8, 13, …?",
+    "options": [
+      "18",
+      "21",
+      "24",
+      "20"
+    ],
+    "answer": 1,
+    "explanation": "Fibonacci: 8+13 = 21."
+  },
+  {
+    "id": "intel-274",
+    "subject": "intel",
+    "topic": "Odd One Out",
+    "question": "Which is the odd one out: 11, 13, 15, 17, 19?",
+    "options": [
+      "11",
+      "13",
+      "15",
+      "17"
+    ],
+    "answer": 2,
+    "explanation": "15 = 3 × 5; all others are prime."
+  },
+  {
+    "id": "intel-275",
+    "subject": "intel",
+    "topic": "Analogy",
+    "question": "Book is to Library as Painting is to",
+    "options": [
+      "Artist",
+      "Brush",
+      "Museum",
+      "Canvas"
+    ],
+    "answer": 2,
+    "explanation": ""
+  },
+  {
+    "id": "intel-276",
+    "subject": "intel",
+    "topic": "Analogy",
+    "question": "Doctor is to Hospital as Teacher is to",
+    "options": [
+      "Book",
+      "School",
+      "Class",
+      "Exam"
+    ],
+    "answer": 1,
+    "explanation": ""
+  },
+  {
+    "id": "math-277",
+    "subject": "math",
+    "topic": "Probability",
+    "question": "A die is rolled twice. What is the probability that the sum is 8?",
+    "options": [
+      "5/36",
+      "6/36",
+      "4/36",
+      "7/36"
+    ],
+    "answer": 0,
+    "explanation": "Pairs summing to 8: (2,6),(3,5),(4,4),(5,3),(6,2) = 5 pairs out of 36."
+  },
+  {
+    "id": "math-278",
+    "subject": "math",
+    "topic": "Probability",
+    "question": "A ticket is drawn from 1 to 20. What is the probability it is a multiple of 3 or 5?",
+    "options": [
+      "7/20",
+      "8/20",
+      "9/20",
+      "10/20"
+    ],
+    "answer": 2,
+    "explanation": "Multiples of 3: 3,6,9,12,15,18. Multiples of 5: 5,10,15,20. Union (no double-count of 15) = 9 numbers."
+  },
+  {
+    "id": "math-279",
+    "subject": "math",
+    "topic": "Probability",
+    "question": "Two dice are thrown. The probability that the sum is odd is",
+    "options": [
+      "1/2",
+      "1/3",
+      "1/4",
+      "2/3"
+    ],
+    "answer": 0,
+    "explanation": "Odd sum requires one even+one odd face. P = 18/36 = 1/2."
+  },
+  {
+    "id": "math-280",
+    "subject": "math",
+    "topic": "Probability",
+    "question": "A diamond card is drawn from a standard 52-card deck. Its probability is",
+    "options": [
+      "1/52",
+      "1/13",
+      "13/52",
+      "1/4"
+    ],
+    "answer": 2,
+    "explanation": "There are 13 diamond cards in 52. P = 13/52."
+  },
+  {
+    "id": "math-281",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "sin⁻¹(sin π/2) equals",
+    "options": [
+      "0",
+      "π",
+      "π/2",
+      "−π/2"
+    ],
+    "answer": 2,
+    "explanation": "sin⁻¹ is the inverse; sin(π/2)=1 and sin⁻¹(1)=π/2."
+  },
+  {
+    "id": "math-282",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "The domain of csc⁻¹(x) is",
+    "options": [
+      "[−1,1]",
+      "ℝ",
+      "ℝ − (−1,1)",
+      "(−1,1)"
+    ],
+    "answer": 2,
+    "explanation": "csc⁻¹ is defined only where |x|≥1, i.e. ℝ minus the open interval (−1,1)."
+  },
+  {
+    "id": "math-283",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "sin(−a) equals",
+    "options": [
+      "sin a",
+      "cos a",
+      "−cos a",
+      "−sin a"
+    ],
+    "answer": 3,
+    "explanation": "Sine is an odd function: sin(−a) = −sin(a)."
+  },
+  {
+    "id": "math-284",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "Which pair of functions has the same period?",
+    "options": [
+      "tangent and cotangent",
+      "sine and tangent",
+      "cosine and cosecant",
+      "secant and tangent"
+    ],
+    "answer": 0,
+    "explanation": "Both tan and cot have period π."
+  },
+  {
+    "id": "math-285",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "The period of sin 3x is",
+    "options": [
+      "2π/3",
+      "3π",
+      "2π",
+      "π/3"
+    ],
+    "answer": 0,
+    "explanation": "Period = 2π/|B| = 2π/3."
+  },
+  {
+    "id": "math-286",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "cos 3α equals",
+    "options": [
+      "3cosα − 4cos³α",
+      "4cos³α − 3cosα",
+      "3sinα − 4sin³α",
+      "4sin³α − 3sinα"
+    ],
+    "answer": 1,
+    "explanation": "Triple angle formula: cos 3α = 4cos³α − 3cosα."
+  },
+  {
+    "id": "math-287",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "tan(θ/2) can be written as",
+    "options": [
+      "sinθ/(1+cosθ)",
+      "1/cot(θ/2)",
+      "√[(1−cosθ)/(1+cosθ)]",
+      "All of these"
+    ],
+    "answer": 3,
+    "explanation": "All three expressions are equivalent forms of the half-angle tangent."
+  },
+  {
+    "id": "math-288",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "tan⁻¹(1/√3) equals",
+    "options": [
+      "π/4",
+      "π/3",
+      "π/6",
+      "−π/6"
+    ],
+    "answer": 2,
+    "explanation": "tan(π/6) = 1/√3, so tan⁻¹(1/√3) = π/6."
+  },
+  {
+    "id": "math-289",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "cosθ + tanθ·sinθ simplifies to",
+    "options": [
+      "sinθ",
+      "cosθ",
+      "tanθ",
+      "secθ"
+    ],
+    "answer": 3,
+    "explanation": "cosθ + (sinθ/cosθ)·sinθ = cosθ + sin²θ/cosθ = (cos²θ+sin²θ)/cosθ = 1/cosθ = secθ."
+  },
+  {
+    "id": "math-290",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "cos(tan⁻¹(−1)) equals",
+    "options": [
+      "−0.707",
+      "0.707",
+      "1",
+      "0"
+    ],
+    "answer": 1,
+    "explanation": "tan⁻¹(−1) = −45°; cos(−45°) = cos(45°) = 1/√2 ≈ 0.707."
+  },
+  {
+    "id": "math-291",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "sin(π/3) equals approximately",
+    "options": [
+      "0.866",
+      "0.5",
+      "0.707",
+      "1"
+    ],
+    "answer": 0,
+    "explanation": "sin(60°) = √3/2 ≈ 0.866."
+  },
+  {
+    "id": "math-292",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "cos⁻¹(cos 0.5) equals",
+    "options": [
+      "1",
+      "0.5",
+      "2",
+      "π"
+    ],
+    "answer": 1,
+    "explanation": "cos⁻¹ is the left inverse of cos on [0,π]; 0.5 is in that range, so result = 0.5."
+  },
+  {
+    "id": "math-293",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "cos⁻¹(−1/2) equals",
+    "options": [
+      "60°",
+      "90°",
+      "120°",
+      "150°"
+    ],
+    "answer": 2,
+    "explanation": "cos(120°) = −1/2, and 120° ∈ [0°,180°]."
+  },
+  {
+    "id": "math-294",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "sin⁻¹(−1) equals",
+    "options": [
+      "90°",
+      "180°",
+      "−90°",
+      "0°"
+    ],
+    "answer": 2,
+    "explanation": "sin(−90°) = −1 and −90° is in the principal range [−90°,90°]."
+  },
+  {
+    "id": "math-295",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "How many radians is 1 degree?",
+    "options": [
+      "0.01745",
+      "0.07145",
+      "0.1745",
+      "0.001745"
+    ],
+    "answer": 0,
+    "explanation": "1° = π/180 ≈ 0.01745 rad."
+  },
+  {
+    "id": "math-296",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "sin 13°cos 77° + cos 13°sin 77° equals",
+    "options": [
+      "0",
+      "sin 90°",
+      "cos 90°",
+      "tan 90°"
+    ],
+    "answer": 1,
+    "explanation": "Uses sin(A+B) = sinA cosB + cosA sinB; 13+77=90°, so result = sin 90° = 1."
+  },
+  {
+    "id": "math-297",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "The domain of tan x excludes",
+    "options": [
+      "nπ for all integers n",
+      "(2n+1)π/2 for all integers n",
+      "nπ/2 for all integers n",
+      "2nπ for all integers n"
+    ],
+    "answer": 1,
+    "explanation": "tan x is undefined where cos x = 0, i.e. at x = (2n+1)π/2."
+  },
+  {
+    "id": "math-298",
+    "subject": "math",
+    "topic": "Sequences & Series",
+    "question": "The sequence 1, 1/3, 1/5, 1/7, … is a",
+    "options": [
+      "Arithmetic",
+      "Harmonic",
+      "Geometric",
+      "Fibonacci"
+    ],
+    "answer": 1,
+    "explanation": "The reciprocals 1, 3, 5, 7, … form an AP, so the original is a harmonic sequence."
+  },
+  {
+    "id": "math-299",
+    "subject": "math",
+    "topic": "Sequences & Series",
+    "question": "The sum of 2 + 0.2 + 0.02 + … (infinite GP) is",
+    "options": [
+      "20/9",
+      "2/9",
+      "22/9",
+      "2/90"
+    ],
+    "answer": 0,
+    "explanation": "a=2, r=0.1; S∞ = 2/(1−0.1) = 2/0.9 = 20/9."
+  },
+  {
+    "id": "math-300",
+    "subject": "math",
+    "topic": "Sequences & Series",
+    "question": "The nth term of 1, 3, 5, 7, … is",
+    "options": [
+      "2n−1",
+      "2n+1",
+      "n+1",
+      "2n"
+    ],
+    "answer": 0,
+    "explanation": "AP with a=1, d=2: aₙ = 1+(n−1)2 = 2n−1."
+  },
+  {
+    "id": "math-301",
+    "subject": "math",
+    "topic": "Sequences & Series",
+    "question": "The sum 1+3+5+…+(2n−1) equals",
+    "options": [
+      "n²",
+      "n(n+1)/2",
+      "n(2n−1)",
+      "(2n−1)²"
+    ],
+    "answer": 0,
+    "explanation": "Sum of first n odd numbers = n²."
+  },
+  {
+    "id": "math-302",
+    "subject": "math",
+    "topic": "Sequences & Series",
+    "question": "The product of the cube roots of unity is",
+    "options": [
+      "1",
+      "0",
+      "−1",
+      "i"
+    ],
+    "answer": 0,
+    "explanation": "The three cube roots multiply to 1 (product of roots of x³−1=0)."
+  },
+  {
+    "id": "math-303",
+    "subject": "math",
+    "topic": "Sequences & Series",
+    "question": "For an infinite GP with r=0.45 and S∞=100, the first term is",
+    "options": [
+      "55",
+      "45",
+      "65",
+      "50"
+    ],
+    "answer": 0,
+    "explanation": "a = S∞(1−r) = 100×0.55 = 55."
+  },
+  {
+    "id": "math-304",
+    "subject": "math",
+    "topic": "Sequences & Series",
+    "question": "If ⁿP₃ = 720, then n equals",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "9"
+    ],
+    "answer": 1,
+    "explanation": "n(n−1)(n−2)=720; 10×9×8=720, so n=10."
+  },
+  {
+    "id": "math-305",
+    "subject": "math",
+    "topic": "Sequences & Series",
+    "question": "The geometric mean of 32 and 64 is",
+    "options": [
+      "48",
+      "32√2",
+      "√2048",
+      "45"
+    ],
+    "answer": 1,
+    "explanation": "GM = √(32×64) = √2048 = 32√2."
+  },
+  {
+    "id": "math-306",
+    "subject": "math",
+    "topic": "Sequences & Series",
+    "question": "The sum of the first 50 natural numbers is",
+    "options": [
+      "1250",
+      "1275",
+      "1300",
+      "1225"
+    ],
+    "answer": 1,
+    "explanation": "n(n+1)/2 = 50×51/2 = 1275."
+  },
+  {
+    "id": "math-307",
+    "subject": "math",
+    "topic": "Sequences & Series",
+    "question": "The 30th term of the AP 2, 6, 10, … is",
+    "options": [
+      "118",
+      "116",
+      "120",
+      "114"
+    ],
+    "answer": 0,
+    "explanation": "a=2, d=4; a₃₀ = 2+29×4 = 118."
+  },
+  {
+    "id": "math-308",
+    "subject": "math",
+    "topic": "Sequences & Series",
+    "question": "Three arithmetic means between −18 and 4 are",
+    "options": [
+      "−12,−6,0",
+      "−13,−8,−3",
+      "−12.5,−7,−1.5",
+      "−11,−4,3"
+    ],
+    "answer": 2,
+    "explanation": "d=(4−(−18))/(3+1)=22/4=5.5; terms: −18+5.5=−12.5, −7, −1.5."
+  },
+  {
+    "id": "math-309",
+    "subject": "math",
+    "topic": "Algebra",
+    "question": "The number of terms in the expansion of (1+x)ⁿ is",
+    "options": [
+      "n",
+      "n+1",
+      "n−1",
+      "2n"
+    ],
+    "answer": 1,
+    "explanation": "Binomial expansion (1+x)ⁿ has n+1 terms (powers 0 to n)."
+  },
+  {
+    "id": "math-310",
+    "subject": "math",
+    "topic": "Algebra",
+    "question": "Which property states A∪B = B∪A?",
+    "options": [
+      "Associative",
+      "Commutative",
+      "Distributive",
+      "Identity"
+    ],
+    "answer": 1,
+    "explanation": "Commutativity of union: order of operands does not matter."
+  },
+  {
+    "id": "math-311",
+    "subject": "math",
+    "topic": "Algebra",
+    "question": "The cube roots of unity are",
+    "options": [
+      "1, i, −i",
+      "1, −1, i",
+      "1, (−1+√3i)/2, (−1−√3i)/2",
+      "1, 1, 1"
+    ],
+    "answer": 2,
+    "explanation": "x³=1 → x=1 and x=(−1±i√3)/2."
+  },
+  {
+    "id": "math-312",
+    "subject": "math",
+    "topic": "Algebra",
+    "question": "For partial fractions 4x/[(x−1)(x+1)] = A/(x−1)+B/(x+1), A and B are",
+    "options": [
+      "A=2, B=2",
+      "A=1, B=3",
+      "A=4, B=0",
+      "A=3, B=1"
+    ],
+    "answer": 0,
+    "explanation": "4x = A(x+1)+B(x−1). At x=1: 4=2A→A=2. At x=−1: −4=−2B→B=2."
+  },
+  {
+    "id": "math-313",
+    "subject": "math",
+    "topic": "Algebra",
+    "question": "If A={a,b,c}, the total number of subsets is",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": 2,
+    "explanation": "Number of subsets = 2ⁿ = 2³ = 8."
+  },
+  {
+    "id": "math-314",
+    "subject": "math",
+    "topic": "Algebra",
+    "question": "The additive inverse of 2+√3 is",
+    "options": [
+      "2−√3",
+      "−2+√3",
+      "−2−√3",
+      "1/(2+√3)"
+    ],
+    "answer": 2,
+    "explanation": "Additive inverse: a+b = 0, so inverse of 2+√3 is −2−√3."
+  },
+  {
+    "id": "math-315",
+    "subject": "math",
+    "topic": "Algebra",
+    "question": "Sum of coefficients in the expansion of (x+y)⁵ is",
+    "options": [
+      "16",
+      "64",
+      "32",
+      "10"
+    ],
+    "answer": 2,
+    "explanation": "Put x=y=1: (1+1)⁵=2⁵=32."
+  },
+  {
+    "id": "math-316",
+    "subject": "math",
+    "topic": "Algebra",
+    "question": "The real part of 6(2−3i) is",
+    "options": [
+      "−18",
+      "12",
+      "6",
+      "18"
+    ],
+    "answer": 1,
+    "explanation": "6(2−3i) = 12−18i; real part = 12."
+  },
+  {
+    "id": "math-317",
+    "subject": "math",
+    "topic": "Algebra",
+    "question": "The decimal 0.4545… as a fraction is",
+    "options": [
+      "4/9",
+      "9/11",
+      "5/11",
+      "45/100"
+    ],
+    "answer": 2,
+    "explanation": "Let x=0.4545…; 100x=45.45…; 99x=45; x=45/99=5/11."
+  },
+  {
+    "id": "math-318",
+    "subject": "math",
+    "topic": "Algebra",
+    "question": "If e>1, the conic section is a",
+    "options": [
+      "Circle",
+      "Ellipse",
+      "Parabola",
+      "Hyperbola"
+    ],
+    "answer": 3,
+    "explanation": "Eccentricity e>1 → hyperbola. e=0 circle, 0<e<1 ellipse, e=1 parabola."
+  },
+  {
+    "id": "math-319",
+    "subject": "math",
+    "topic": "Algebra",
+    "question": "A matrix A where A=Aᵀ is called",
+    "options": [
+      "Skew-symmetric",
+      "Identity",
+      "Symmetric",
+      "Diagonal"
+    ],
+    "answer": 2,
+    "explanation": "A symmetric matrix equals its own transpose."
+  },
+  {
+    "id": "math-320",
+    "subject": "math",
+    "topic": "Algebra",
+    "question": "How many 4-digit numbers less than 4000 can be formed from {1,2,3,4,5} without repetition?",
+    "options": [
+      "48",
+      "60",
+      "72",
+      "96"
+    ],
+    "answer": 2,
+    "explanation": "First digit: 1,2,3 (3 choices). Remaining 3 digits from 4: P(4,3)=24. Total=3×24=72."
+  },
+  {
+    "id": "math-321",
+    "subject": "math",
+    "topic": "Calculus",
+    "question": "d/dx(sin 2x) equals",
+    "options": [
+      "sin 2x",
+      "cos 2x",
+      "2sin 2x",
+      "2cos 2x"
+    ],
+    "answer": 3,
+    "explanation": "Chain rule: d/dx(sin u)=cos u·u′; here u=2x, u′=2."
+  },
+  {
+    "id": "math-322",
+    "subject": "math",
+    "topic": "Calculus",
+    "question": "d/dx(ln e) equals",
+    "options": [
+      "1/e",
+      "1",
+      "0",
+      "e"
+    ],
+    "answer": 2,
+    "explanation": "ln e = 1 (a constant); derivative of a constant = 0."
+  },
+  {
+    "id": "math-323",
+    "subject": "math",
+    "topic": "Calculus",
+    "question": "∫ eˣ/(eˣ+1) dx equals",
+    "options": [
+      "ln|eˣ+1|+C",
+      "eˣ/(eˣ+1)+C",
+      "−ln|eˣ+1|+C",
+      "1/(eˣ+1)+C"
+    ],
+    "answer": 0,
+    "explanation": "Let u=eˣ+1, du=eˣdx; integral = ∫du/u = ln|u|+C."
+  },
+  {
+    "id": "math-324",
+    "subject": "math",
+    "topic": "Calculus",
+    "question": "d(2t³)/d(3t²) equals",
+    "options": [
+      "2t/3",
+      "t",
+      "3/2",
+      "6t"
+    ],
+    "answer": 1,
+    "explanation": "du/dv = (du/dt)÷(dv/dt) = 6t²÷6t = t."
+  },
+  {
+    "id": "math-325",
+    "subject": "math",
+    "topic": "Calculus",
+    "question": "The derivative of 3^(2x) with respect to x is",
+    "options": [
+      "2·ln3·3^(2x)",
+      "6^(2x)",
+      "2·3^(2x)",
+      "ln3·3^(2x)"
+    ],
+    "answer": 0,
+    "explanation": "d/dx(aˢˣ) = s·ln(a)·aˢˣ; here a=3, s=2."
+  },
+  {
+    "id": "math-326",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "question": "The distance between A(3,1) and B(−2,−4) is",
+    "options": [
+      "√50",
+      "√40",
+      "√30",
+      "√60"
+    ],
+    "answer": 0,
+    "explanation": "d=√((3−(−2))²+(1−(−4))²)=√(25+25)=√50."
+  },
+  {
+    "id": "math-327",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "question": "The distance from point (3,0) to the line 3x−4y+6=0 is",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 2,
+    "explanation": "Distance = |3(3)−4(0)+6|/√(9+16) = 15/5 = 3."
+  },
+  {
+    "id": "math-328",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "question": "For the parabola y²=4x, the focus is at",
+    "options": [
+      "(0,1)",
+      "(1,0)",
+      "(0,4)",
+      "(4,0)"
+    ],
+    "answer": 1,
+    "explanation": "Standard form y²=4px; here 4p=4 so p=1; focus at (p,0)=(1,0)."
+  },
+  {
+    "id": "math-329",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "question": "The point (−2,−8) lies in which quadrant?",
+    "options": [
+      "Quadrant I",
+      "Quadrant II",
+      "Quadrant III",
+      "Quadrant IV"
+    ],
+    "answer": 2,
+    "explanation": "Negative x and negative y → Quadrant III."
+  },
+  {
+    "id": "math-330",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "question": "A function and its inverse are reflections of each other about the line",
+    "options": [
+      "x-axis",
+      "y-axis",
+      "y=x",
+      "y=−x"
+    ],
+    "answer": 2,
+    "explanation": "Swapping x and y (which is what an inverse does) reflects across y=x."
+  },
+  {
+    "id": "math-331",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "question": "Which of the following is a latus rectum?",
+    "options": [
+      "A chord through the vertex",
+      "A chord through the focus perpendicular to the major axis",
+      "The directrix",
+      "The axis of symmetry"
+    ],
+    "answer": 1,
+    "explanation": "The latus rectum passes through the focus and is perpendicular to the major axis."
+  },
+  {
+    "id": "math-332",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "question": "A hyperbola has",
+    "options": [
+      "One focus and one directrix",
+      "Two foci and two directrices",
+      "One focus and two directrices",
+      "Two foci and one directrix"
+    ],
+    "answer": 1,
+    "explanation": "A hyperbola has two branches, each with its own focus and directrix."
+  },
+  {
+    "id": "math-333",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "question": "The diagonal of a square with side 2 is",
+    "options": [
+      "2√2",
+      "4",
+      "2",
+      "√2"
+    ],
+    "answer": 0,
+    "explanation": "Diagonal = side × √2 = 2√2."
+  },
+  {
+    "id": "eng-334",
+    "subject": "eng",
+    "topic": "Vocabulary",
+    "question": "CANDID most nearly means",
+    "options": [
+      "Hidden",
+      "Frank",
+      "Harsh",
+      "Timid"
+    ],
+    "answer": 1,
+    "explanation": "Candid = frank, outspoken, honest."
+  },
+  {
+    "id": "eng-335",
+    "subject": "eng",
+    "topic": "Vocabulary",
+    "question": "METICULOUS most nearly means",
+    "options": [
+      "Careless",
+      "Artistic",
+      "Curious",
+      "Painstaking"
+    ],
+    "answer": 3,
+    "explanation": "Meticulous = extremely careful and precise."
+  },
+  {
+    "id": "eng-336",
+    "subject": "eng",
+    "topic": "Vocabulary",
+    "question": "ABATE most nearly means",
+    "options": [
+      "Subside",
+      "Increase",
+      "Delay",
+      "Abolish"
+    ],
+    "answer": 0,
+    "explanation": "Abate = to diminish in intensity; subside."
+  },
+  {
+    "id": "eng-337",
+    "subject": "eng",
+    "topic": "Vocabulary",
+    "question": "PRAGMATIC most nearly means",
+    "options": [
+      "Idealistic",
+      "Artistic",
+      "Practical",
+      "Stubborn"
+    ],
+    "answer": 2,
+    "explanation": "Pragmatic = dealing with things sensibly and realistically."
+  },
+  {
+    "id": "eng-338",
+    "subject": "eng",
+    "topic": "Vocabulary",
+    "question": "OSTENTATIOUS most nearly means",
+    "options": [
+      "Modest",
+      "Showy",
+      "Reserved",
+      "Generous"
+    ],
+    "answer": 1,
+    "explanation": "Ostentatious = designed to impress or attract notice."
+  },
+  {
+    "id": "eng-339",
+    "subject": "eng",
+    "topic": "Vocabulary",
+    "question": "The antonym of FRUGAL is",
+    "options": [
+      "Extravagant",
+      "Thrifty",
+      "Wise",
+      "Simple"
+    ],
+    "answer": 0,
+    "explanation": "Frugal = economical; antonym is extravagant."
+  },
+  {
+    "id": "eng-340",
+    "subject": "eng",
+    "topic": "Vocabulary",
+    "question": "The antonym of BENEVOLENT is",
+    "options": [
+      "Generous",
+      "Kind",
+      "Malicious",
+      "Careless"
+    ],
+    "answer": 2,
+    "explanation": "Benevolent = well-meaning; antonym is malicious."
+  },
+  {
+    "id": "eng-341",
+    "subject": "eng",
+    "topic": "Vocabulary",
+    "question": "The antonym of APEX is",
+    "options": [
+      "Peak",
+      "Summit",
+      "Base",
+      "Tip"
+    ],
+    "answer": 2,
+    "explanation": "Apex = highest point; antonym is base."
+  },
+  {
+    "id": "eng-342",
+    "subject": "eng",
+    "topic": "Vocabulary",
+    "question": "The antonym of TRANSIENT is",
+    "options": [
+      "Brief",
+      "Fleeting",
+      "Temporary",
+      "Permanent"
+    ],
+    "answer": 3,
+    "explanation": "Transient = short-lived; antonym is permanent."
+  },
+  {
+    "id": "eng-343",
+    "subject": "eng",
+    "topic": "Vocabulary",
+    "question": "The antonym of COHERENT is",
+    "options": [
+      "Logical",
+      "Clear",
+      "Muddled",
+      "Orderly"
+    ],
+    "answer": 2,
+    "explanation": "Coherent = logical and consistent; antonym is muddled."
+  },
+  {
+    "id": "eng-344",
+    "subject": "eng",
+    "topic": "Grammar & Usage",
+    "question": "CHEF : WHISK :: tailor : ?",
+    "options": [
+      "Cloth",
+      "Thread",
+      "Needle",
+      "Stitch"
+    ],
+    "answer": 2,
+    "explanation": "A chef uses a whisk; a tailor uses a needle."
+  },
+  {
+    "id": "eng-345",
+    "subject": "eng",
+    "topic": "Grammar & Usage",
+    "question": "DROUGHT : FAMINE :: negligence : ?",
+    "options": [
+      "Care",
+      "Accident",
+      "Effort",
+      "Safety"
+    ],
+    "answer": 1,
+    "explanation": "Drought causes famine; negligence causes accidents."
+  },
+  {
+    "id": "eng-346",
+    "subject": "eng",
+    "topic": "Grammar & Usage",
+    "question": "TIMID : COURAGE :: ignorant : ?",
+    "options": [
+      "Wisdom",
+      "Study",
+      "Fear",
+      "Knowledge"
+    ],
+    "answer": 3,
+    "explanation": "Timid lacks courage; ignorant lacks knowledge."
+  },
+  {
+    "id": "eng-347",
+    "subject": "eng",
+    "topic": "Grammar & Usage",
+    "question": "Identify the grammatical error: \"Each of the students have submitted their assignment.\"",
+    "options": [
+      "Each of",
+      "have submitted",
+      "their",
+      "assignment"
+    ],
+    "answer": 1,
+    "explanation": "\"Each\" is singular; correct verb is \"has submitted\"."
+  },
+  {
+    "id": "eng-348",
+    "subject": "eng",
+    "topic": "Grammar & Usage",
+    "question": "Identify the error: \"The committee discussed about the new policy.\"",
+    "options": [
+      "The committee",
+      "discussed about",
+      "the new",
+      "policy"
+    ],
+    "answer": 1,
+    "explanation": "\"Discuss\" does not take \"about\"; say \"discussed the new policy\"."
+  },
+  {
+    "id": "eng-349",
+    "subject": "eng",
+    "topic": "Grammar & Usage",
+    "question": "Identify the error: \"Mathematics are my favourite subject.\"",
+    "options": [
+      "Mathematics",
+      "are",
+      "my favourite",
+      "subject"
+    ],
+    "answer": 1,
+    "explanation": "\"Mathematics\" is treated as singular; use \"is\"."
+  },
+  {
+    "id": "eng-350",
+    "subject": "eng",
+    "topic": "Grammar & Usage",
+    "question": "The teacher _____ the late submission without penalty.",
+    "options": [
+      "ignored",
+      "accepted",
+      "rejected",
+      "overlooked"
+    ],
+    "answer": 3,
+    "explanation": "\"Overlooked\" means chose to disregard; fits the context of no penalty."
+  },
+  {
+    "id": "eng-351",
+    "subject": "eng",
+    "topic": "Grammar & Usage",
+    "question": "We need a _____ solution to this recurring problem.",
+    "options": [
+      "temporary",
+      "quick",
+      "partial",
+      "permanent"
+    ],
+    "answer": 3,
+    "explanation": "Recurring problem needs a permanent (lasting) solution."
+  },
+  {
+    "id": "eng-352",
+    "subject": "eng",
+    "topic": "Grammar & Usage",
+    "question": "Neither the manager nor the staff _____ aware of the change.",
+    "options": [
+      "was",
+      "were",
+      "is",
+      "are"
+    ],
+    "answer": 0,
+    "explanation": "With neither…nor, verb agrees with the closer subject \"staff\" — but here \"staff\" can be singular; standard rule: neither…nor takes singular verb when both subjects are singular. The manager (singular) nor the staff (collective singular) → was."
+  },
+  {
+    "id": "math-353",
+    "subject": "math",
+    "topic": "Sequences & Series",
+    "question": "For the common ratio r=0.45 and S∞=100 (infinite GP), the first term a equals",
+    "options": [
+      "55",
+      "45",
+      "65",
+      "35"
+    ],
+    "answer": 0,
+    "explanation": "a = S∞(1−r) = 100(1−0.45) = 55."
+  },
+  {
+    "id": "math-354",
+    "subject": "math",
+    "topic": "Algebra",
+    "question": "A groupoid is denoted by",
+    "options": [
+      "[S,∗]",
+      "(S)",
+      "{S,∗}",
+      "(S,∗)"
+    ],
+    "answer": 3,
+    "explanation": "A groupoid is an algebraic structure (S,∗) — a set S with a binary operation ∗."
+  },
+  {
+    "id": "math-355",
+    "subject": "math",
+    "topic": "Algebra",
+    "question": "If ⁿP₄/ⁿC₃ = 30, then n equals",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": 2,
+    "explanation": "ⁿP₄/ⁿC₃ = 4!(n−3)/1 = 24(n−3)... simplifying: ratio = 6(n−3)=30 → n=8."
+  },
+  {
+    "id": "math-356",
+    "subject": "math",
+    "topic": "Trigonometry",
+    "question": "Given sin x = 1/2 (first quadrant), tan 2x equals approximately",
+    "options": [
+      "0.577",
+      "1",
+      "1.732",
+      "2"
+    ],
+    "answer": 2,
+    "explanation": "x=30°; tan 2x = tan 60° = √3 ≈ 1.732."
+  },
+  {
+    "id": "math-357",
+    "subject": "math",
+    "topic": "Coordinate Geometry",
+    "question": "The cross product U×V dotted with W gives the",
+    "options": [
+      "Area of triangle",
+      "Area of parallelogram",
+      "Volume of parallelepiped",
+      "Length of vector"
+    ],
+    "answer": 2,
+    "explanation": "(U×V)·W is the scalar triple product, equal to the volume of the parallelepiped formed by U,V,W."
+  }
+]
