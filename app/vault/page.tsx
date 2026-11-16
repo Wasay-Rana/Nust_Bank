@@ -8,19 +8,19 @@ const vault = vaultData as VaultCard[];
 const subjects = ['all', ...Object.keys(ALL_SUBJECT_INFO)];
 
 const accentFor: Record<string, string> = {
-  math:  '#6d28d9',
-  phy:   '#7e22ce',
-  eng:   '#a21caf',
-  chem:  '#be185d',
-  intel: '#be123c',
+  math:  '#2563eb',
+  phy:   '#0d9488',
+  eng:   '#d97706',
+  chem:  '#e11d48',
+  intel: '#7c3aed',
 };
 
 const chipFor: Record<string, string> = {
-  math:  'bg-violet-50 text-violet-700 dark:bg-violet-950/40 dark:text-violet-300',
-  phy:   'bg-purple-50 text-purple-700 dark:bg-purple-950/40 dark:text-purple-300',
-  eng:   'bg-fuchsia-50 text-fuchsia-700 dark:bg-fuchsia-950/40 dark:text-fuchsia-300',
-  chem:  'bg-pink-50 text-pink-700 dark:bg-pink-950/40 dark:text-pink-300',
-  intel: 'bg-rose-50 text-rose-700 dark:bg-rose-950/40 dark:text-rose-300',
+  math:  'bg-blue-50 text-blue-700 dark:bg-blue-500/15 dark:text-blue-300',
+  phy:   'bg-teal-50 text-teal-700 dark:bg-teal-500/15 dark:text-teal-300',
+  eng:   'bg-amber-50 text-amber-700 dark:bg-amber-500/15 dark:text-amber-300',
+  chem:  'bg-rose-50 text-rose-700 dark:bg-rose-500/15 dark:text-rose-300',
+  intel: 'bg-violet-50 text-violet-700 dark:bg-violet-500/15 dark:text-violet-300',
 };
 
 // Split a formula block into individual lines, then individual clauses within a line.
@@ -99,10 +99,12 @@ export default function VaultPage() {
             <button
               key={s}
               onClick={() => setSubject(s)}
-              className={`px-3 py-2 rounded-lg text-sm font-medium border transition-colors ${
-                subject === s ? 'bg-purple-700 text-white border-purple-700' : ''
-              }`}
-              style={subject !== s ? { color: 'var(--mute)', borderColor: 'var(--line)', background: 'var(--card)' } : undefined}
+              className="px-3 py-2 rounded-lg text-sm font-medium border transition-colors"
+              style={
+                subject === s
+                  ? { color: 'var(--pri-ink)', background: 'var(--pri)', borderColor: 'var(--pri)' }
+                  : { color: 'var(--mute)', borderColor: 'var(--line)', background: 'var(--card)' }
+              }
             >
               {s === 'all' ? 'All' : ALL_SUBJECT_INFO[s as keyof typeof ALL_SUBJECT_INFO]?.name || s}
             </button>

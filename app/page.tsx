@@ -11,7 +11,7 @@ const bankCounts: Record<string, number> = {};
 allQ.forEach((q) => { bankCounts[q.subject] = (bankCounts[q.subject] || 0) + 1; });
 
 const subjectColors: Record<SubjectKey, string> = {
-  math: '#7c3aed', phy: '#9333ea', eng: '#c026d3', chem: '#db2777', intel: '#e11d48',
+  math: '#2563eb', phy: '#0d9488', eng: '#d97706', chem: '#e11d48', intel: '#7c3aed',
 };
 
 export default function Dashboard() {
@@ -27,8 +27,8 @@ export default function Dashboard() {
       <div
         className="relative overflow-hidden rounded-2xl p-6 text-white"
         style={{
-          background: 'linear-gradient(135deg, #581c87, #7c3aed 55%, #a21caf)',
-          boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.25), 0 20px 50px -20px rgba(124,58,237,0.5)',
+          background: 'linear-gradient(135deg, #4338ca, #4f46e5 60%, #6366f1)',
+          boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.2), 0 20px 50px -20px rgba(79,70,229,0.45)',
         }}
       >
         <div
@@ -47,7 +47,7 @@ export default function Dashboard() {
           </div>
         )}
         <div className="mt-4 flex flex-wrap gap-3">
-          <Link href="/practice" className="bg-white text-purple-800 px-4 py-2 rounded-lg text-sm font-bold hover:bg-purple-50 transition-colors">
+          <Link href="/practice" className="bg-white text-indigo-700 px-4 py-2 rounded-lg text-sm font-bold hover:bg-indigo-50 transition-colors">
             Practice now
           </Link>
           <Link href="/mock" className="border border-white/40 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-white/10 transition-colors">

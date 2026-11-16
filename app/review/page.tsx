@@ -45,7 +45,7 @@ export default function ReviewPage() {
           <button onClick={() => setIdx((i) => Math.max(0, i - 1))} disabled={idx === 0}
             className="px-4 py-2 rounded-xl border text-sm disabled:opacity-30" style={{ color: 'var(--ink)', borderColor: 'var(--line)' }}>← Prev</button>
           <button onClick={() => setIdx((i) => Math.min(list.length - 1, i + 1))} disabled={idx === list.length - 1}
-            className="flex-1 px-4 py-2 rounded-xl bg-purple-600 text-white text-sm font-bold">Next →</button>
+            className="flex-1 px-4 py-2 rounded-xl bg-indigo-600 text-white text-sm font-bold">Next →</button>
         </div>
       </div>
     );
@@ -58,7 +58,7 @@ export default function ReviewPage() {
         <div className="flex gap-2">
           <button
             onClick={() => { setIdx(0); setMode('drill'); }}
-            className="px-4 py-2 rounded-xl bg-purple-600 text-white text-sm font-bold hover:bg-purple-700 transition-colors"
+            className="px-4 py-2 rounded-xl bg-indigo-600 text-white text-sm font-bold hover:bg-indigo-700 transition-colors"
           >
             Drill all →
           </button>
@@ -85,7 +85,7 @@ export default function ReviewPage() {
               </div>
               <button
                 onClick={() => { setIdx(i); setMode('drill'); }}
-                className="flex-shrink-0 px-3 py-1.5 rounded-lg bg-purple-600 text-white text-xs font-bold"
+                className="flex-shrink-0 px-3 py-1.5 rounded-lg bg-indigo-600 text-white text-xs font-bold"
               >
                 Review
               </button>

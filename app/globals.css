@@ -9,58 +9,55 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --color-math: #6d28d9;
-  --color-math-dark: #a78bfa;
-  --color-phy: #7e22ce;
-  --color-phy-dark: #c084fc;
-  --color-eng: #581c87;
-  --color-eng-dark: #d8b4fe;
-  --color-chem: #4c1d95;
-  --color-chem-dark: #b794f6;
-  --color-intel: #86198f;
-  --color-intel-dark: #e9a8f0;
+  --color-math: #2563eb;
+  --color-math-dark: #93c5fd;
+  --color-phy: #0d9488;
+  --color-phy-dark: #5eead4;
+  --color-eng: #d97706;
+  --color-eng-dark: #fcd34d;
+  --color-chem: #e11d48;
+  --color-chem-dark: #fda4af;
+  --color-intel: #7c3aed;
+  --color-intel-dark: #c4b5fd;
 }
 
 :root {
-  --bg: #f7f5fb;
-  --card: rgba(255, 255, 255, 0.6);
-  --card-solid: #ffffff;
-  --ink: #1a1523;
-  --mute: #6b6478;
-  --line: rgba(109, 40, 217, 0.12);
-  --pri: #6d28d9;
+  --bg: #f7f7f8;
+  --card: #ffffff;
+  --ink: #18181b;
+  --mute: #6b7280;
+  --line: #e5e5e8;
+  --pri: #4f46e5;
   --pri-ink: #ffffff;
-  --glass-highlight: rgba(255, 255, 255, 0.6);
-  --glass-shadow: rgba(109, 40, 217, 0.12);
+  --shadow-sm: 0 1px 2px rgba(24,24,27,0.04);
+  --shadow-md: 0 1px 2px rgba(24,24,27,0.04), 0 6px 16px -6px rgba(24,24,27,0.10);
   color-scheme: light;
 }
 
 [data-theme="dark"], .dark {
-  --bg: #0a0810;
-  --card: rgba(26, 21, 36, 0.55);
-  --card-solid: #15121c;
-  --ink: #f2effa;
-  --mute: #9a93ab;
-  --line: rgba(167, 139, 250, 0.14);
-  --pri: #a78bfa;
-  --pri-ink: #140d26;
-  --glass-highlight: rgba(255, 255, 255, 0.05);
-  --glass-shadow: rgba(0, 0, 0, 0.45);
+  --bg: #0b0b0d;
+  --card: #18181b;
+  --ink: #f4f4f5;
+  --mute: #a1a1aa;
+  --line: #2a2a2e;
+  --pri: #818cf8;
+  --pri-ink: #0b0b0d;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.3);
+  --shadow-md: 0 1px 2px rgba(0,0,0,0.3), 0 8px 20px -8px rgba(0,0,0,0.5);
   color-scheme: dark;
 }
 
 @media (prefers-color-scheme: dark) {
   [data-theme="auto"] {
-    --bg: #0a0810;
-    --card: rgba(26, 21, 36, 0.55);
-    --card-solid: #15121c;
-    --ink: #f2effa;
-    --mute: #9a93ab;
-    --line: rgba(167, 139, 250, 0.14);
-    --pri: #a78bfa;
-    --pri-ink: #140d26;
-    --glass-highlight: rgba(255, 255, 255, 0.05);
-    --glass-shadow: rgba(0, 0, 0, 0.45);
+    --bg: #0b0b0d;
+    --card: #18181b;
+    --ink: #f4f4f5;
+    --mute: #a1a1aa;
+    --line: #2a2a2e;
+    --pri: #818cf8;
+    --pri-ink: #0b0b0d;
+    --shadow-sm: 0 1px 2px rgba(0,0,0,0.3);
+    --shadow-md: 0 1px 2px rgba(0,0,0,0.3), 0 8px 20px -8px rgba(0,0,0,0.5);
     color-scheme: dark;
   }
 }
@@ -80,49 +77,9 @@ p, li {
   line-height: 1.6;
 }
 
-/* Ambient animated gradient mesh behind everything */
-.bg-mesh {
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  overflow: hidden;
-  pointer-events: none;
-}
-.bg-mesh span {
-  position: absolute;
-  border-radius: 9999px;
-  filter: blur(70px);
-  opacity: 0.35;
-}
-.bg-mesh span:nth-child(1) {
-  width: 55vw; height: 55vw;
-  top: -15%; left: -12%;
-  background: radial-gradient(circle, #a78bfa, transparent 70%);
-  animation: drift1 26s ease-in-out infinite alternate;
-}
-.bg-mesh span:nth-child(2) {
-  width: 50vw; height: 50vw;
-  bottom: -18%; right: -10%;
-  background: radial-gradient(circle, #f0abfc, transparent 70%);
-  animation: drift2 32s ease-in-out infinite alternate;
-}
-.bg-mesh span:nth-child(3) {
-  width: 38vw; height: 38vw;
-  top: 35%; right: 18%;
-  background: radial-gradient(circle, #c4b5fd, transparent 70%);
-  animation: drift3 22s ease-in-out infinite alternate;
-}
-[data-theme="dark"] .bg-mesh span, .dark .bg-mesh span { opacity: 0.16; }
-
-@keyframes drift1 { from { transform: translate(0,0) scale(1); } to { transform: translate(6%, 8%) scale(1.08); } }
-@keyframes drift2 { from { transform: translate(0,0) scale(1); } to { transform: translate(-6%, -6%) scale(1.05); } }
-@keyframes drift3 { from { transform: translate(0,0) scale(1); } to { transform: translate(-4%, 6%) scale(0.95); } }
-
-/* Retrofit glass styling onto every surface that uses the --card variable inline */
+/* Flat, solid cards with a subtle shadow — no blur, no transparency */
 [style*="var(--card)"] {
-  backdrop-filter: blur(22px) saturate(160%);
-  -webkit-backdrop-filter: blur(22px) saturate(160%);
-  box-shadow: inset 0 1px 0 var(--glass-highlight), 0 10px 30px -14px var(--glass-shadow);
+  box-shadow: var(--shadow-sm);
 }
 
 /* custom scrollbar */

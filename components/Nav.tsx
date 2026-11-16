@@ -69,36 +69,23 @@ export function Nav() {
 
   return (
     <>
-      {/* Desktop sidebar — floating glass panel */}
+      {/* Desktop sidebar */}
       <aside
-        className="hidden md:flex fixed top-4 left-4 bottom-4 w-[198px] flex-col rounded-2xl border z-20 px-2.5 py-5"
-        style={{
-          background: 'var(--card)',
-          borderColor: 'var(--line)',
-          backdropFilter: 'blur(22px) saturate(160%)',
-          WebkitBackdropFilter: 'blur(22px) saturate(160%)',
-          boxShadow: 'inset 0 1px 0 var(--glass-highlight), 0 12px 36px -16px var(--glass-shadow)',
-        }}
+        className="hidden md:flex fixed top-0 left-0 h-full w-[210px] flex-col border-r z-20 px-3 py-5"
+        style={{ background: 'var(--card)', borderColor: 'var(--line)' }}
       >
-        <div className="flex items-center gap-2.5 px-2.5 pb-6">
-          <Image src="/icon-192.png" alt="" width={30} height={30} className="rounded-[9px]" />
+        <div className="flex items-center gap-2.5 px-2 pb-6">
+          <Image src="/icon-192.png" alt="" width={28} height={28} className="rounded-lg" />
           <span className="font-bold text-[15px] leading-tight" style={{ color: 'var(--ink)' }}>Nust Prep Bank</span>
         </div>
         {links.map((l) => (
           <Link
             key={l.href}
             href={l.href}
-            className={`flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium mb-1 transition-all ${
-              path === l.href
-                ? 'text-purple-900 dark:text-purple-100'
-                : 'hover:bg-black/[0.03] dark:hover:bg-white/5'
-            }`}
+            className="flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium mb-0.5 transition-colors"
             style={{
-              color: path !== l.href ? 'var(--mute)' : undefined,
-              background: path === l.href
-                ? 'linear-gradient(135deg, rgba(124,58,237,0.16), rgba(192,38,211,0.12))'
-                : undefined,
-              boxShadow: path === l.href ? 'inset 0 1px 0 rgba(255,255,255,0.4)' : undefined,
+              color: path === l.href ? 'var(--pri)' : 'var(--mute)',
+              background: path === l.href ? 'color-mix(in srgb, var(--pri) 12%, transparent)' : undefined,
             }}
           >
             <l.Icon />
@@ -107,17 +94,10 @@ export function Nav() {
         ))}
       </aside>
 
-      {/* Mobile bottom bar — floating glass pill */}
+      {/* Mobile bottom bar */}
       <nav
-        className="md:hidden fixed bottom-3 left-3 right-3 z-20 flex rounded-2xl border"
-        style={{
-          background: 'var(--card)',
-          borderColor: 'var(--line)',
-          backdropFilter: 'blur(22px) saturate(160%)',
-          WebkitBackdropFilter: 'blur(22px) saturate(160%)',
-          boxShadow: 'inset 0 1px 0 var(--glass-highlight), 0 12px 36px -16px var(--glass-shadow)',
-          paddingBottom: 'env(safe-area-inset-bottom)',
-        }}
+        className="md:hidden fixed bottom-0 left-0 right-0 z-20 flex border-t"
+        style={{ background: 'var(--card)', borderColor: 'var(--line)', paddingBottom: 'env(safe-area-inset-bottom)' }}
       >
         {links.slice(0, 5).map((l) => (
           <Link

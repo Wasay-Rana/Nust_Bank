@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
-  themeColor: '#6d28d9',
+  themeColor: '#4f46e5',
 };
 
 const THEME_INIT_SCRIPT = `(function(){try{
@@ -35,11 +35,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }} />
       </head>
       <body style={{ fontFamily: 'var(--font-inter), system-ui, -apple-system, sans-serif' }}>
-        <div className="bg-mesh"><span /><span /><span /></div>
         <ThemeProvider>
           <div className="flex min-h-screen">
             <Nav />
-            <main className="flex-1 md:ml-[230px] p-4 md:p-8 pb-28 md:pb-8 max-w-[1180px]">
+            <main className="flex-1 md:ml-[210px] p-4 md:p-8 pb-24 md:pb-8 max-w-[1180px]">
               {children}
             </main>
           </div>

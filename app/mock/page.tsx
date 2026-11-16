@@ -51,20 +51,20 @@ export default function MockPage() {
             <div className="space-y-2">
               {(Object.entries(MOCK_SIZES) as [string, typeof MOCK_SIZES[keyof typeof MOCK_SIZES]][]).map(([k, v]) => (
                 <label key={k} className="flex items-center gap-3 p-3 rounded-xl border cursor-pointer transition-colors"
-                  style={{ borderColor: kind === k ? 'var(--pri)' : 'var(--line)', background: kind === k ? 'rgba(124,58,237,0.08)' : 'var(--card)' }}>
-                  <input type="radio" name="kind" value={k} checked={kind === k} onChange={() => setKind(k as 'full' | 'half' | 'quick')} className="accent-purple-600" />
+                  style={{ borderColor: kind === k ? 'var(--pri)' : 'var(--line)', background: kind === k ? 'rgba(79,70,229,0.08)' : 'var(--card)' }}>
+                  <input type="radio" name="kind" value={k} checked={kind === k} onChange={() => setKind(k as 'full' | 'half' | 'quick')} className="accent-indigo-600" />
                   <span className="text-sm font-medium">{v.label}</span>
                 </label>
               ))}
             </div>
           </div>
           <label className="flex items-center gap-2 text-sm cursor-pointer">
-            <input type="checkbox" checked={instant} onChange={(e) => setInstant(e.target.checked)} className="accent-purple-600 w-4 h-4" />
+            <input type="checkbox" checked={instant} onChange={(e) => setInstant(e.target.checked)} className="accent-indigo-600 w-4 h-4" />
             Instant feedback (practice mode — answer locked immediately)
           </label>
           <button
             onClick={() => { startMock(kind, instant, all); setAnswerAt(Date.now()); }}
-            className="w-full py-3 rounded-xl bg-purple-600 text-white font-bold text-sm hover:bg-purple-700 transition-colors"
+            className="w-full py-3 rounded-xl bg-indigo-600 text-white font-bold text-sm hover:bg-indigo-700 transition-colors"
           >
             Start exam →
           </button>
@@ -88,7 +88,7 @@ export default function MockPage() {
     return (
       <div className="max-w-xl space-y-5">
         <h1 className="text-2xl font-black">Results</h1>
-        <div className="rounded-2xl p-6 text-white" style={{ background: 'linear-gradient(135deg,#581c87,#7c3aed 55%,#a21caf)' }}>
+        <div className="rounded-2xl p-6 text-white" style={{ background: 'linear-gradient(135deg,#4338ca,#4f46e5 60%,#6366f1)' }}>
           <div className="text-5xl font-black">{score}</div>
           <div className="text-sm opacity-80">/ {qs.length} · scaled: {Math.round((score / qs.length) * 200)}/200</div>
           <div className="text-sm mt-1 opacity-70">{correct.length} correct · {qs.length - answered.length} skipped</div>
@@ -106,7 +106,7 @@ export default function MockPage() {
           })}
         </div>
         <div className="flex gap-3">
-          <button onClick={clearMock} className="flex-1 py-3 rounded-xl bg-purple-600 text-white font-bold text-sm hover:bg-purple-700 transition-colors">
+          <button onClick={clearMock} className="flex-1 py-3 rounded-xl bg-indigo-600 text-white font-bold text-sm hover:bg-indigo-700 transition-colors">
             New exam
           </button>
           <a href="/review" className="flex-1 py-3 rounded-xl border font-bold text-sm text-center hover:bg-gray-50 dark:hover:bg-white/5 transition-colors" style={{ color: 'var(--ink)', borderColor: 'var(--line)' }}>
@@ -133,7 +133,7 @@ export default function MockPage() {
           </div>
           <div className="h-1.5 rounded-full" style={{ background: 'var(--line)' }}>
             <div
-              className="h-full rounded-full bg-purple-500 transition-all"
+              className="h-full rounded-full bg-indigo-500 transition-all"
               style={{ width: `${((mock.idx + 1) / mock.questions.length) * 100}%` }}
             />
           </div>
@@ -161,7 +161,7 @@ export default function MockPage() {
             let cls = 'flex items-start gap-3 p-3 rounded-xl border text-sm cursor-pointer transition-all w-full text-left';
             if (!revealed) {
               cls += q.chosen === i
-                ? ' border-purple-500 bg-purple-50 dark:bg-purple-950/30'
+                ? ' border-indigo-500 bg-indigo-50 dark:bg-indigo-950/30'
                 : ' border-transparent hover:border-gray-300 dark:hover:border-white/20';
             } else {
               if (i === q.answer) cls += ' border-green-500 bg-green-50 dark:bg-green-950/30';
@@ -201,7 +201,7 @@ export default function MockPage() {
           ⚑ {q.flagged ? 'Flagged' : 'Flag'}
         </button>
         <button onClick={() => { navMock(Math.min(mock.questions.length - 1, mock.idx + 1)); setAnswerAt(Date.now()); }}
-          className="flex-1 px-4 py-2 rounded-xl bg-purple-600 text-white text-sm font-bold hover:bg-purple-700 transition-colors">
+          className="flex-1 px-4 py-2 rounded-xl bg-indigo-600 text-white text-sm font-bold hover:bg-indigo-700 transition-colors">
           {mock.idx === mock.questions.length - 1 ? 'Review →' : 'Next →'}
         </button>
         <button onClick={finishMock}
@@ -217,7 +217,7 @@ export default function MockPage() {
           {mock.questions.map((mq, i) => (
             <button key={i} onClick={() => navMock(i)}
               className={`w-7 h-7 rounded text-xs font-bold transition-colors ${
-                i === mock.idx ? 'bg-purple-600 text-white' :
+                i === mock.idx ? 'bg-indigo-600 text-white' :
                 mq.flagged ? 'bg-amber-400 text-white' :
                 mq.chosen !== -1 ? 'bg-green-100 text-green-700 dark:bg-green-950/30' :
                 'bg-gray-100 dark:bg-white/5 text-gray-500'
