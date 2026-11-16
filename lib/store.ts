@@ -10,7 +10,7 @@ interface AppState {
   bookmarks: Record<string, boolean>;
   mock: MockState | null;
   customQuestions: Question[];
-  settings: { theme: 'light' | 'dark' | 'auto'; targetScore: number };
+  settings: { targetScore: number };
 
   recordAnswer: (q: Question, chosen: number, ms: number) => void;
   toggleBookmark: (id: string) => void;
@@ -24,7 +24,6 @@ interface AppState {
   clearMock: () => void;
 
   addCustomQuestions: (qs: Question[]) => void;
-  setTheme: (t: 'light' | 'dark' | 'auto') => void;
   setTargetScore: (n: number) => void;
 }
 
@@ -45,7 +44,7 @@ export const useStore = create<AppState>()(
       bookmarks: {},
       mock: null,
       customQuestions: [],
-      settings: { theme: 'auto', targetScore: 180 },
+      settings: { targetScore: 180 },
 
       recordAnswer(q, chosen, ms) {
         const ok = chosen === q.answer;
@@ -166,10 +165,6 @@ export const useStore = create<AppState>()(
           const fresh = qs.filter((q) => !existing.has(q.id));
           return { customQuestions: [...s.customQuestions, ...fresh] };
         });
-      },
-
-      setTheme(theme) {
-        set((s) => ({ settings: { ...s.settings, theme } }));
       },
 
       setTargetScore(targetScore) {

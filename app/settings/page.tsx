@@ -4,7 +4,7 @@ import { useStore } from '@/lib/store';
 import type { Question } from '@/lib/types';
 
 export default function SettingsPage() {
-  const { settings, setTheme, setTargetScore, addCustomQuestions, clearErrors, customQuestions } = useStore();
+  const { settings, setTargetScore, addCustomQuestions, clearErrors, customQuestions } = useStore();
   const [importText, setImportText] = useState('');
   const [importStatus, setImportStatus] = useState('');
   const [pushStatus, setPushStatus] = useState('');
@@ -53,20 +53,6 @@ export default function SettingsPage() {
   return (
     <div className="max-w-xl space-y-5">
       <h1 className="text-2xl font-black">Settings</h1>
-
-      {/* Theme */}
-      <section className="rounded-2xl border p-5" style={{ background: 'var(--card)', borderColor: 'var(--line)' }}>
-        <h2 className="font-bold mb-3">Appearance</h2>
-        <div className="flex gap-2">
-          {(['light', 'dark', 'auto'] as const).map((t) => (
-            <button key={t} onClick={() => setTheme(t)}
-              className={`flex-1 py-2 rounded-xl text-sm font-semibold capitalize border transition-colors ${settings.theme === t ? 'bg-indigo-600 text-white border-indigo-600' : 'border-gray-200 dark:border-white/10'}`}
-              style={settings.theme !== t ? { color: 'var(--mute)' } : undefined}>
-              {t}
-            </button>
-          ))}
-        </div>
-      </section>
 
       {/* Target */}
       <section className="rounded-2xl border p-5" style={{ background: 'var(--card)', borderColor: 'var(--line)' }}>

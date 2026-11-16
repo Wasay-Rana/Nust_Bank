@@ -1,12 +1,9 @@
 @import "tailwindcss";
 
-/* Tailwind v4 defaults `dark:` to prefers-color-scheme media query.
-   We control theme manually (light/dark/auto) via a `.dark` class on
-   <html>, so point the variant at that instead — otherwise every
-   `dark:bg-*` / `dark:text-*` utility in the app ignores our toggle
-   and only reacts to the OS setting, producing mismatched/invisible
-   text whenever the in-app theme and OS theme disagree. */
-@custom-variant dark (&:where(.dark, .dark *));
+/* Light theme only — dark mode removed. Disable the dark: variant
+   entirely so no `dark:*` utility can ever activate, regardless of
+   OS preference. */
+@custom-variant dark (&:where(.no-such-class));
 
 @theme {
   --color-math: #2563eb;
@@ -32,34 +29,6 @@
   --shadow-sm: 0 1px 2px rgba(24,24,27,0.04);
   --shadow-md: 0 1px 2px rgba(24,24,27,0.04), 0 6px 16px -6px rgba(24,24,27,0.10);
   color-scheme: light;
-}
-
-[data-theme="dark"], .dark {
-  --bg: #0b0b0d;
-  --card: #18181b;
-  --ink: #f4f4f5;
-  --mute: #a1a1aa;
-  --line: #2a2a2e;
-  --pri: #818cf8;
-  --pri-ink: #0b0b0d;
-  --shadow-sm: 0 1px 2px rgba(0,0,0,0.3);
-  --shadow-md: 0 1px 2px rgba(0,0,0,0.3), 0 8px 20px -8px rgba(0,0,0,0.5);
-  color-scheme: dark;
-}
-
-@media (prefers-color-scheme: dark) {
-  [data-theme="auto"] {
-    --bg: #0b0b0d;
-    --card: #18181b;
-    --ink: #f4f4f5;
-    --mute: #a1a1aa;
-    --line: #2a2a2e;
-    --pri: #818cf8;
-    --pri-ink: #0b0b0d;
-    --shadow-sm: 0 1px 2px rgba(0,0,0,0.3);
-    --shadow-md: 0 1px 2px rgba(0,0,0,0.3), 0 8px 20px -8px rgba(0,0,0,0.5);
-    color-scheme: dark;
-  }
 }
 
 body {
