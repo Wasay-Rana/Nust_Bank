@@ -38,6 +38,14 @@ function IconVault() {
     </svg>
   );
 }
+function IconLibrary() {
+  return (
+    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" strokeWidth="1.5">
+      <path d="M3 3h5a2 2 0 0 1 2 2v10a2 2 0 0 0-2-2H3z" />
+      <path d="M15 3h-5a2 2 0 0 0-2 2v10a2 2 0 0 1 2-2h5z" />
+    </svg>
+  );
+}
 function IconReview() {
   return (
     <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" strokeWidth="1.5">
@@ -60,6 +68,7 @@ const links = [
   { href: '/practice',  Icon: IconPractice,  label: 'Practice'  },
   { href: '/mock',      Icon: IconMock,      label: 'Mock Exam' },
   { href: '/vault',     Icon: IconVault,     label: 'Vault'     },
+  { href: '/library',   Icon: IconLibrary,   label: 'Library'   },
   { href: '/review',    Icon: IconReview,    label: 'Review'    },
   { href: '/settings',  Icon: IconSettings,  label: 'Settings'  },
 ];
@@ -99,7 +108,7 @@ export function Nav() {
         className="md:hidden fixed bottom-0 left-0 right-0 z-20 flex border-t"
         style={{ background: 'var(--card)', borderColor: 'var(--line)', paddingBottom: 'env(safe-area-inset-bottom)' }}
       >
-        {links.slice(0, 5).map((l) => (
+        {links.slice(0, 6).map((l) => (
           <Link
             key={l.href}
             href={l.href}

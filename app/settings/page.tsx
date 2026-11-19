@@ -4,12 +4,28 @@ import { useStore } from '@/lib/store';
 import type { Question } from '@/lib/types';
 
 export default function SettingsPage() {
-  const { settings, setTargetScore, addCustomQuestions, clearErrors, customQuestions } = useStore();
+  const { settings, setTargetScore, addCustomQuestions, clearErrors, customQuestions, log, errors, mock } = useStore();
   const [importText, setImportText] = useState('');
   const [importStatus, setImportStatus] = useState('');
   const [pushStatus, setPushStatus] = useState('');
   const [apiUrl, setApiUrl] = useState('');
   const [apiKey, setApiKey] = useState('');
+  const [syncStatus, setSyncStatus] = useState('');
+
+  const handleSyncProgress = async () => {
+    setSyncStatus('Syncing…');
+    try {
+      const res = await fetch('/api/stats', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ log, errors, mock, settings }),
+      });
+      const data = await res.json();
+      setSyncStatus(res.ok ? data.message : `Error: ${data.error}`);
+    } catch {
+      setSyncStatus('Network error');
+    }
+  };
 
   const handleImport = () => {
     try {
@@ -63,6 +79,19 @@ export default function SettingsPage() {
         <div className="flex justify-between text-xs mt-1" style={{ color: 'var(--mute)' }}>
           <span>100</span><span>150</span><span>180</span><span>200</span>
         </div>
+      </section>
+
+      {/* Sync progress */}
+      <section className="rounded-2xl border p-5" style={{ background: 'var(--card)', borderColor: 'var(--line)' }}>
+        <h2 className="font-bold mb-1">Sync my progress</h2>
+        <p className="text-xs mb-3" style={{ color: 'var(--mute)' }}>
+          Sends your practice history ({log.length} answers, {Object.keys(errors).length} mistakes) to the server so it can be reviewed remotely. No account needed — this device&apos;s data only.
+        </p>
+        <button onClick={handleSyncProgress}
+          className="w-full py-2 rounded-xl bg-indigo-600 text-white text-sm font-bold hover:bg-indigo-700 transition-colors">
+          Sync now
+        </button>
+        {syncStatus && <p className="text-xs mt-2" style={{ color: 'var(--mute)' }}>{syncStatus}</p>}
       </section>
 
       {/* Import questions */}
