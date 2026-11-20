@@ -87,7 +87,13 @@ export async function POST(req: NextRequest) {
   const duplicates = valid.length - fresh.length;
 
   const updated = [...existing, ...fresh];
-  await saveCustomQuestions(updated);
+  const persisted = await saveCustomQuestions(updated);
+  if (!persisted) {
+    return NextResponse.json(
+      { error: 'Storage is not configured on the server — nothing was saved. Set up Vercel KV and redeploy.' },
+      { status: 503 },
+    );
+  }
 
   return NextResponse.json({
     added: fresh.length,
@@ -103,6 +109,9 @@ export async function DELETE(req: NextRequest) {
   if (!authenticate(req)) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
-  await clearCustomQuestions();
+  const cleared = await clearCustomQuestions();
+  if (!cleared) {
+    return NextResponse.json({ error: 'Storage is not configured on the server.' }, { status: 503 });
+  }
   return NextResponse.json({ deleted: true });
 }

@@ -22,7 +22,13 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Expected a JSON object' }, { status: 400 });
   }
 
-  await saveStats(body);
+  const persisted = await saveStats(body);
+  if (!persisted) {
+    return NextResponse.json(
+      { ok: false, error: 'Storage is not configured on the server — nothing was saved. Set up Vercel KV and redeploy.' },
+      { status: 503 },
+    );
+  }
   return NextResponse.json({ ok: true, message: 'Progress synced.' });
 }
 

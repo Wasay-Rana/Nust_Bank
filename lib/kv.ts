@@ -28,18 +28,23 @@ export async function getCustomQuestions(): Promise<Question[]> {
   }
 }
 
-export async function saveCustomQuestions(questions: Question[]): Promise<void> {
+// Returns whether the write actually persisted — callers must not report
+// success to the user when this is false (KV not configured/unreachable).
+export async function saveCustomQuestions(questions: Question[]): Promise<boolean> {
   const client = await getKV();
   if (!client) {
-    console.warn('[KV] Not configured — questions stored in-memory only');
-    return;
+    console.warn('[KV] Not configured — questions NOT persisted');
+    return false;
   }
   await client.set(KV_KEY, questions);
+  return true;
 }
 
-export async function clearCustomQuestions(): Promise<void> {
+export async function clearCustomQuestions(): Promise<boolean> {
   const client = await getKV();
-  if (client) await client.del(KV_KEY);
+  if (!client) return false;
+  await client.del(KV_KEY);
+  return true;
 }
 
 export async function getStats(): Promise<unknown | null> {
@@ -52,11 +57,16 @@ export async function getStats(): Promise<unknown | null> {
   }
 }
 
-export async function saveStats(data: unknown): Promise<void> {
+export async function saveStats(data: unknown): Promise<boolean> {
   const client = await getKV();
   if (!client) {
-    console.warn('[KV] Not configured — stats not persisted');
-    return;
+    console.warn('[KV] Not configured — stats NOT persisted');
+    return false;
   }
   await client.set(STATS_KEY, { ...((data as object) ?? {}), syncedAt: Date.now() });
+  return true;
+}
+
+export async function isKVConfigured(): Promise<boolean> {
+  return (await getKV()) !== null;
 }
